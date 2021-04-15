@@ -1,3 +1,7 @@
+# Custom
+.py3
+*.req
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
