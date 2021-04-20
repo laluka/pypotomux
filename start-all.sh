@@ -9,8 +9,8 @@ mkdir -pv /tmp/empty
 
 source .py3/bin/activate
 
-python potomiel-http.py http  >> logs/http.log  2>&1 &
-python potomiel-http.py https >> logs/https.log 2>&1 &
+script -c "python potomiel-http.py http"  -f logs/http.log
+script -c "python potomiel-http.py https" -f logs/https.log
 
 sudo sslh -v -f -u nobody \
     -p 0.0.0.0:9999 \
