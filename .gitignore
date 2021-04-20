@@ -1,6 +1,9 @@
 # Custom
 .py3
-*.req
+cert.pem
+key.pem
+dump
+logs
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
