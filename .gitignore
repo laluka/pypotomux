@@ -4,6 +4,7 @@ cert.pem
 key.pem
 dump
 logs
+rsa-srv*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

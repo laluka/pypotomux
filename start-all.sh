@@ -9,8 +9,13 @@ mkdir -pv /tmp/empty
 
 source .py3/bin/activate
 
-script -c "python potomiel-http.py http"  -f logs/http.log
-script -c "python potomiel-http.py https" -f logs/https.log
+rm -f rsa-srv*
+ssh-keygen -t rsa -b 4096 -N "" -q -f rsa-srv.key
+script -f logs/ssh.log   -c "python potomiel-ssh.py" &
+script -f logs/http.log  -c "python potomiel-http.py http" &
+script -f logs/https.log -c "python potomiel-http.py https" &
+
+sleep 1
 
 sudo sslh -v -f -u nobody \
     -p 0.0.0.0:9999 \
