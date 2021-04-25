@@ -13,8 +13,8 @@ source .py3/bin/activate
 pip install -r requirements.txt
 
 # Start all
-./start-all.sh
-# Stop servers
+./start-all.sh IP.IP.IP.IP
+# Stop honeypots if it failed
 ps fauxww |  grep potomiel | grep -v grep | awk '{ print $2 }' | xargs sudo kill -9
 
 # Tests
