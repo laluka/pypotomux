@@ -5,7 +5,7 @@ if [ "$#" -ne 1 ]; then
     exit 42
 fi
 
-IP = $1
+IP=$1
 
 mkdir -pv logs
 mkdir -pv dump
@@ -25,6 +25,8 @@ script -f logs/https.log -c "python potomiel-http.py https" &
 
 sleep 1
 
+ulimit -s 65536
+
 BINDS=$(python gen-args-free-ports.py "$IP")
 
 sudo sslh -v -f -u nobody \
@@ -34,3 +36,11 @@ sudo sslh -v -f -u nobody \
     --ssh 127.0.0.1:50022 \
     --http 127.0.0.1:50080 \
     --tls 127.0.0.1:50443
+
+# Clean the mess if it failed
+ps fauxww |  grep potomiel | grep -v grep | awk '{ print $2 }' | xargs sudo kill -9
+
+# python gen-args-free-ports.py 192.168.1.25 | wc -c                                                                                                                                  42 ↵
+# 1429564
+# getconf ARG_MAX                                   
+# 2097152
