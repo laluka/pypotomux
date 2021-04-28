@@ -29,7 +29,7 @@ BINDS=$(python gen-args-free-ports.py "$IP")
 
 sudo sslh -v -f -u nobody \
     $BINDS \
-    -C /var/empty/empty \
+    -C /tmp/empty \
     --transparent -t 3 \
     --ssh 127.0.0.1:50022 \
     --http 127.0.0.1:50080 \
