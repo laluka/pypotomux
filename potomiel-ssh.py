@@ -105,30 +105,20 @@ while True:
     except Exception as e:
         print("*** Listen/accept failed: " + str(e))
         traceback.print_exc()
-        # sys.exit(1)
 
     print("Got a connection!")
 
     try:
         t = paramiko.Transport(client)
-        try:
-            t.load_server_moduli()
-        except:
-            print("(Failed to load moduli -- gex will be unsupported.)")
-            raise
+        t.load_server_moduli()
         t.add_server_key(host_key)
         server = Server()
-        try:
-            t.start_server(server=server)
-        except paramiko.SSHException:
-            print("*** SSH negotiation failed.")
-            # sys.exit(1)
-
+        t.start_server(server=server)
         # wait for auth
         chan = t.accept(20)
         if chan is None:
             print("*** No channel.")
-
+        
     except Exception as e:
         print("*** Caught exception: " + str(e.__class__) + ": " + str(e))
         traceback.print_exc()
@@ -136,4 +126,3 @@ while True:
             t.close()
         except:
             pass
-        # sys.exit(1)
