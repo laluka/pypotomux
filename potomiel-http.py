@@ -52,6 +52,13 @@ class MyHTTPRequestHandler(SimpleHTTPRequestHandler):
         data["version"] = self.request_version
         data.update(dict(self.headers))
 
+
+        if 'Content-Length' in self.headers:
+            # from rich import inspect as i
+            # import ipdb; ipdb.set_trace()
+            data["body"] = self.rfile.read(int(self.headers['Content-Length'])).decode("utf-8")
+            print("body: ", data["body"])
+
         with open(f"dump/{proto}/{uuid.uuid4().hex}.json", "w") as f:
             f.write(json.dumps(data, indent=2))
 
