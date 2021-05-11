@@ -26,11 +26,8 @@ script -f logs/https.log -c "python potomiel-http.py https" &
 sleep 1
 
 BINDS=$(python gen-args-free-ports.py "$IP")
-
 sudo sslh -v -f -u nobody \
-    $BINDS \
-    -C /var/empty/empty \
-    --transparent -t 3 \
+    -t 3 $BINDS \
     --ssh 127.0.0.1:50022 \
     --http 127.0.0.1:50080 \
     --tls 127.0.0.1:50443
