@@ -1,34 +1,38 @@
 #!/bin/bash
 
-find dump/ -name "*.json" | xargs cat | jq -r '.["path"]' | grep -E "^/" | sort -uV -o paths.lst
+find dump/ -name "*.json" | xargs cat | jq -r '.["path"]' | grep -E "^/" | sort -uV -o pypotomux.lst
 
 # Remove
-grep -viF 'Nxrs4tAtO' paths.lst > /tmp/paths.lst; mv /tmp/paths.lst paths.lst
-grep -viF '/nmaplowercheck' paths.lst > /tmp/paths.lst; mv /tmp/paths.lst paths.lst
-grep -viF '/Nmap/folder' paths.lst > /tmp/paths.lst; mv /tmp/paths.lst paths.lst
-grep -viF '/NmapUpperCheck' paths.lst > /tmp/paths.lst; mv /tmp/paths.lst paths.lst
+grep -viF 'Nxrs4tAtO' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+grep -viF '/nmaplowercheck' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+grep -viF '/Nmap/folder' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+grep -viF '/NmapUpperCheck' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
 
 # Sanitize
-grep -viF '/set_ftp.cgi?' paths.lst > /tmp/paths.lst; mv /tmp/paths.lst paths.lst
-echo '/set_ftp.cgi?' >> paths.lst
-grep -viF '/setup.cgi?' paths.lst > /tmp/paths.lst; mv /tmp/paths.lst paths.lst
-echo '/setup.cgi?' >> paths.lst
-grep -viF '/shell?' paths.lst > /tmp/paths.lst; mv /tmp/paths.lst paths.lst
-echo '/shell?' >> paths.lst
-grep -viF '/owa/auth/logon.aspx?' paths.lst > /tmp/paths.lst; mv /tmp/paths.lst paths.lst
-echo '/owa/auth/logon.aspx?' >> paths.lst
-grep -viF '/language/Swedish' paths.lst > /tmp/paths.lst; mv /tmp/paths.lst paths.lst
-echo '/language/Swedish' >> paths.lst
-grep -viF '/incl/image_test.shtml' paths.lst > /tmp/paths.lst; mv /tmp/paths.lst paths.lst
-echo '/incl/image_test.shtml' >> paths.lst
-grep -viF '/dns-query?' paths.lst > /tmp/paths.lst; mv /tmp/paths.lst paths.lst
-echo '/dns-query?' >> paths.lst
-grep -viF '/cgi-bin/;' paths.lst > /tmp/paths.lst; mv /tmp/paths.lst paths.lst
-echo '/cgi-bin/;' >> paths.lst
-grep -viF '/cgi-bin/kerbynet?' paths.lst > /tmp/paths.lst; mv /tmp/paths.lst paths.lst
-echo '/cgi-bin/kerbynet?' >> paths.lst
-grep -viF '/board.cgi?' paths.lst > /tmp/paths.lst; mv /tmp/paths.lst paths.lst
-echo '/board.cgi?' >> paths.lst
+grep -viF '/set_ftp.cgi?' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+echo '/set_ftp.cgi?' >> pypotomux.lst
+grep -viF '/setup.cgi?' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+echo '/setup.cgi?' >> pypotomux.lst
+grep -viF '/shell?' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+echo '/shell?' >> pypotomux.lst
+grep -viF '/owa/auth/logon.aspx?' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+echo '/owa/auth/logon.aspx?' >> pypotomux.lst
+grep -viF '/language/Swedish' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+echo '/language/Swedish' >> pypotomux.lst
+grep -viF '/incl/image_test.shtml' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+echo '/incl/image_test.shtml' >> pypotomux.lst
+grep -viF '/dns-query?' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+echo '/dns-query?' >> pypotomux.lst
+grep -viF '/cgi-bin/;' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+echo '/cgi-bin/;' >> pypotomux.lst
+grep -viF '/cgi-bin/kerbynet?' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+echo '/cgi-bin/kerbynet?' >> pypotomux.lst
+grep -viF '/board.cgi?' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+echo '/board.cgi?' >> pypotomux.lst
+grep -viF '/restapps/applications.php?' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+echo '/restapps/applications.php?' >> pypotomux.lst
 
-sort -uV paths.lst -o paths.lst
-echo "Sanitization done for known threats in paths.lst, remember to check it MANUALLY as well"
+sort -uV pypotomux.lst -o pypotomux.lst
+echo "Sanitization done for known threats in pypotomux.lst BUT remember to check it MANUALLY as well"
+echo "Potential risky payloads?"
+cat pypotomux.lst| grep --color=always -P "rm|cd|curl|wget|[\d]+\.[\d]+\.[\d]+\.[\d]+"

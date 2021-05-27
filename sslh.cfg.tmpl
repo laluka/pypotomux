@@ -1,0 +1,27 @@
+# Tweak of https://raw.githubusercontent.com/yrutschle/sslh/master/example.cfg
+
+verbose: 1;
+foreground: true;
+inetd: false;
+numeric: false;
+transparent: false;
+timeout: 2;
+user: "nobody";
+pidfile: "/var/run/sslh.pid";
+chroot: "/tmp/empty";
+
+# List of interfaces on which we should listen
+listen:
+(
+    LISTENS
+);
+
+# List of protocols
+protocols:
+(
+     { name: "ssh" ; service: "ssh" ; host: "127.0.0.1"; port: "50022"; keepalive: true; fork: true; tfo_ok: true },
+     { name: "http"; service: "http"; host: "127.0.0.1"; port: "50080"; keepalive: true; fork: true; tfo_ok: true },
+     { name: "tls" ; service: "tls" ; host: "127.0.0.1"; port: "50443"; keepalive: true; fork: true; tfo_ok: true }
+);
+
+on-timeout: "timeout";

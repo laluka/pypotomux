@@ -1,11 +1,12 @@
 #!/bin/bash
 
-if [ "$#" -ne 1 ]; then
-    echo "Usage: $0 IP.IP.IP.IP"
+if [ "$#" -ne 2 ]; then
+    echo "Usage: $0 IP.IP.IP.IP [top1000|all]"
     exit 42
 fi
 
-IP=$1
+IP="$1"
+MODE="$2"
 
 mkdir -pv logs
 mkdir -pv dump
@@ -24,13 +25,9 @@ script -f logs/http.log  -c "python potomiel-http.py http" &
 script -f logs/https.log -c "python potomiel-http.py https" &
 
 sleep 1
-
-BINDS=$(python gen-args-free-ports.py "$IP")
-sudo sslh -v -f -u nobody \
-    -t 3 $BINDS \
-    --ssh 127.0.0.1:50022 \
-    --http 127.0.0.1:50080 \
-    --tls 127.0.0.1:50443
+python gen-args-free-ports.py "$IP" "$MODE"
+ulimit -n 999999
+sudo sslh -Fsslh.cfg
 
 # Clean the mess if it failed
 ps fauxww |  grep potomiel | grep -v grep | awk '{ print $2 }' | xargs sudo kill -9

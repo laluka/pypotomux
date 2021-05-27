@@ -7,5 +7,5 @@ fi
 
 prop="$1"
 
-find dump -name "*.json" | xargs cat | jq -r ".[\"$prop\"]"  | sort -uV
+find dump/ -name "*.json" | xargs cat | jq -r ".[\"$prop\"]"  | sort -uV
 
