@@ -1,5 +1,6 @@
 # Custom
 .py3
+sslh.cfg
 cert.pem
 key.pem
 dump
