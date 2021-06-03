@@ -31,8 +31,13 @@ grep -viF '/board.cgi?' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.ls
 echo '/board.cgi?' >> pypotomux.lst
 grep -viF '/restapps/applications.php?' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
 echo '/restapps/applications.php?' >> pypotomux.lst
+grep -viF '/maint/modules/home/index.php?' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+echo '/maint/modules/home/index.php?' >> pypotomux.lst
+grep -viF '/include/makecvs.php?' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+echo '/include/makecvs.php?' >> pypotomux.lst
+
 
 sort -uV pypotomux.lst -o pypotomux.lst
 echo "Sanitization done for known threats in pypotomux.lst BUT remember to check it MANUALLY as well"
 echo "Potential risky payloads?"
-cat pypotomux.lst| grep --color=always -P "rm|cd|curl|wget|[\d]+\.[\d]+\.[\d]+\.[\d]+"
+cat pypotomux.lst | grep -viP "phpMyAdmin-[\d]+\.[\d]+\.[\d]+\.[\d]+" | grep --color=always -P "rm|cd|curl|wget|[\d]+\.[\d]+\.[\d]+\.[\d]+"
