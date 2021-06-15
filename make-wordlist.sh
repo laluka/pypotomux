@@ -37,6 +37,10 @@ grep -viF '/maint/modules/home/index.php?' pypotomux.lst > /tmp/pypotomux.lst; m
 echo '/maint/modules/home/index.php?' >> pypotomux.lst
 grep -viF '/include/makecvs.php?' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
 echo '/include/makecvs.php?' >> pypotomux.lst
+grep -viF '/cgi-bin/gw.cgi?' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+echo '/cgi-bin/gw.cgi?' >> pypotomux.lst
+grep -viF '/maint/modules/home/index.php?' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+echo '/maint/modules/home/index.php?' >> pypotomux.lst
 
 sort -uV pypotomux.lst -o pypotomux.lst
 echo "Sanitization done for known threats in pypotomux.lst BUT remember to check it MANUALLY as well"
