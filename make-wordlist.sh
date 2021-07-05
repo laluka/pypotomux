@@ -38,7 +38,10 @@ echo '/include/makecvs.php?' >> pypotomux.lst
 grep -viF '/cgi-bin/gw.cgi?' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
 echo '/cgi-bin/gw.cgi?' >> pypotomux.lst
 
+# Better formatting
+sed -i -e "s#^/*##g" pypotomux.lst
 sort -uV pypotomux.lst -o pypotomux.lst
+
 echo "Sanitization done for known threats in pypotomux.lst BUT remember to check it MANUALLY as well"
 echo "Potential risky payloads?"
 cat pypotomux.lst | grep -viP "phpMyAdmin-[\d]+\.[\d]+\.[\d]+\.[\d]+" | grep --color=always -P "rm|cd|curl|wget|[\d]+\.[\d]+\.[\d]+\.[\d]+"
