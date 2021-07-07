@@ -1,6 +1,12 @@
 
+.DS_Store
 .env
+.git/HEAD
+.git/config
 .hg
+.idea/workspace.xml
+.svn/entries
+.well-known/security.txt
 0bef
 1phpmyadmin/
 5yfI
@@ -79,6 +85,7 @@ UpLoad
 WEB-INF/classes/database.properties
 WEB-INF/database.properties
 WEB-INF/web.xml
+a2billing/customer/templates/default/footer.tpl
 aaa9
 aab9
 aastra/
@@ -680,18 +687,6 @@ zz/address.php?gid=651
 %5ccgi-bin/login.cgi
 */_settings
 +CSCOE+/logon.html
-.DS_Store
-.git/HEAD
-.git/config
-.idea/workspace.xml
-.svn/entries
-.well-known/security.txt
-MyAdmin/scripts/setup.php
-a2billing/customer/templates/default/footer.tpl
-myadmin/scripts/setup.php
-phpMyAdmin/scripts/setup.php
-phpmyadmin/scripts/setup.php
-pma/scripts/setup.php
 ?XDEBUG_SESSION_START=phpstorm
 ?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php>
 ?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=4zBbsjKH
