@@ -5,8 +5,12 @@
 .git/config
 .hg
 .idea/workspace.xml
+.json
+.ssh/id_dsa
+.ssh/id_rsa
 .svn/entries
 .well-known/security.txt
+.well-known/security.txt/
 0bef
 1phpmyadmin/
 5yfI
@@ -72,6 +76,7 @@ Public/mobile/js/config.js
 RPC2
 ReportServer
 SPA112/
+System/deviceInfo
 TP/public/index.php
 TP/public/index.php?s=captcha
 TP/public/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
@@ -186,6 +191,7 @@ cgi-bin/authLogin.cgi
 cgi-bin/config.exp
 cgi-bin/gw.cgi?
 cgi-bin/kerbynet?
+cgi-bin/nobody/Search.cgi?
 cgi-bin/system_mgr.cgi?
 cgi-bin/;
 check
@@ -204,6 +210,7 @@ config.js
 config.json
 config.txt/
 config/getuser?index=0
+config/jwt/private.pem
 conf.cfg/
 conf/
 console/
@@ -244,6 +251,7 @@ etc/asterisk/sip.conf/
 extensions.conf/
 favicon.ico
 favicon.png
+favicon.ico/
 fckeditor/editor/filemanager/connectors/php/upload.php?Type=Media
 feed/
 fgdfkgjhsf.php
@@ -262,10 +270,13 @@ grandstream/
 gs/
 homes/
 home/main/login
+host.key
 hudson
 hudson/login
 hudson/script
 idx_config/
+id_dsa
+id_rsa
 images/editor/separator.gif
 images/src_images_but_dianz_s.png
 imgs/ms_check_license
@@ -306,11 +317,14 @@ joomla/administrator/index.php
 js/chat/chat.js
 js/header-rollup-554.js
 js/home.js
+jwt/private.pem
+key.pem
 kkrps/im_group/show_members
 language/Swedish
 lanren/css/global.css
 laravel/.env
 linksys/
+localhost.key
 login
 login.action
 login.asp
@@ -348,6 +362,7 @@ msd1.24stable/main.php
 msd1.24.4/main.php
 msd/main.php
 muieblackcat
+my.key
 myAdmin/import.php
 mySQLmanager/import.php
 mySQL/import.php
@@ -367,6 +382,7 @@ nice%20ports%2C/Tri%6Eity.txt%2ebak
 nifi/
 nyyh/chkjs.js
 o1o/a8.php
+openam/ui/PWResetUserValidation
 owa
 owa/
 owa/auth/logon.aspx?
@@ -378,6 +394,7 @@ panasonic/
 phone1.cfg/
 phone.cfg/
 phone/
+photo/p/api/album.php
 phpMA/import.php
 phpMa/import.php
 phpMyAdmin
@@ -506,6 +523,7 @@ phpinfo.php
 phpmya~1/index.php
 phpmya~1/phpmyadmin/index.php
 phpmyadmin
+phpmyadmin4.8.5/index.php
 phpmyadmin2011/index.php?lang=en
 phpmyadmin2016/index.php?lang=en
 phpmyadmin/
@@ -528,6 +546,9 @@ polycom/
 portal.php?type=stb&action=handshake&token=&prehash=0&JsHttpRequest=1-xml
 portal/redlion
 preseed.cfg
+private.pem
+privatekey.key
+private-key
 provisioning/
 provision/
 prov/
@@ -550,6 +571,7 @@ remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession
 resources/main/common.js
 restapps/applications.php?
 robots.txt
+robots.txt/
 run
 sangoma/
 screenshot.png
@@ -557,8 +579,10 @@ script
 sdk
 secure/ContactAdministrators!default.jspa
 sellers.json
+server.key
 server-info
 server-status
+server_info
 service/extdirect
 setup.xml
 setup.cgi?
@@ -567,6 +591,7 @@ set_ftp.cgi?
 shell?
 shop/wp-includes/wlwmanifest.xml
 signup
+sip6f8d30711ddfde64af249337588eda60/e4e2e9eea1acefa1b4b8e0e5b0e3b3e7e2b6b5
 sipconf/
 sipura/
 sip.cfg/
@@ -594,6 +619,8 @@ sql/main.php
 sql/phpMyAdmin2/index.php?lang=en
 sql/phpmy-admin/index.php?lang=en
 sql/sql-admin/index.php?lang=en
+ssl/localhost.key
+sso/ui/PWResetUserValidation
 stalker_portal/api/stb
 stalker_portal/c/
 stalker_portal/c/version.js
@@ -635,10 +662,13 @@ txt/
 ui/vropspluginui/rest/services/uploadova
 un4F
 users?page=&size=5
+user/
 user/Login
+user/?amcontext
 v1.16/version
 v1/agent/self
 v2/_catalog
+var/jwt/private.pem
 vendor/.env
 vendor/jquery-file-upload/
 vendor/phpunit/phpunit/build.xml
@@ -668,15 +698,19 @@ wp2/wp-includes/wlwmanifest.xml
 wp-admin/admin-ajax.php?action=revslider_show_image&img=../wp-config.php
 wp-content/
 wp-content/plugins/wp-file-manager/readme.txt
+wp-content/uploads/2016/10/14203116_645492082273964_345784214832038849_n.jpg
 wp-content/uploads/2016/10/Snapshot_57.png
+wp-content/uploads/2020/10/ufo-2413965_1920.jpg
 wp-includes/js/jquery/jquery.js
 wp-includes/wlwmanifest.xml
+wp-json/wp/v2/users
 wp-login.php
 wp/wp-includes/wlwmanifest.xml
 wp/wp-login.php
 wsman
 ws/v1/cluster
 ws/v1/cluster/apps/new-application
+www.key
 xmlrpc.php?rsd
 xy/
 yealink/
@@ -688,6 +722,7 @@ zz/address.php?gid=651
 */_settings
 +CSCOE+/logon.html
 ?XDEBUG_SESSION_START=phpstorm
+?author=1
 ?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php>
 ?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=4zBbsjKH
 ?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=7N5bttjx
@@ -701,6 +736,7 @@ _cat/indices/
 _cat/indices?format=json&h=index
 _cat/indices?format=json&pretty=true
 _cluster/health?level=indices
+_cluster/state/nodes,routing_table
 _config
 _ignition/execute-solution
 _my_sql_tool_/import.php
