@@ -11,6 +11,14 @@
 .svn/entries
 .well-known/security.txt
 .well-known/security.txt/
+..;/actuator
+..;/host-manager/html
+..;/jkstatus
+..;/jolokia
+..;/local/config.txt
+..;/manager/html
+..;/manager/text/list
+..;/_fragment
 0bef
 1phpmyadmin/
 5yfI
@@ -40,6 +48,7 @@ CVS/Entries
 DBAdmin/import.php
 DBadmin/import.php
 DB/import.php
+Default.aspx
 EgcN
 Front/User/UserLogin.html
 GponForm/diag_Form?images/
@@ -97,6 +106,7 @@ aastra/
 ab2g
 ab2h
 about
+actuator
 actuator/health
 admin
 administrator/
@@ -156,6 +166,7 @@ au6Q
 auth
 author/breakoutroomllcgmail-com
 author/breakoutroomllcgmail-com/
+auth/ui/PWResetUserValidation
 autoprovision/
 backups/
 bag2
@@ -271,6 +282,7 @@ gs/
 homes/
 home/main/login
 host.key
+host-manager/html
 hudson
 hudson/login
 hudson/script
@@ -310,9 +322,11 @@ javax.faces.resource/dynamiccontent.properties.xhtml
 jenkins/login
 jenkins/script
 jiaoyimao/default.css
+jkstatus
 jmx-console
 jmx-console/HtmlAdaptor?action=inspectMBean&name=jboss.system:type=ServerInfo
 jmx-console/HtmlAdaptor?action=inspectMBean&name=jboss.system:type=ServerInfo/github.com
+jolokia
 joomla/administrator/index.php
 js/chat/chat.js
 js/header-rollup-554.js
@@ -325,6 +339,7 @@ lanren/css/global.css
 laravel/.env
 linksys/
 localhost.key
+local/config.txt
 login
 login.action
 login.asp
@@ -738,6 +753,7 @@ _cat/indices?format=json&pretty=true
 _cluster/health?level=indices
 _cluster/state/nodes,routing_table
 _config
+_fragment
 _ignition/execute-solution
 _my_sql_tool_/import.php
 _nodes
