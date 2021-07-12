@@ -42,6 +42,23 @@ echo '/cgi-bin/gw.cgi?' >> pypotomux.lst
 grep -viF 'cgi-bin/nobody/Search.cgi?' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
 echo 'cgi-bin/nobody/Search.cgi?' >> pypotomux.lst
 
+# Add
+echo '_fragment' >> pypotomux.lst
+echo '..;/_fragment' >> pypotomux.lst
+echo 'jolokia' >> pypotomux.lst
+echo '..;/jolokia' >> pypotomux.lst
+echo 'manager/html' >> pypotomux.lst
+echo '..;/manager/html' >> pypotomux.lst
+echo 'host-manager/html' >> pypotomux.lst
+echo '..;/host-manager/html' >> pypotomux.lst
+echo 'manager/text/list' >> pypotomux.lst
+echo '..;/manager/text/list' >> pypotomux.lst
+echo 'local/config.txt' >> pypotomux.lst
+echo '..;/local/config.txt' >> pypotomux.lst
+echo 'jkstatus' >> pypotomux.lst
+echo '..;/jkstatus' >> pypotomux.lst
+echo 'actuator' >> pypotomux.lst
+echo '..;/actuator' >> pypotomux.lst
 
 # Better formatting
 sed -i -e "s#^/*##g" pypotomux.lst
