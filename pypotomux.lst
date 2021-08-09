@@ -5,9 +5,6 @@
 .git/config
 .hg
 .idea/workspace.xml
-.json
-.ssh/id_dsa
-.ssh/id_rsa
 .svn/entries
 .well-known/security.txt
 .well-known/security.txt/
@@ -301,7 +298,6 @@ config.json
 config.php?_=3283&1922563758
 config.txt/
 config/getuser?index=0
-config/jwt/private.pem
 conf.cfg/
 conf/
 console/
@@ -353,7 +349,6 @@ etc/asterisk/sip.conf/
 extensions.conf/
 favicon.ico
 favicon.png
-favicon.ico/
 fckeditor/editor/filemanager/connectors/php/upload.php?Type=Media
 fePublicInfo/
 feed/
@@ -517,7 +512,6 @@ msd1.24.4/main.php
 msd/main.php
 mtja.html
 muieblackcat
-my.key
 myAdmin/import.php
 myConfig.js
 mySQLmanager/import.php
@@ -560,7 +554,6 @@ panasonic/
 phone1.cfg/
 phone.cfg/
 phone/
-photo/p/api/album.php
 phpMA/import.php
 phpMa/import.php
 phpMyAdmin
@@ -691,7 +684,6 @@ phpinfo.php
 phpmya~1/index.php
 phpmya~1/phpmyadmin/index.php
 phpmyadmin
-phpmyadmin4.8.5/index.php
 phpmyadmin2011/index.php?lang=en
 phpmyadmin2016/index.php?lang=en
 phpmyadmin/
@@ -717,9 +709,6 @@ portal.php?type=stb&action=handshake&token=&prehash=0&JsHttpRequest=1-xml
 portal/index/protocol.html
 portal/redlion
 preseed.cfg
-private.pem
-privatekey.key
-private-key
 provisioning/
 provision/
 prov/
@@ -759,10 +748,8 @@ script/public.js
 sdk
 secure/ContactAdministrators!default.jspa
 sellers.json
-server.key
 server-info
 server-status
-server_info
 service/extdirect
 setup.xml
 setup.cgi?
@@ -807,8 +794,6 @@ sql/phpMyAdmin2/index.php?lang=en
 sql/phpmy-admin/index.php?lang=en
 sql/sqlweb/index.php?lang=en
 sql/sql-admin/index.php?lang=en
-ssl/localhost.key
-sso/ui/PWResetUserValidation
 stalker_portal/api/stb
 stalker_portal/c/
 stalker_portal/c/version.js
@@ -875,7 +860,6 @@ uddiexplorer/
 ui/vropspluginui/rest/services/uploadova
 un4F
 users?page=&size=5
-user/
 user/Login
 user/allroleinfo
 user/login
@@ -884,7 +868,6 @@ user/?amcontext
 v1.16/version
 v1/agent/self
 v2/_catalog
-var/jwt/private.pem
 vendor/.env
 vendor/jquery-file-upload/
 vendor/phpunit/phpunit/build.xml
@@ -922,12 +905,9 @@ wp2/wp-includes/wlwmanifest.xml
 wp-admin/admin-ajax.php?action=revslider_show_image&img=../wp-config.php
 wp-content/
 wp-content/plugins/wp-file-manager/readme.txt
-wp-content/uploads/2016/10/14203116_645492082273964_345784214832038849_n.jpg
 wp-content/uploads/2016/10/Snapshot_57.png
-wp-content/uploads/2020/10/ufo-2413965_1920.jpg
 wp-includes/js/jquery/jquery.js
 wp-includes/wlwmanifest.xml
-wp-json/wp/v2/users
 wp-login.php
 wp/wp-includes/wlwmanifest.xml
 wp/wp-login.php
@@ -953,7 +933,6 @@ zz/address.php?gid=651
 */_settings
 +CSCOE+/logon.html
 ?XDEBUG_SESSION_START=phpstorm
-?author=1
 ?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php>
 ?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=4zBbsjKH
 ?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=7N5bttjx
@@ -971,7 +950,6 @@ _cat/indices?format=json&h=index
 _cat/indices?format=json&pretty=true
 _cat/indices?v
 _cluster/health?level=indices
-_cluster/state/nodes,routing_table
 _config
 _fragment
 _ignition/execute-solution

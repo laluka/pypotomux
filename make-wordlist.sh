@@ -65,6 +65,7 @@ echo '..;/jkstatus' >> pypotomux.lst
 echo 'actuator' >> pypotomux.lst
 echo '..;/actuator' >> pypotomux.lst
 echo '::$DATA' >> pypotomux.lst
+echo 'tatic/plugins/jquery-file-upload/' >> pypotomux.lst
 
 # Better formatting
 sed -i -e "s#^/*##g" pypotomux.lst
