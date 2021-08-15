@@ -46,8 +46,13 @@ echo 'backupmgt/localJob.php?session=fail;id' >> pypotomux.lst
 grep -viF 'cgi-bin/masterCGI?ping=nomip&user=;id' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
 echo 'cgi-bin/masterCGI?ping=nomip&user=;id' >> pypotomux.lst
 
+magmi/web/download_file.php
+
 
 # Add
+echo 'magmi/web/download_file.php' >> pypotomux.lst
+echo 'magmi-importer/web/download_file.php' >> pypotomux.lst
+echo 'amfeed/main/download' >> pypotomux.lst
 echo '_fragment' >> pypotomux.lst
 echo '..;/_fragment' >> pypotomux.lst
 echo 'jolokia' >> pypotomux.lst
