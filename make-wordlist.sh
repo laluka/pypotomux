@@ -47,6 +47,10 @@ grep -viF 'backupmgt/localJob.php?session=fail;id' pypotomux.lst > /tmp/pypotomu
 echo 'backupmgt/localJob.php?session=fail;id' >> pypotomux.lst
 grep -viF 'cgi-bin/masterCGI?ping=nomip&user=;id' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
 echo 'cgi-bin/masterCGI?ping=nomip&user=;id' >> pypotomux.lst
+grep -viF 'backupmgt/localJob.php' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+echo 'backupmgt/localJob.php?session=fail;id;' >> pypotomux.lst
+grep -viF 'cgi-bin/masterCGI?ping=' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+echo 'cgi-bin/masterCGI?ping=nomip&user=;id;' >> pypotomux.lst
 
 
 # Add# Add
