@@ -317,6 +317,7 @@ category/private-booking-escape-room
 category/private-booking-escape-room/
 category/uncategorized
 category/uncategorized/
+cdn-cgi/trace
 cfg/
 cgi
 cgi-bin/authLogin.cgi
@@ -1038,6 +1039,7 @@ vicidial/admin.php?ADD=140000000000
 views/commData/commonSite.js
 views/home/home.js
 view/all/newJob
+virtualjdbc/
 voice/sip/
 voip/
 voip/sip/
