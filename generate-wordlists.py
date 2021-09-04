@@ -155,3 +155,5 @@ for doing in doings:
 
 print("All done, now check and sanityze with:")
 print("git --no-pager diff HEAD")
+print("Once you'de done, remember to clean with:")
+print("find dump -type f -delete")
