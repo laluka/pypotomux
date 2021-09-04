@@ -32,7 +32,6 @@
 .well-known/security.txt
 .well-known/security.txt/
 0bef
-0u92mBFLzXCxqUJMtGfasHyKhpH
 1phpmyadmin/
 _fragment
 ::$DATA
@@ -179,15 +178,8 @@ wp-content/plugins/cherry-plugin/admin/import-export/download-content.php?file=.
 ?XDEBUG_SESSION_START=phpstorm
 ?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php>
 ?author=1
-?ip=3.142.149.206
-?ip=54.189.2.154
-?ip=94.26.55.250
-?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=2bgxvxmx
-?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=4zBbsjKH
-?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=7N5bttjx
-?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=GNcWu85f
+?ip=8.8.8.8
 ?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=__HelloThinkPHP
-?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=o0mwpxwp
 ?s={search_term_string}
 About/checkup
 Account/
@@ -209,8 +201,6 @@ DBAdmin/import.php
 DBadmin/import.php
 DaGp
 Default.aspx
-EgcN
-FcMZG0lmDaV8bkQCtw2ohRNXTqw
 Front/FctPage/Start.aspx
 Front/User/UserLogin.html
 Gemfile.lock/
@@ -285,11 +275,9 @@ Recruit/download_url
 ReportServer
 Res/font/font.css
 SPA112/
-Sb0xot5BagWCunys7MLVeJ2EqmJ
 Scripts/common.js
 SoundPointIP/
 System/deviceInfo
-THnx8mi6BtrLca74sbqpUo5DEYb
 TP/public/index.php
 TP/public/index.php?s=captcha
 TP/public/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
@@ -489,8 +477,6 @@ boaform/admin/formPing
 boaform/admin/formTracert
 boafrm/formLogin
 board.cgi?cmd=whoami
-book-your-escape-room
-book-your-escape-room/
 c/
 c/version.js
 category/brewery-heist
@@ -630,7 +616,6 @@ files/pub_reset.css
 firmware/
 fj9T
 flu/403.html
-frh6tJHibpzcKwskTn5oMUylvqT
 friendGroup/list
 ftptest.cgi
 ftptest.cgi?loginuse=&loginpas=
@@ -720,7 +705,6 @@ javax.faces.resource/dynamiccontent.properties.xhtml
 jenkins/login
 jenkins/script
 jiaoyimao/default.css
-jknvHOqBxoYmLgIa6FWDsbe70KL
 jmx-console
 jmx-console/HtmlAdaptor?action=inspectMBean&name=jboss.system:type=ServerInfo
 jmx-console/HtmlAdaptor?action=inspectMBean&name=jboss.system:type=ServerInfo/github.com
@@ -847,12 +831,10 @@ new
 news/wp-includes/wlwmanifest.xml
 nice%20ports%2C/Tri%6Eity.txt%2ebak
 nifi/
-nkOdeRcJjZ95tp3rGimKw8UPM6r
 nyyh/chkjs.js
 nyyh/game.css
 o/headless-delivery/v1.0/openapi.yaml
 o1o/a8.php
-oJPBM2ibrqzeLp4FE3n8mkOTsUn
 old
 old-site
 oldsite
@@ -1137,7 +1119,6 @@ phptest.php/
 picdesc.xml
 picsdesc.xml
 pingkon.php?q=query
-pktaAq7cEdClNeM0JurHYgODQsH
 plugins/system/debug/debug.xml
 pma
 pma/
@@ -1235,7 +1216,6 @@ sip.conf/
 sip.txt/
 sip/
 sip/sitemap/
-sip6f8d30711ddfde64af249337588eda60/e4e2e9eea1acefa1b4b8e0e5b0e3b3e7e2b6b5
 sipconf.cfg/
 sipconf.txt/
 sipconf/
@@ -1350,10 +1330,8 @@ tiger/
 tmUnblock.cgi
 tools.cgi
 tools/phpMyAdmin/index.php/
-tot43/DESKTOP-JGLLJLF_W10016299.1CF3DD28B304BBF734B33FBDF1762BBE/83/
 tree?
 tt
-tv16mQzqbaCp4V8JRdUcyGEW7kt
 twilio.env
 txt/
 typo3/phpmyadmin/index.php/
@@ -1374,7 +1352,6 @@ v1/agent/self
 v1/management/tenant/getSpeedDomain
 v1/sys/health
 v2/_catalog
-vHL2nlPhOGKsumSV87EqIy6bpTl
 var/jwt/private.pem
 vendor/.env
 vendor/jquery-file-upload/
@@ -1416,9 +1393,6 @@ wp-admin/admin-ajax.php?action=revslider_show_image&img=../wp-config.php
 wp-config.php/
 wp-content/
 wp-content/plugins/wp-file-manager/readme.txt
-wp-content/uploads/2016/10/14203116_645492082273964_345784214832038849_n.jpg
-wp-content/uploads/2016/10/Snapshot_57.png
-wp-content/uploads/2020/10/ufo-2413965_1920.jpg
 wp-includes/js/jquery/jquery.js
 wp-includes/wlwmanifest.xml
 wp-json/wp/v2/users
@@ -1444,7 +1418,5 @@ xy/image/jiantou.png
 yealink/
 yeastar/
 yester/login.jsp
-ysR4Ulkv6Wp9ZNofQc1hGL3Sagg
-zdrtyhmcfghn
 zz/address.php?gid=651
 zz2/address.php?gid=651

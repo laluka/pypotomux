@@ -81,7 +81,7 @@ for doing in doings:
     elif doing == "path":
         findings = [_.lstrip("/") for _ in findings]
         findings = [re.sub(r"^https?://[^/]+[:0-9]*/*", "", _, flags=re.I) for _ in findings]
-        findings = [re.sub(r"^[.a-zA-Z0-9:]+:[.a-zA-Z0-9:]+$", "", _, flags=re.I) for _ in findings]
+        findings = [re.sub(r"^[-.a-zA-Z0-9:]+:[0-9:]+$", "", _, flags=re.I) for _ in findings]
         findings = [_ for _ in findings if not "204.48.20.180" in _]
         findings = [_ for _ in findings if not "Nmap/folder/check" in _]
         findings = [_ for _ in findings if not "NmapUpperCheck" in _]
