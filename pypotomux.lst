@@ -391,6 +391,7 @@ dbmanager/import.php
 dbweb/import.php
 db/phpMyAdmin3/index.php?lang=en
 db/phpmyadmin/index.php?lang=en
+debug/requests
 default.jsp
 digium/
 distv2/index.html
