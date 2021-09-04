@@ -49,6 +49,8 @@ doings = [
 for doing in doings:
     print(f"[+] Dumping: {doing}")
     findings = extract_all_keys(data, doing)
+    with open(f"wordlists/{doing}.lst", "r") as f:
+        findings = findings.union(set(f.read().splitlines()))
     # Implement filtering and sanitization
     if doing == "accept":
         pass # Nothing to do yet
