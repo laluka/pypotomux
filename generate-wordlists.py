@@ -152,3 +152,6 @@ for doing in doings:
     # Dump to filesystem
     with open(f"wordlists/{doing}.lst", "w") as f:
         f.write("\n".join(findings))
+
+print("All done, now check and sanityze with:")
+print("git --no-pager diff HEAD")
