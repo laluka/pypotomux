@@ -1,0 +1,5 @@
+max-age=0
+max-age=259200
+max-stale=0
+no-cache
+no-store,no-cache
