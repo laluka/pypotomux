@@ -130,6 +130,7 @@ Public/css/errorCss.css
 Public/css/hall.css
 Public/home/common/js/index.js
 Public/home/js/check.js
+Public/home/js/fukuang.js
 Public/home/wap/css/qdgame.css
 Public/initJs.php
 Public/js/common.js
@@ -614,6 +615,7 @@ index/Mobile/fenshi?code=sz002405
 index/Mobile/kline_week?code=sz003043
 index/api/config
 index/index/andiro
+index/index/purchase.html
 index/login/register
 indexAction.action
 infe/rest/fig/advertise/common.json?mobile_open=1
@@ -1056,6 +1058,7 @@ phpmyadmin2/
 phpmyadmin2/index.php/
 phpmyadmin2011/index.php?lang=en
 phpmyadmin2016/index.php?lang=en
+phpmyadmin2021/index.php?lang=en
 phpmyadmin3/
 phpmyadmin4.8.5/index.php
 phpmyadmin4/
@@ -1299,6 +1302,9 @@ template/swagger-ui.html
 template/tmp1/js/common.js
 test.php
 test/wp-includes/wlwmanifest.xml
+text/folder/review1630780468
+text4041630780468
+textCheck1630780468
 tftp/
 tftpboot/
 tftpphone/
@@ -1402,6 +1408,7 @@ xampp/phpmyadmin/index.php/
 xianyu/index/setp1.html
 xml/
 xmlrpc.php?rsd
+xx.js
 xy/
 xy/image/jiantou.png
 yealink/
