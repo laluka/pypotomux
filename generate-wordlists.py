@@ -123,7 +123,8 @@ for doing in doings:
         findings.append("shell?whoami;")
         findings = [_ for _ in findings if not "azenv.php?" in _]
         findings.append("azenv.php")
-        
+        findings = [_ for _ in findings if not re.match("^text(/folder/review|404|Check)", _)]
+ 
         """
         findings = [_ for _ in findings if not "TEMPLATE" in _]
         findings.append("TEMPLATE")
