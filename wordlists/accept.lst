@@ -6,6 +6,7 @@ application/json, text/plain, */*
 application/x-shockwave-flash, image/gif, image/jpeg, image/pjpeg, */*
 application/x-www-form-urlencoded
 ext/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+image/*;q=0.8
 image/avif,image/webp,image/apng,image/*,*/*;q=0.8
 image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
 image/webp,*/*
@@ -15,6 +16,7 @@ image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
 text/html
 text/html, application/xhtml+xml, */*
 text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+text/html,*/*
 text/html,application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8
 text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
