@@ -1033,6 +1033,7 @@ api/.env
 api/ApiHub/fetchJinse
 api/Index/getLottery
 api/app/config_new
+api/application.wadl
 api/apps
 api/batch
 api/cloud

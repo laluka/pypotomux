@@ -7,6 +7,7 @@
 %{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('MK4eDagb','1')}.multipart/form-data
 %{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('NawNJ8IP','1')}.multipart/form-data
 %{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('W3uRRVrC','W3uRRVrC')}.multipart/form-data
+%{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('ggymtl2p','1')}.multipart/form-data
 %{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('nv8qg8ai','1')}.multipart/form-data
 %{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('o0mwpxwp','1')}.multipart/form-data
 %{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('uDLnte5a','1')}.multipart/form-data
