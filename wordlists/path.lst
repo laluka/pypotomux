@@ -1002,6 +1002,7 @@ admrev/.ftppass
 admrev/_files/
 adsystem
 affiliates.sql
+aggregator/monitoring
 ajax/allcoin_a/id/0?t=0.3782499195965951
 ajax/app/yahoo/yahoo.htm
 ajax?act=getrlist&rid=1
@@ -1936,6 +1937,7 @@ global.asax.tmp
 globals
 globals.inc
 goautodial/
+goform/formSysCmd
 goform/formWsc
 grabbed.html
 gradlew
@@ -2188,6 +2190,7 @@ laravel/.env
 last.sql
 leftDao.php?callback=jQuery183016740860980352856_1604309800583
 legal/currency/set
+lib/client/etc/hometu.jpg
 lib/fckeditor/
 lib/fileupload/fileBrowser.php
 lib/flex/uploader/.actionScriptProperties
@@ -2277,6 +2280,7 @@ logfiles
 loggers
 login
 login.action
+login.action?os_destination=%2Findex.action&permissionViolation=true
 login.asp
 login.aspx
 login.cgi
@@ -3007,7 +3011,9 @@ public/h5static/js/main.js
 public/img/cz1.png
 public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=assert&vars[1][]=phpinfo()
 public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
+public/js/info.js
 public/spaw2/dialogs/dialog.php
+public/static/home/js/moblie/login.js
 public/tpl/default/static/css.css
 public/wap/js/basis.js
 public/web/css/add//index.css
@@ -3020,6 +3026,7 @@ pws.txt
 qDmPp9ilcd1j7SCoYVsZ8MwXKOd
 qa/
 query.log
+query?q=SHOW+DATABASES
 r.php
 r00t.php
 r57.php
@@ -3763,4 +3770,3 @@ zone-h.php
 zz/address.php?gid=651
 zz2/address.php?gid=651
 ~install/
-aggregator/monitoring

@@ -3,6 +3,7 @@
 application/dns-message
 application/json
 application/json, text/plain, */*
+application/x-msgpack
 application/x-shockwave-flash, image/gif, image/jpeg, image/pjpeg, */*
 application/x-www-form-urlencoded
 ext/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
