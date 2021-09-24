@@ -466,10 +466,7 @@
 9.php
 ::$DATA
 ;/
-<<<<<<< Updated upstream
-=======
-==============
->>>>>>> Stashed changes
+=====
 ?XDEBUG_SESSION_START=phpstorm
 ?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php>
 ?author=1
