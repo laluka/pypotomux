@@ -155,6 +155,6 @@ for doing in doings:
         f.write("\n".join(findings))
 
 print("All done, now check and sanityze with:")
-print("git --no-pager diff HEAD")
+print("git diff HEAD")
 print("Once you'de done, remember to clean with:")
-print("find dump -type f -delete")
+print("#find dump -type f -delete")
