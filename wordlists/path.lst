@@ -666,9 +666,6 @@ Pc/Lang/index.html
 Portals/
 Portals/_default
 Portals/_default/Skins
-Portals/_default/Skins/Alehos-Skin/
-Portals/_default/Skins/Alehos-Skin/ambio.css
-Portals/_default/Skins/Alehos-Skin/skin.css
 Promotions/list.mvc
 Public/Home/ecshe_css/main.css?v=1543997196
 Public/Home/images/game/pk10.png
@@ -1030,6 +1027,7 @@ admin/lib/spaw2/dialogs/dialog.php
 admin/log
 admin/logs/
 admin/logs/login.txt
+admin/lst-accounts.jsp
 admin/pMA/
 admin/pMA/index.php?lang=en
 admin/phpMyAdmin/
@@ -1135,7 +1133,6 @@ adsystem
 affiliates.sql
 agentrunner.nsf
 aggregator/monitoring
-agz.cnp.fr/admin/lst-accounts.jsp
 ajax/allcoin_a/id/0?t=0.3782499195965951
 ajax/app/yahoo/yahoo.htm
 ajax/get_operatorProfile.php
@@ -1552,7 +1549,7 @@ bitrix/php_interface/dbconn.php2
 bitrix/php_interface/dbconn.save
 bitrix/php_interface/dbconn.swp
 bitrix/php_interface/dbconn.txt
-bitrix/rk.php?goto=http://evil.com
+bitrix/rk.php?goto=127.0.0.1
 bitrix/web.config
 biy/upload/
 bk
@@ -1649,6 +1646,7 @@ cgi-bin/kerbynet?Action=x509view&Section=NoAuthREQ&User=&x509type='%0Awhoami%0A'
 cgi-bin/luci
 cgi-bin/masterCGI?ping=nomip&user=;whoami
 cgi-bin/nobody/Search.cgi?
+cgi-bin/nobody/Search.cgi?action=cgi_query&ip=127.0.0.1&port=80&queryb64str=Lw==&username=admin%20;XmlAp%20r%20Account.User1.Password%3E$(whoami)&password=admin
 cgi-bin/nobody/Search.cgi?action=cgi_query&ip=google.com&port=80&queryb64str=Lw==&username=admin%20;XmlAp%20r%20Account.User1.Password%3E$(whoami)&password=admin
 cgi-bin/printenv.pl/
 cgi-bin/saml-endpoint.cgi?p=foo|whoami|
@@ -2115,7 +2113,6 @@ dnslookup.cgi
 doc/Règlement-de-jeu.docx
 docker-compose.yml
 docs
-docs.servicenow.com/?version=quebec
 docs/apr.html
 docs/config/listeners.html
 docs/config/server.html
@@ -2218,7 +2215,7 @@ ehthumbs.db
 elfinder/elfinder.php
 elim/blist.xml
 emailSent.jsp
-emailSent.jsp?email=audit1@lexfo.fr
+emailSent.jsp?email=foo
 embeddedserver
 empresa
 empresa/
@@ -2683,7 +2680,6 @@ jkstatus
 jmx-console
 jmx-console/
 jmx-console/HtmlAdaptor?action=inspectMBean&name=jboss.system:type=ServerInfo
-jmx-console/HtmlAdaptor?action=inspectMBean&name=jboss.system:type=ServerInfo/github.com
 jmxrmi
 jo.php
 jobs
@@ -4370,7 +4366,6 @@ ub-tool/index.php
 uber/phpMemcachedAdmin/
 uber/phpMyAdmin/
 uber/phpMyAdminBackup/
-ucwebext15a.saftbatteries.com
 uddiexplorer/
 udp
 ui.hydrogen
