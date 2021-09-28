@@ -1296,6 +1296,7 @@ altair
 amad.php
 amfeed/main/download
 amministratore.php
+analytics/telemetry/ph/api/hyper/send
 angular-file-upload
 annuaire/
 anquan/qgga.asp
@@ -2075,6 +2076,8 @@ conseillers
 console
 console/
 console/base/config.json
+console/css/%252e%252e%252fconsole.portal
+console/css/.%252e/console.portal
 console/framework/skins/wlsconsole/images/%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252fconsole.portal?_nfpb=true&_pageLabel=HomePage1&handle=java.lang.String("ahihi")
 console/graphql/
 console/login/LoginForm.jsp
