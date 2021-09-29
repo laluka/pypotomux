@@ -2351,6 +2351,7 @@ debug/phpdebug.php
 debug/phpinfo.php
 debug/requests
 debug_error.jsp
+debugbr.php?cmd=id
 debugger;
 default.asp
 default.aspx
@@ -2761,6 +2762,7 @@ global.asax.temp
 global.asax.tmp
 globals
 globals.inc
+gn4S
 goautodial/
 goform/formSysCmd
 goform/formWsc
@@ -4311,7 +4313,7 @@ relancer
 relaxed
 remote
 remote.php/webdav/
-remote/fgt_lang?lang=/../../../../////////////////////////bin/sslvpnd
+remote/fgt_lang?lang=/../../../..//////////dev/
 remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession
 remote;
 reportError.php
@@ -4594,6 +4596,7 @@ soapserver/
 socat
 solr/
 solr/admin/info/system?wt=json
+something?123456789
 sonar-project.properties
 sounds/notification.wav
 source.php
