@@ -643,7 +643,6 @@ FileUploaderProject/Read_me.txt
 Fonts
 Front/FctPage/Start.aspx
 Front/User/UserLogin.html
-GPER
 Gemfile
 Gemfile.lock
 Gemfile.lock/
@@ -1584,6 +1583,7 @@ autobackup.php
 autocomplete/queryJsonUser.action
 autoconfig
 autodiscover
+autodiscover/autodiscover.json?@127.0.0.1/ews/exchange.asmx?&Email=autodiscover/autodiscover.json%3F@127.0.0.1
 autoprovision/
 aux
 aux.aspx
@@ -1834,6 +1834,7 @@ cc-errors.txt
 cc-log.txt
 ccbill.log
 cdn-cgi/trace
+cejEZQaFJ70DC96M2NiYqIu1wU1
 cell.xml
 centreon/include/configuration/configObject/host/refreshMacroAjax.php
 certsrv.nsf
@@ -4032,6 +4033,7 @@ phpmyadmin1/index.php/
 phpmyadmin2/
 phpmyadmin2/index.php/
 phpmyadmin2011/index.php?lang=en
+phpmyadmin2015/index.php?lang=en
 phpmyadmin2016/index.php?lang=en
 phpmyadmin2021/index.php?lang=en
 phpmyadmin3/
@@ -4059,6 +4061,7 @@ pilotage/facturation
 pinfo.php
 pingkon.php?q=query
 pip-log.txt
+pk92PmvhSsaVQlq7eLi5AgCEjOa
 pkg/dspkginstall
 plain
 planFXRate
@@ -4169,6 +4172,7 @@ post
 postInstall.sh
 postgres
 postgres:10.5
+pp_am/adm/adm.php
 pre
 prefetch.txt
 preseed.cfg
@@ -4242,7 +4246,6 @@ pwd.db
 pwd_reset.do
 pweuplmgr
 pws.txt
-qDmPp9ilcd1j7SCoYVsZ8MwXKOd
 qa/
 qcbin
 qcbin/Apps/
