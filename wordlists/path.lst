@@ -450,7 +450,6 @@
 2.tar.gz
 2.txt
 2.zip
-2020/wp-includes/wlwmanifest.xml
 2phpmyadmin/
 3.3.0/examples/feed-viewer/feed-proxy.php
 3.php
@@ -750,6 +749,7 @@ PMA2014/
 PMA2015/
 PMA2016/
 PMA2016/index.php?lang=en
+PMA2021/index.php?lang=en
 PRIVACY
 PSBlock
 Pages/RedirectPage.aspx
@@ -1280,6 +1280,7 @@ agata.php?KV=4&st=1&SE=4
 agence
 agentrunner.nsf
 aggregator/monitoring
+ajax
 ajax/allcoin_a/id/0?t=0.3782499195965951
 ajax/app/yahoo/yahoo.htm
 ajax/get_operatorProfile.php
@@ -3133,6 +3134,7 @@ last
 last.sql
 leftDao.php?callback=jQuery183016740860980352856_1604309800583
 legal/currency/set
+level/15/exec/-/sh/run/CR
 lib
 lib/client/etc/hometu.jpg
 lib/fckeditor/
