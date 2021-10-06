@@ -5449,3 +5449,6 @@ zone-h.php
 zz/address.php?gid=651
 zz2/address.php?gid=651
 ~install/
+core/INSTALL.txt
+cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+cgi-bin/.2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/passwd
