@@ -157,6 +157,6 @@ for doing in doings:
 print("All done, now check and sanityze with:")
 print("git diff HEAD")
 print("And update params with")
-print("grep -hrioP '[a-zA-Z0-9_-]+=' | tr -d = > /tmp/params; cat /opt/pypotomux/wordlists/params.lst /tmp/params | sort -uV -o /opt/pypotomux/wordlists/params.lst")
+print("grep -hrioP '[a-zA-Z0-9_-]+=' dump | tr -d = > /tmp/params; cat /opt/pypotomux/wordlists/params.lst /tmp/params | sort -uV -o /opt/pypotomux/wordlists/params.lst")
 print("Once you'de done, remember to clean with:")
 print("#find dump -type f -delete")
