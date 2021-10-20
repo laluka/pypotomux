@@ -5492,6 +5492,8 @@ zz/address.php?gid=651
 %6danager/
 %252E%252E/manager/html
 %2256danager/
+.git/index
+vendor/composer/installed.json
 %ff/
 *
 */_settings
