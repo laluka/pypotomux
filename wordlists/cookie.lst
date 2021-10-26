@@ -15,6 +15,7 @@ mac=00%3A1a%3A79%3A00%3A00%3A09; stb_lang=en; timezone=Europe/Amsterdam; adid=
 mac=00:1a:79:00:00:09; stb_lang=en; timezone=Europe/Amsterdam;
 rememberMe=0
 rememberMe=1
+rememberMe=admin
 rememberMe=axxxxxxxxxx123456
 session=;
 sesskey=

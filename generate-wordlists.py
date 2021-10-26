@@ -84,6 +84,7 @@ for doing in doings:
         findings = [_.lstrip("/") for _ in findings]
         findings = [re.sub(r"^https?://[^/]+[:0-9]*/*", "", _, flags=re.I) for _ in findings]
         findings = [re.sub(r"^[-.a-zA-Z0-9:]+:[0-9:]+$", "", _, flags=re.I) for _ in findings]
+        findings = [re.sub(r"^[a-z0-9]{27}$", "", _, flags=re.I) for _ in findings]
         findings = [_ for _ in findings if not "204.48.20.180" in _]
         findings = [_ for _ in findings if not "Nmap/folder/check" in _]
         findings = [_ for _ in findings if not "NmapUpperCheck" in _]
@@ -124,7 +125,7 @@ for doing in doings:
         findings = [_ for _ in findings if not "azenv.php?" in _]
         findings.append("azenv.php")
         findings = [_ for _ in findings if not re.match("^text(/folder/review|404|Check)", _)]
- 
+
         """
         findings = [_ for _ in findings if not "TEMPLATE" in _]
         findings.append("TEMPLATE")
