@@ -462,6 +462,8 @@
 2.zip
 2018/wp-includes/wlwmanifest.xml
 2019/wp-includes/wlwmanifest.xml
+2mZd
+2mhV
 2phpmyadmin/
 2phpmyadmin/scripts/setup.php
 3.3.0/examples/feed-viewer/feed-proxy.php
@@ -681,6 +683,7 @@ Global.asax
 GponForm/diag_Form?images/
 GponForm/diag_Form?style/
 Gruntfile.js
+HAS.cfg
 HEADER.txt
 HISTORY
 HISTORY.rst
@@ -1627,6 +1630,7 @@ application.wadl
 application.wadl/
 application/cache/
 application/logs/
+apply_sec.cgi
 apps/.env
 apps/frontend/config/app.yml
 apps/frontend/config/databases.yml
@@ -1704,6 +1708,7 @@ autoconfig
 autodiscover
 autodiscover/autodiscover.json?@127.0.0.1/ews/exchange.asmx?&Email=autodiscover/autodiscover.json%3F@127.0.0.1
 autodiscover/autodiscover.json?@1337.com/owa/?&Email=autodiscover/autodiscover.json%3F@1337.com
+autodiscover/autodiscover.json?a=a@edu.edu/ews/exchange.asmx
 autoprovision/
 aux
 aux.aspx
@@ -1996,6 +2001,7 @@ cgi-bin/login.cgi?requestname=3&cmd=0
 cgi-bin/luci
 cgi-bin/mainfunction.cgi
 cgi-bin/masterCGI?ping=nomip&user=;whoami
+cgi-bin/mt/mt-xmlrpc.cgi
 cgi-bin/nobody/Search.cgi?
 cgi-bin/nobody/Search.cgi?action=cgi_query&ip=127.0.0.1&port=80&queryb64str=Lw==&username=admin%20;XmlAp%20r%20Account.User1.Password%3E$(whoami)&password=admin
 cgi-bin/nobody/Search.cgi?action=cgi_query&ip=google.com&port=80&queryb64str=Lw==&username=admin%20;XmlAp%20r%20Account.User1.Password%3E$(whoami)&password=admin
@@ -2718,6 +2724,7 @@ echo.php
 echo.php?
 ecosystem.json
 ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+ecp/N.js
 ector.do
 edit.php
 edit/spaw2/dialogs/dialog.php
@@ -5708,6 +5715,7 @@ users.sqlite
 users.txt
 users.xls
 users/
+users/sign_in
 users/user-dark-features
 users?page=&size=5
 utils.js
@@ -5776,6 +5784,7 @@ vtund.conf
 w.php
 w00tw00t.at.ISC.SANS.DFind:)
 w00tw00t.at.blackhats.romanian.anti-sec:)
+w4Pa
 wanipcn.xml
 wap/api/exchangerateuserconfig!get.action
 wap/banner/details
@@ -5874,6 +5883,7 @@ wipe
 wkn/
 wls-wsat/CoordinatorPortType
 wls-wsat/CoordinatorPortType11
+wls-wsat/RegistrationRequesterPortType11
 wordpress
 wordpress/wp-includes/wlwmanifest.xml
 wordpress/wp-login.php
