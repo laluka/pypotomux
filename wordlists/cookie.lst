@@ -1,3 +1,4 @@
+?(){:;};``',./"<>?|-[]~@$^*%ff\x00\x00\x00\x00\x00\x0a\xff=
 Authorization=Basic dGVsZWNvbWFkbWluOmxvbGVyMjAxOQ==
 Authorization=Basic%20YWRtaW46MjEyMzJmMjk3YTU3YTVhNzQzODk0YTBlNGE4MDFmYzM=
 Authorization=Basic%20dXNlcjplZTExY2JiMTkwNTJlNDBiMDdhYWMwY2EwNjBjMjNlZQ==
@@ -7,6 +8,7 @@ IISSessions=79cfdd0e92b120faadd7eb253eb800d0
 JSESSIONID=0000
 PHPSESSID=20HyDW61oD9wwmZAMXh4iVVeoiQ
 X-AnonResource=true; X-AnonResource-Backend=localhost/ecp/default.flt?~3; X-BEResource=localhost/owa/auth/logon.aspx?~3;
+\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
 _ga=GA1.2.163966002.1612866791
 _ga=GA1.2.163966002.1612866791; _gid=GA1.2.1280108070.1620745746
 _ga=GA1.2.163966002.1612866791; _gid=GA1.2.353732362.1622924102
@@ -16,6 +18,7 @@ cookie=ok
 homeFirstShow=yes
 id=86897923176771237
 lang=id
+lang=ls
 mac=00%3A1a%3A79%3A00%3A00%3A09; stb_lang=en; timezone=Europe/Amsterdam; adid=
 mac=00:1a:79:00:00:09; stb_lang=en; timezone=Europe/Amsterdam;
 rememberMe=0

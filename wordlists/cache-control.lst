@@ -4,4 +4,5 @@ max-age=259200
 max-age=5184000
 max-stale=0
 no-cache
+no-cache,no-store
 no-store,no-cache

@@ -1,4 +1,5 @@
 *
+default
 deflate, gzip
 deflate, gzip, br
 deflate, gzip, identity
