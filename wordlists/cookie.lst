@@ -1,4 +1,5 @@
 ?(){:;};``',./"<>?|-[]~@$^*%ff\x00\x00\x00\x00\x00\x0a\xff=
+Authorization=Basic YWrtaW46YWRtaW4=
 Authorization=Basic dGVsZWNvbWFkbWluOmxvbGVyMjAxOQ==
 Authorization=Basic%20YWRtaW46MjEyMzJmMjk3YTU3YTVhNzQzODk0YTBlNGE4MDFmYzM=
 Authorization=Basic%20dXNlcjplZTExY2JiMTkwNTJlNDBiMDdhYWMwY2EwNjBjMjNlZQ==
@@ -29,4 +30,5 @@ session=;
 sesskey=
 test=something
 testCookie=true
+uid=HQLFFU3LE1
 uid=R8tBjwtFc8
