@@ -1,3 +1,4 @@
+${jndi:ldaps://127.0.0.1/b}=${jndi:ldaps://127.0.0.1/b}
 ?(){:;};``',./"<>?|-[]~@$^*%ff\x00\x00\x00\x00\x00\x0a\xff=
 Authorization=Basic YWrtaW46YWRtaW4=
 Authorization=Basic dGVsZWNvbWFkbWluOmxvbGVyMjAxOQ==
@@ -14,6 +15,7 @@ _ga=GA1.2.163966002.1612866791
 _ga=GA1.2.163966002.1612866791; _gid=GA1.2.1280108070.1620745746
 _ga=GA1.2.163966002.1612866791; _gid=GA1.2.353732362.1622924102
 _ga=GA1.2.163966002.1612866791; _gid=GA1.2.353732362.1622924102; connect.sid=s%3Aqan2w5uoqUzMo3M4xTk6DnLr_4_ht_PN.gwcqAgmuoW4iAG9CUikvG4NqCK6tB1JCFPYC0SRz3Ao
+_ga=GA1.2.KNAWLVT5s2OaA36Y3vu4MDrXnUP_wj36MB7GzK8%3D
 c=cookie
 cookie=ok
 homeFirstShow=yes
@@ -28,6 +30,7 @@ rememberMe=admin
 rememberMe=axxxxxxxxxx123456
 session=;
 sesskey=
+td_cookie=711915097
 test=something
 testCookie=true
 uid=HQLFFU3LE1

