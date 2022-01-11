@@ -137,7 +137,7 @@ for doing in doings:
         findings = [_ for _ in findings if not re.match(r"\$\{env:", _)]
         findings = [_ for _ in findings if not re.match(r"jndi%3Aldap", _)]
         findings = [_ for _ in findings if not re.match(r"%7Dndi", _)]
-
+        findings = [_ for _ in findings if not re.match(r"JHtqbm", _)]
         """
         findings = [_ for _ in findings if not "TEMPLATE" in _]
         findings.append("TEMPLATE")
