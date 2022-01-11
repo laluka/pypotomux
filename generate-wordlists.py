@@ -18,7 +18,10 @@ data = dict()
 print("[+] Loading data")
 for file in glob.iglob("./dump/**/*.json"):
     with open(file, 'r') as f:
-        data[file] = json.loads(f.read())
+        try:
+            data[file] = json.loads(f.read())
+        except Exception as e:
+            print(f"Exception on {f}: {e}")
 
 print("[+] Extracting keys")
 doings = [
@@ -125,6 +128,15 @@ for doing in doings:
         findings = [_ for _ in findings if not "azenv.php?" in _]
         findings.append("azenv.php")
         findings = [_ for _ in findings if not re.match("^text(/folder/review|404|Check)", _)]
+
+        # Fucking log4j garbage
+        findings = [_ for _ in findings if not re.match(r"\$\{lower", _)]
+        findings = [_ for _ in findings if not re.match(r"\$\{::-j\}", _)]
+        findings = [_ for _ in findings if not re.match(r"jndi:", _)]
+        findings = [_ for _ in findings if not re.match(r"\$\{jnd", _)]
+        findings = [_ for _ in findings if not re.match(r"\$\{env:", _)]
+        findings = [_ for _ in findings if not re.match(r"jndi%3Aldap", _)]
+        findings = [_ for _ in findings if not re.match(r"%7Dndi", _)]
 
         """
         findings = [_ for _ in findings if not "TEMPLATE" in _]

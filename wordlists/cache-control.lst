@@ -1,4 +1,3 @@
-${jndi:ldaps://127.0.0.1/b}
 max-age=0
 max-age=2419200
 max-age=259200

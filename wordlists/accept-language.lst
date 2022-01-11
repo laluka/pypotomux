@@ -25,10 +25,13 @@ en-us
 en-us,en;q=0.5
 en;q=0.7,en-US;q=0.3
 en;q=0.8,en-US;q=0.5
+en;q=0.9
+en;q=0.9,en;q=0.8
 fr,en;q=0.9
 fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3
 ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
 tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+zh-CN
 zh-CN,en,*
 zh-CN,zh;q=0.8
 zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3

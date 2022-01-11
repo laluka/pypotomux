@@ -9,10 +9,12 @@ application/grpc-web+proto
 application/ipp
 application/json
 application/json; charset=utf-8
+application/json; charset=utf8
 application/json;charset=utf-8
 application/soap+xml; charset=utf-8
 application/soap+xml;charset=UTF-8
 application/x-www-form-urlencoded
+application/x-www-form-urlencoded; Charset=UTF-8
 application/x-www-form-urlencoded; charset=UTF-8
 application/x-www-form-urlencoded; charset=UTF-8 
 application/x-www-form-urlencoded; charset=utf-8
