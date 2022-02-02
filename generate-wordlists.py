@@ -6,12 +6,12 @@ import glob
 import re
 
 def extract_all_keys(data, key):
-    matches = set()
+    searches = set()
     for result in data:
         for _key in data[result].keys():
             if key.lower() == _key.lower():
-                matches.add(data[result][_key])
-    return matches
+                searches.add(data[result][_key])
+    return searches
 
 data = dict()
 
@@ -127,7 +127,7 @@ for doing in doings:
         findings.append("shell?whoami;")
         findings = [_ for _ in findings if not "azenv.php?" in _]
         findings.append("azenv.php")
-        findings = [_ for _ in findings if not re.match("^text(/folder/review|404|Check)", _)]
+        findings = [_ for _ in findings if not re.search("^text(/folder/review|404|Check)", _)]
 
         """
         findings = [_ for _ in findings if not "TEMPLATE" in _]
@@ -151,15 +151,22 @@ for doing in doings:
         pass # Nothing to do yet
     
     # Fucking log4j garbage
-    findings = [_ for _ in findings if not re.match(r"\$\{lower", _)]
-    findings = [_ for _ in findings if not re.match(r"\$\{::-j\}", _)]
-    findings = [_ for _ in findings if not re.match(r"jndi:", _)]
-    findings = [_ for _ in findings if not re.match(r"\$\{jnd", _)]
-    findings = [_ for _ in findings if not re.match(r"\$\{env:", _)]
-    findings = [_ for _ in findings if not re.match(r"jndi%3Aldap", _)]
-    findings = [_ for _ in findings if not re.match(r"%7Dndi", _)]
-    findings = [_ for _ in findings if not re.match(r"JHtqbm", _)]
+    findings = [_ for _ in findings if not re.search(r"\$\{lower", _)]
+    findings = [_ for _ in findings if not re.search(r"\$\{::-j\}", _)]
+    findings = [_ for _ in findings if not re.search(r"jndi:", _)]
+    findings = [_ for _ in findings if not re.search(r"\$\{jnd", _)]
+    findings = [_ for _ in findings if not re.search(r"\$\{env:", _)]
+    findings = [_ for _ in findings if not re.search(r"jndi%3Aldap", _)]
+    findings = [_ for _ in findings if not re.search(r"%7Dndi", _)]
+    findings = [_ for _ in findings if not re.search(r"JHtqbm", _)]
+    findings = [_ for _ in findings if not re.search(r"jndi:dns", _)]
 
+    # for finding in findings:
+    #     if re.search(r"jndi:dns", finding):
+    #         import ipdb; ipdb.set_trace()
+    
+    # if doing == "accept-encoding":
+        # import ipdb; ipdb.set_trace()
     # Final cleanup
     findings = list(filter(None, findings))
     findings = sorted(list(set(findings)))
