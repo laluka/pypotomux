@@ -129,15 +129,6 @@ for doing in doings:
         findings.append("azenv.php")
         findings = [_ for _ in findings if not re.match("^text(/folder/review|404|Check)", _)]
 
-        # Fucking log4j garbage
-        findings = [_ for _ in findings if not re.match(r"\$\{lower", _)]
-        findings = [_ for _ in findings if not re.match(r"\$\{::-j\}", _)]
-        findings = [_ for _ in findings if not re.match(r"jndi:", _)]
-        findings = [_ for _ in findings if not re.match(r"\$\{jnd", _)]
-        findings = [_ for _ in findings if not re.match(r"\$\{env:", _)]
-        findings = [_ for _ in findings if not re.match(r"jndi%3Aldap", _)]
-        findings = [_ for _ in findings if not re.match(r"%7Dndi", _)]
-        findings = [_ for _ in findings if not re.match(r"JHtqbm", _)]
         """
         findings = [_ for _ in findings if not "TEMPLATE" in _]
         findings.append("TEMPLATE")
@@ -159,6 +150,16 @@ for doing in doings:
     elif doing == "x-requested-with":
         pass # Nothing to do yet
     
+    # Fucking log4j garbage
+    findings = [_ for _ in findings if not re.match(r"\$\{lower", _)]
+    findings = [_ for _ in findings if not re.match(r"\$\{::-j\}", _)]
+    findings = [_ for _ in findings if not re.match(r"jndi:", _)]
+    findings = [_ for _ in findings if not re.match(r"\$\{jnd", _)]
+    findings = [_ for _ in findings if not re.match(r"\$\{env:", _)]
+    findings = [_ for _ in findings if not re.match(r"jndi%3Aldap", _)]
+    findings = [_ for _ in findings if not re.match(r"%7Dndi", _)]
+    findings = [_ for _ in findings if not re.match(r"JHtqbm", _)]
+
     # Final cleanup
     findings = list(filter(None, findings))
     findings = sorted(list(set(findings)))
