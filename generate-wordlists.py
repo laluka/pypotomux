@@ -128,7 +128,9 @@ for doing in doings:
         findings = [_ for _ in findings if not "azenv.php?" in _]
         findings.append("azenv.php")
         findings = [_ for _ in findings if not re.search("^text(/folder/review|404|Check)", _)]
-
+        findings = [_ for _ in findings if not "dns-query?dns=" in _]
+        findings.append("dns-query?dns=bG9jYWxob3N0")
+        
         """
         findings = [_ for _ in findings if not "TEMPLATE" in _]
         findings.append("TEMPLATE")
@@ -149,6 +151,8 @@ for doing in doings:
         pass # Nothing to do yet
     elif doing == "x-requested-with":
         pass # Nothing to do yet
+    
+    # c3lzdGVtKCdkaXIgL2Ivcy93IHd3dycpOw==
     
     # Fucking log4j garbage
     findings = [_ for _ in findings if not re.search(r"\$\{lower", _)]
