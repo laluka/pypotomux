@@ -7222,3 +7222,7 @@ zzz.php
 grid/vgrid_server.php
 vgrid_server.php
 loggers
+.//META-INF/MANIFEST.MF
+.//WEB-INF/web.xml
+.//WEB-INF/portlet.xml
+.//WEB-INF/weblogic.xml
