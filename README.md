@@ -1,9 +1,22 @@
 # pypotomux
 
 pypotomux - A python protocol demuxed honeypot (potomiel)
+-> From now on, this repo will only contain the wordlists and be updated from broneypote
+
+## How to update wordlists
+
+```bash
+scp root@vpn.thinkloveshare.com:/opt/broneypote/dump/http .
+ssh root@vpn.thinkloveshare.com find /opt/broneypote/dump -type f -delete
+act; python generate-wordlists.py
+grep -hrioP '[a-zA-Z0-9_-]+=' dump | tr -d = > /tmp/params; sort -uV wordlists/params.lst /tmp/params -o wordlists/params.lst
+rm -rf dump
+git diff HEAD | grep -iE '^[+-]'
+git commit -am "updated wordlist from broneypote"
+```
 
 
-## How to use
+## How to use - [DEPRECATED FOR BRONEYPOTE]
 
 ```bash
 # Setup
