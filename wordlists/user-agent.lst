@@ -63,6 +63,7 @@ Jigsaw/2.2.5 W3C_CSS_Validator_JFouffa/2.0
 KrebsOnSecurity
 Kryptos Logic Telltale
 Links (2.1pre15; FreeBSD 5.3-RELEASE i386; 196x84)
+Linux Gnu (cow)
 Linux Gnu (cow) 
 Lkx-Apache2449TraversalPlugin/0.0.1 (+https://leakix.net/, +https://twitter.com/HaboubiAnis)
 Lkx-TraversalHttpPlugin/0.0.1 (+https://leakix.net/, +https://twitter.com/HaboubiAnis)
@@ -1719,6 +1720,7 @@ internetwache.org v3.4
 ivre-masscan/1.3 https://ivre.rocks/
 kubectl/v1.12.0 (linux/amd64) kubernetes/0ed3388
 l9explore/1.0.0
+l9explore/1.2.2
 l9explore/1.3.0
 l9explore/v0.8.0
 l9tcpid/0.4.0

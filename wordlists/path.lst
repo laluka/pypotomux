@@ -743,6 +743,7 @@ DEFAULT.aspx
 DKIZ.php?DKIZ
 DKS/default.aspx
 DaGp
+DataTables-1.10.11/examples/resources/examples.php
 Database_Backup/
 DecisionService
 DecisionService/
@@ -763,10 +764,14 @@ Dump.sql
 Dumper
 Déclaration-de-confidentialité
 ERPLite/SessioneScaduta.aspx
+EWS/
 EX/euronews-ru/index.m3u8?token=test
 EemAdminService/EemAdmin?wsdl
 Error
 Error.aspx?errorid=foo
+Etc/
+Exchange/
+Exchweb/
 FAQ
 FCKeditor
 FCKeditor/
@@ -803,6 +808,7 @@ Global.asax
 GponForm/diag_FORM?images/
 GponForm/diag_Form?images/
 GponForm/diag_Form?style/
+GroupExpansion/
 Gruntfile.js
 HAS.cfg
 HEADER.txt
@@ -817,6 +823,7 @@ Home/GetInitSource
 Home/Index/ajaxTJ
 Host
 HtmlAdaptor
+HybridConfig
 I0ot
 INSTALL
 INSTALL.html
@@ -1772,6 +1779,7 @@ api/fonction
 api/fonction.php
 api/fonction.php/1
 api/fonction/1
+api/geojson?url=file:///etc/hosts
 api/geojson?url=file:/etc/hosts
 api/getconfig.aspx
 api/ht/xy1
@@ -3090,6 +3098,7 @@ df_main.sql
 dfshealth.jsp
 dfsnodelist.jsp?whatNodes=DEAD
 dfsnodelist.jsp?whatNodes=LIVE
+dialin
 dialin/
 digit/app/download/list
 digitalisation/contrat/envoi
@@ -3134,12 +3143,7 @@ dms/polycom257/000000000000.cfg
 dms/polycom790/000000000000.cfg
 dniapi/userInfos
 dns-query
-dns-query?dns=1QEBAAABAAAAAAAAA3d3dwZnb29nbGUDY29tAAABAAE
-dns-query?dns=6awBAAABAAAAAAAAA3d3dwZnb29nbGUDY29tAAABAAE
-dns-query?dns=B64
-dns-query?dns=C60BAAABAAAAAAAAA3d3dwZnb29nbGUDY29tAAABAAE
-dns-query?dns=VNQBAAABAAAAAAAAA3d3dwZnb29nbGUDY29tAAABAAE
-dns-query?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB
+dns-query?dns=bG9jYWxob3N0
 dns-query?name=www.example.com&type=A
 dnslookup.cgi
 dnslookup.cgi?host_name=127.0.0.1;+whoami;&lookup=Lookup&ess_=true
@@ -3251,6 +3255,7 @@ ecc_agent_script_file.do
 echo.php
 echo.php?
 ecosystem.json
+ecp/
 ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
 ecp/N.js
 ecp/kK.js
@@ -3387,6 +3392,8 @@ exactarget
 example.php
 examples
 examples/
+examples/jsp/snp/snoop.jsp
+examples/servlets/servlet/CookieExample
 examples/servlets/servlet/SessionExample
 exapi/.env
 exchange/BTCDOWN_USDT
@@ -3970,6 +3977,8 @@ ipl/app/flash/publicbmw/ball/FigLeaf.js?site=member
 ipp
 ipython/tree
 ispmgr/
+iwa/authenticated.aspx
+iwa/iwa_test.aspx
 izom.php
 j.php
 jars
@@ -7338,6 +7347,7 @@ wp-content/uploads/dump.sql
 wp-content/uploads/mc4wp-debug.log
 wp-content/uploads/pdf-invoices/
 wp-content/uploads/tmm_db_migrate/tmm_db_migrate.zip
+wp-content/uploads/wp-file-manager-pro/fm_backup
 wp-includes/
 wp-includes/js/jquery/jquery.js
 wp-includes/wlwmanifest.xml
@@ -7483,17 +7493,3 @@ zz2/address.php?gid=651
 zza.php
 zzz.php
 ~install/
-dialin
-ecp/
-Etc/
-EWS/
-Exchange/
-Exchweb/
-GroupExpansion/
-HybridConfig
-iwa/authenticated.aspx
-iwa/iwa_test.aspx
-examples/jsp/snp/snoop.jsp
-examples/servlets/servlet/CookieExample
-wp-content/uploads/wp-file-manager-pro/fm_backup
-DataTables-1.10.11/examples/resources/examples.php
