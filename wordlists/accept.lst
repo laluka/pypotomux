@@ -19,6 +19,7 @@ image/webp,*/*
 image/webp,*/*;q=0.8
 image/webp,image/apng,image/*,*/*;q=0.8
 image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
+text/css,*/*;q=0.1
 text/html
 text/html, */*
 text/html, application/xhtml+xml, */*

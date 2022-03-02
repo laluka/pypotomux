@@ -494,6 +494,7 @@
 123.php
 123.txt
 123131/index.php
+159.223.157.219/.env
 1860
 1c/
 1phpmyadmin/
@@ -598,6 +599,7 @@
 ?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB
 ?email=foo
 ?ip=8.8.8.8
+?phpinfo=1
 ?prompt
 ?q=%amine%&va=b&t=hc&ia=web
 ?q=%blabberer%&va=b&t=hc&ia=web
@@ -615,13 +617,17 @@
 ?rest_route=/wp/v2/users
 ?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=9hk3u44w
 ?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=__HelloThinkPHP
+?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=dwimvtep
 ?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=gf9j4paw
+?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=gh3br3vg
 ?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=pd55p5fh
 ?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=v3mebzi4
 ?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=ve0dlgvs
 ?s=ax6zt%2522%253e%253cscript%253ealert%2528document.domain%2529%253c%252fscript%253ey6uu6
 ?s=foo
 ?s={search_term_string}
+?scopeName=All&q=%prigs%
+?search=%spaeing%
 ?static=1&order=asc
 ?wptouch_switch=desktop&redirect=https://127.0.0.1/
 ?wsdl
@@ -786,6 +792,7 @@ FCKeditor21/
 FCKeditor22/
 FCKeditor23/
 FCKeditor24/
+FD873AC4-CF86-4FED-84EC-4BD59C6F17A7
 FONTS
 FTP/
 Fanvil/
@@ -852,6 +859,7 @@ Joomla/
 Joomla/administrator
 Joomla/administrator/index.php
 K2fz
+KQSm
 KULp
 KXHr
 KeepAlive.aspx
@@ -1250,6 +1258,7 @@ _phpmyadmin/
 _phpmyadmin/import.php
 _phpmyadmin/scripts/setup.php
 _private
+_profiler/empty/search/results?limit=10
 _profiler/latest?limit=10
 _profiler/phpinfo
 _query.php
@@ -1285,6 +1294,7 @@ a2billing/config.all.php?x
 a2billing/customer/templates/default/footer.tpl
 a2billing/ws.php?
 a411.php
+aTAg
 aa.php
 aaa.php
 aaa9
@@ -1701,6 +1711,7 @@ algo/
 all
 all.sql
 altair
+altibaseIntSearch/common/login.jsp
 amad.php
 amfeed/main/download
 amministratore.php
@@ -1883,6 +1894,7 @@ api/v1/security
 api/v1/status/config
 api/v1/status/flags
 api/v1/targets
+api/v1/ui_theme
 api/v2/ajax
 api/v2/api-docs
 api/v3/users/do-change-password
@@ -1994,6 +2006,7 @@ arguments
 article.htm
 article?id=${7*7}
 asa.cfg
+asdf.php
 asjc.php
 asp.aspx
 aspnet_client/system_web/4_0_30319/OutlookIN.aspx
@@ -2352,6 +2365,7 @@ business
 bycn
 bz.gif
 c-h.v2.php
+c.php
 c/
 c/version.js
 c100.php
@@ -3643,6 +3657,8 @@ hello.php
 help
 help-e.php
 help.php
+help/admin-guide/info.jsp?x=cmd.exe%20%2Fc%20ver
+help/admin-guide/info.jsp?x=whoami
 help/config.all.php?
 help/config.all.php?x
 help/decsdoc.nsf
@@ -3911,6 +3927,8 @@ info.json
 info.php
 info.php/
 info.txt
+infophp.php
+infos.php
 inicio.cgi
 inicio.jsa
 init
@@ -4364,6 +4382,7 @@ logs_console/
 lol.php
 lotus
 loyalty_enu/start.swe/%3E%22%3E%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E
+luci-static/top-iot/favicon.ico
 lz.php
 m
 m.api
@@ -4755,6 +4774,7 @@ old/.env
 old/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
 old/wp-content/plugins/wp-file-manager/readme.txt
 old_files
+old_phpinfo.php
 old_site/
 oldfiles
 oldsite
@@ -4769,6 +4789,7 @@ openam/ui/PWResetUserValidation
 openserver/phpmyadmin/
 opensis/ajax.php?modname=misc/../../../../../../../../../../../../../etc/passwd&bypass=Transcripts.php
 opt
+opt/env/.env
 or
 oracle
 order.log
@@ -5466,6 +5487,7 @@ phpunit/Util/PHP/eval-stdin.php
 phpunit/phpunit/Util/PHP/eval-stdin.php
 phpunit/phpunit/src/Util/PHP/eval-stdin.php
 phpunit/src/Util/PHP/eval-stdin.php
+phpversion.php
 phpversions.php
 phpversions.php?module=upload
 phpversions.php?module=upload&11
@@ -5922,6 +5944,7 @@ remote.php/webdav/
 remote/fgt_lang?lang=/../../../..//////////dev/
 remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession
 remote/login
+remote/login?lang=en
 remote;
 reportError.php
 reportcockpit
@@ -6120,6 +6143,7 @@ server-status/
 server.cfg
 server.key
 server.log
+server.php
 server.xml
 server/
 server/.env
@@ -6456,6 +6480,7 @@ static/home/css2/login--1.css
 static/home/js/rooms.js
 static/home/static/js/login.js
 static/image/chicang.png
+static/images/favicon.ico
 static/images/login_bg.jpg
 static/img/bitbeb-logo.png
 static/index/css/iindex.css
@@ -6751,6 +6776,7 @@ thriveGame.css
 ticketing/index.html
 ticketing/swagger/v1/swagger.json
 tiger/
+time.php
 timeline.html
 tiny_mce/
 tiny_mce/plugins/filemanager/examples.html

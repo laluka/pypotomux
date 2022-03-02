@@ -2291,6 +2291,7 @@ cshalt
 csid
 csr
 csrf
+csrfCookie
 csrftoken
 css
 cssfile
@@ -7758,6 +7759,7 @@ school
 schooldatex
 scid
 scope
+scopeName
 score
 scores
 screen
