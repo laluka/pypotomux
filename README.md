@@ -6,6 +6,7 @@ pypotomux - A python protocol demuxed honeypot (potomiel)
 ## How to update wordlists
 
 ```bash
+# TODO update for using tar -zcvf
 scp -r root@vpn.thinkloveshare.com:/opt/broneypote/dump .
 ssh root@vpn.thinkloveshare.com find /opt/broneypote/dump -type f -delete
 act; python generate-wordlists.py
