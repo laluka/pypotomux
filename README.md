@@ -7,7 +7,10 @@ pypotomux - A python protocol demuxed honeypot (potomiel)
 
 ```bash
 # TODO update for using tar -zcvf
-scp -r root@vpn.thinkloveshare.com:/opt/broneypote/dump .
+ssh root@vpn.thinkloveshare.com tar -zcvf /tmp/dump.tgz /opt/broneypote/dump
+scp root@vpn.thinkloveshare.com:/tmp/dump.tgz .
+tar -zxvf dump.tgz
+ssh root@vpn.thinkloveshare.com /bin/rm /tmp/dump.tgz
 ssh root@vpn.thinkloveshare.com find /opt/broneypote/dump -type f -delete
 act; python generate-wordlists.py
 grep -hrioP '[a-zA-Z0-9_-]+=' dump | tr -d = > /tmp/params; sort -uV wordlists/params.lst /tmp/params -o wordlists/params.lst
