@@ -2,7 +2,9 @@ GBK,utf-8;q=0.7,*;q=0.3
 ISO-8859-1,utf-8;q=0.7,*;q=0.7
 ISO-8859-15,utf-8;q=0.7,*;q=0.7
 ISO-8859-1;utf-8;q=0.7,*;q=0.7
+UTF-8
 ZGllKG1kNSgnSGVsbG9waHBTdHVkeScpKTs=
 ZWNobyAnWm1GdVozcG9ZVzVuJzs=
 c3lzdGVtKCdkaXIgL2Ivcy93IHd3dycpOw==
 utf-8
+windows-1251,utf-8;q=0.7,*;q=0.3

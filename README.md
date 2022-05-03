@@ -9,14 +9,15 @@ pypotomux - A python protocol demuxed honeypot (potomiel)
 # TODO update for using tar -zcvf
 ssh root@vpn.thinkloveshare.com tar -zcvf /tmp/dump.tgz /opt/broneypote/dump
 scp root@vpn.thinkloveshare.com:/tmp/dump.tgz .
-tar -zxvf dump.tgz
+tar -zxvf dump.tgz; mv opt/broneypote/dump .
 ssh root@vpn.thinkloveshare.com /bin/rm /tmp/dump.tgz
 ssh root@vpn.thinkloveshare.com find /opt/broneypote/dump -type f -delete
 act; python generate-wordlists.py
 grep -hrioP '[a-zA-Z0-9_-]+=' dump | tr -d = > /tmp/params; sort -uV wordlists/params.lst /tmp/params -o wordlists/params.lst
+# Do the actual triage
 git diff HEAD | grep -iE '^[+-]'
+/bin/rm -rf opt dump.tgz dump /tmp/params
 git commit -am "updated wordlist from broneypote"
-rm -rf dump /tmp/params
 ```
 
 

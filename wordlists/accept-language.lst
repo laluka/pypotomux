@@ -1,3 +1,4 @@
+*
 ar,en-US;q=0.7,en;q=0.3
 cn-CN,cn;q=0.5
 en
@@ -32,6 +33,7 @@ en;q=0.9,en;q=0.8
 fr,en;q=0.9
 fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3
 ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
 tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
 zh-CN
 zh-CN,en,*

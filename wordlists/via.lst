@@ -3,3 +3,4 @@
 1.1 izj6c5wlll5csmagpei7jnz (squid/3.5.20)
 1.1 ubuntu (squid/4.10)
 HTTP/1.1 forward.http.proxy:3128
+HTTP/1.1 sophos.http.proxy:3128
