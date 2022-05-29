@@ -530,6 +530,8 @@
 .well-known/assetlinks.json
 .well-known/security.txt
 .well-known/security.txt/
+.well-known/oauth-authorization-server
+.well-known/openid-configuration
 .wim
 .workspace/
 .wp-config.php.swp
