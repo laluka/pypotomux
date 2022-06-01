@@ -1,5 +1,7 @@
 *
+*/*
 UTF-8
+br
 default
 deflate, gzip
 deflate, gzip, br

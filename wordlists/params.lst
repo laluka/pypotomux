@@ -562,6 +562,7 @@ SignInId
 SignInURL
 Signature
 SignatureValue
+Silk-Accelerated
 Skin
 SocketPoolPostSettings
 SocketPool_UseKeepAlive
@@ -2489,6 +2490,7 @@ datadir
 dataflt
 datagapangle
 datagapradius
+datagrid
 dataofs
 dataroot
 dataset
@@ -3836,6 +3838,7 @@ fromsearch
 fromuserid
 fromusername
 from_cache
+from_page
 front
 frontend
 frontpage

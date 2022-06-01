@@ -18,6 +18,7 @@ PHPSESSID=20HyDW61oD9wwmZAMXh4iVVeoiQ
 TWISTED_SESSION=no
 X-AnonResource=true; X-AnonResource-Backend=localhost/ecp/default.flt?~3; X-BEResource=localhost/owa/auth/logon.aspx?~3;
 X-BEResource=/EWS/Exchange.asmx?a=~1942062522;
+X-BEResource=localhost~1942062522
 \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
 __cfduid=387d46e23866efcf2b16a2169d68e2e485d1af9f775d
 __cfduid=4e8d79b4192881afa5bbd2f59f826e9a43719f9f3270
@@ -40,6 +41,8 @@ rememberMe=0
 rememberMe=1
 rememberMe=admin
 rememberMe=axxxxxxxxxx123456
+rememberMe=me
+rememberMe=test
 session=;
 sesskey=
 td_cookie=711915097

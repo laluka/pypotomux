@@ -35,6 +35,7 @@
 -sip-interop.cfg
 ../
 ../../../../../../../../../etc/passwd
+../../../mnt/mtd/Config/Account1
 ../.git/HEAD
 ..;/
 ..;/manager
@@ -528,10 +529,9 @@
 .well-known/acme-challenge/%3C%3fxml%20version=%221.0%22%3f%3E%3Cx:script%20xmlns:x=%22http://www.w3.org/1999/xhtml%22%3Ealert%28document.domain%26%23x29%3B%3C/x:script%3E
 .well-known/apple-app-site-association
 .well-known/assetlinks.json
-.well-known/security.txt
-.well-known/security.txt/
 .well-known/oauth-authorization-server
 .well-known/openid-configuration
+.well-known/security.txt
 .wim
 .workspace/
 .wp-config.php.swp
@@ -734,6 +734,7 @@
 ?q=user/password
 ?qm_display_admin_bar=1
 ?rest_route=/wp/v2/users
+?rest_route=/wp/v2/users/
 ?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=0odj3x8v
 ?s=ax6zt%2522%253e%253cscript%253ealert%2528document.domain%2529%253c%252fscript%253ey6uu6
 ?s=foo
@@ -755,7 +756,9 @@ Admin
 Admin/
 Admin/import.php
 Admin/phpMyAdmin/
+Admin/phpMyAdmin/scripts/setup.php
 Admin/phpmyadmin/
+Admin/phpmyadmin/scripts/setup.php
 Admin85565b90/Login.php
 Adminb41430cc/Login.php
 Admindb9ddf9f/Login.php
@@ -769,6 +772,7 @@ Alarg53.php
 Android/Sdk/tools
 Api/Session
 App/?content=die(md5(HelloThinkPHP))
+App_Config/ConnectionStrings.config
 Application/Buy/Static/js/if.js
 Applis/
 Applis/TOPdesk/web/open/
@@ -787,6 +791,7 @@ Basics
 BingSiteAuth.xml
 Black.php
 Blog/wp-content/plugins/wp-file-manager/readme.txt
+Buy/Index/getCardListByType?typeid=344
 BzPP
 CC.php
 CCC.PHP
@@ -992,6 +997,7 @@ Joomla/
 Joomla/administrator
 Joomla/administrator/index.php
 K2fz
+KIz89PGViACfvNpQE2eoOD5u
 KQSm
 KULp
 KXHr
@@ -1042,6 +1048,7 @@ MyAdmin/index.php?lang=en
 MyAdmin/scripts/db___.init.php
 MyAdmin/scripts/setup.php
 MySQL
+MySQL/scripts/setup.php
 MySQLAdmin/index.php
 MySQLDumper
 MySQLDumper/main.php
@@ -1095,6 +1102,7 @@ PMA2016/index.php?lang=en
 PMA2021/index.php?lang=en
 PRIVACY
 PROV/
+PSBC-1
 PSBlock
 Pages/RedirectPage.aspx
 Pages/logout.aspx
@@ -1140,6 +1148,7 @@ README.md
 README.txt
 RELEASE_NOTES.txt
 RPC2
+RVP/index10.php
 RadControls/Window/Skins/Vista/Window.css
 Read
 Read%20Me.txt
@@ -1152,6 +1161,7 @@ Repository
 Res
 Res/font/font.css
 Resources/libraries/jQuery/
+RestAPI/ImportTechnicians
 RichWidgets/Popup_Upload.aspx
 RootCA.crt
 SAD.cfg
@@ -1401,9 +1411,11 @@ _nuxt/155eb85.js
 _nuxt/8a8f6ee.js
 _old
 _pHpMyAdMiN/
+_pHpMyAdMiN/scripts/setup.php
 _pages
 _phpMyAdmin/
 _phpMyAdmin/index.php?lang=en
+_phpMyAdmin/scripts/setup.php
 _phpmyadmin/
 _phpmyadmin/import.php
 _phpmyadmin/index.php?lang=en
@@ -1432,6 +1444,7 @@ _vti_pvt/service.cnf
 _www
 a
 a.php
+a/other/codepay/js/codepay_util.js
 a2billing/admin/Public/index.php
 a2billing/agent/Public/Dod.php
 a2billing/common/images/config.all.php?
@@ -1924,6 +1937,7 @@ api.php?
 api.php??act=cmd
 api.php?arg1=1&arg2=foo
 api.php?key=1
+api.php?key=1&apikey=1
 api/
 api/..;/api/jsonws
 api/.env
@@ -1932,12 +1946,14 @@ api/1.0/
 api/4
 api/?wsdl
 api/ApiHub/fetchJinse
+api/Game/getAppConfig
 api/Index/getLottery
 api/app-info
 api/app/config_new
 api/application.wadl
 api/apps
 api/apps/config
+api/backstageManagement/system/systemConfigForPlatform
 api/batch
 api/blog/5e09fe7d-84f5-4630-90c6-c0a838627227
 api/bong88-links
@@ -1974,7 +1990,11 @@ api/fonction/1
 api/geojson?url=file:///etc/hosts
 api/geojson?url=file:/etc/hosts
 api/getconfig.aspx
+api/getonLine
+api/hevent
 api/ht/xy1
+api/im/conf
+api/im/v2/app/t
 api/index
 api/index.html
 api/index/config
@@ -2211,6 +2231,7 @@ assets/fckeditor
 assets/graph.php
 assets/images/bg.jpg
 assets/images/mobile/dou_charge_money_icon.png
+assets/images/mobile/dou_icon_money.png
 assets/js/dmshub.js
 assets/js/fckeditor
 assets/js/quickblox/config.js
@@ -2257,6 +2278,7 @@ auth/login.html
 auth/login.jsp
 auth/login.php
 auth/login/okta-fdj/?auth_entry=register&next=%2Fdashboard
+auth/login?from_page=/
 auth/oauth/token
 auth/oauth2/..;/ccversion/Version?jato.pageSession=999
 auth/profil
@@ -2331,6 +2353,7 @@ back/.env
 backdoor.php
 backdoor/
 backend/.env
+backend/backend/auth/signin
 backoffice
 backup
 backup-
@@ -2605,6 +2628,7 @@ cantlogin
 caonma.php
 cap_union_new_verify
 captcha.php
+carbon/admin/login.jsp
 carina.cyberrange.cloud
 cas/changelog.txt
 cas/favicon.ico
@@ -2634,6 +2658,7 @@ cc-log.txt
 cc.php
 ccbill.log
 ccpvbzacbhczc
+ccsj/common/download.js
 cdn-cgi/trace
 ce.PHP
 cell.xml
@@ -2642,6 +2667,7 @@ cer.php
 cere.php
 certsrv.nsf
 ceshi.php
+cf_scripts/scripts/ajax/ckeditor/config.js
 cf_scripts/scripts/ajax/ckeditor/plugins/filemanager/
 cf_scripts/scripts/ajax/ckeditor/plugins/filemanager/upload.cf
 cf_scripts/scripts/ajax/ckeditor/plugins/filemanager/upload.cfm
@@ -2662,6 +2688,7 @@ cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh
 cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh
 cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/passwd
 cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh
+cgi-bin/../../../../bin/sh
 cgi-bin/.2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/passwd
 cgi-bin/.env
 cgi-bin/;whoami
@@ -2961,6 +2988,7 @@ configs/conf_bdd.ini
 configs/conf_zepass.ini
 configs/config.all.php?
 configs/config.all.php?x
+configuracion/phpmyadmin/scripts/setup.php
 configuration
 configuration.ini
 configuration.php
@@ -3125,11 +3153,13 @@ css/main.css
 css/nsc/reset.css
 css/post-jquery-ui.css
 css/reset.yui.css
+css/scanner.css
 css/skin/ymPrompt.css
 css/style.css
 css/stylesEV.css
 css/view/main/goin.css
 css/view/main/style.css
+ctl/login.php
 cube
 cuic
 culeadora.txt
@@ -3369,6 +3399,9 @@ deployment/.env
 desktop.ini.php
 desktop/index_framed.htm
 desktopdefault.aspx
+detaila/images/header_v1b.css
+detaila/images/logo.png
+detaila/js/unified_service.js
 details.aspx
 dev
 dev.php
@@ -3423,6 +3456,7 @@ dispositif/square-habitat
 dispositif/table-tactile
 dist/
 dist/images/mask/bg1.jpg
+dist/images/mask/guide/cn/step1.jpg
 dist/javascripts/system.config.js
 distv2/index.html
 diy.php
@@ -3567,6 +3601,7 @@ ecp/N.js
 ecp/Xo.js
 ecp/kK.js
 ecp/pentest.js
+ecp/wRP.js
 ector.do
 edit.php
 edit/spaw2/dialogs/dialog.php
@@ -3628,6 +3663,7 @@ enseigne
 enseigne/
 entityRegion
 entitySocialCharges
+entry/login
 env
 env.dev
 env.prod
@@ -3878,6 +3914,7 @@ ganshiqiang.php
 ganzhuolang.php
 gate
 gate/applications
+gates
 gateway/
 gaza.php
 gdi-ref-search/v1/insee/pcs/suggest-pcs?q=test
@@ -3950,6 +3987,7 @@ gs/
 gsy.php
 guai.php
 guess/list.php?pageNum=1
+guest/footer.php
 guest/users/forgotten?email=%22%3E%3Cscript%3Econfirm(document.domain)%3C/script%3E
 guipu.php
 h1.php
@@ -3975,6 +4013,7 @@ haproxy_stats
 haproxy_stats1
 haproxy_stats2
 haproxy_stats3
+hardhat.config.js
 hd.php
 he.php
 head
@@ -4086,6 +4125,8 @@ i.tar.bz2
 i.tar.gz
 i.txt
 i.zip
+iXJQ
+iXJR
 icingaweb2/
 icons
 icons/
@@ -4138,6 +4179,7 @@ img
 img.php
 img/close.png
 img/login.png
+img/logo-new.svg
 img/logo_easi.gif
 img/xxing.png
 img/zllqdk.png
@@ -4263,7 +4305,11 @@ index.xml
 index/Mobile/fenshi?code=sz002405
 index/Mobile/kline_week?code=sz003043
 index/api/config
+index/aurl
 index/getNews
+index/gzid.js
+index/imtoken/auth.html
+index/index/ajaxdata
 index/index/andiro
 index/index/js/api.js
 index/index/purchase.html
@@ -4447,6 +4493,7 @@ js/chat/chat.js
 js/common.js
 js/config.all.php?
 js/config.all.php?x
+js/config.js
 js/config20181225.js
 js/dianzan.js
 js/elfinder/elfinder.php
@@ -4455,6 +4502,7 @@ js/home.js
 js/index.js
 js/json.js
 js/main.js
+js/onLine.js
 js/post.js/
 js/pups.js
 js/swfupload/swfupload.swf
@@ -4564,6 +4612,7 @@ lib/phpunit/Util/PHP/eval-stdin.php
 lib/phpunit/phpunit/Util/PHP/eval-stdin.php
 lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php
 lib/phpunit/src/Util/PHP/eval-stdin.php
+lib/public.js
 lib/spaw2/dialogs/dialog.php
 lib/tiny_mce/
 lib/tinymce/
@@ -4748,6 +4797,7 @@ login_success.do
 loginprocess
 logins.txt
 logo.php
+logo.png
 logo.swf
 logoff
 logoff.aspx
@@ -4809,6 +4859,7 @@ m.php
 m.php?pbid=open
 m/
 m/allticker/1
+m/env.js
 m/images/template_1/style_1/logo1.png
 m/java_script/template_1/game.js
 m/ticker/usdtqc
@@ -4941,6 +4992,8 @@ metrics
 metrics/
 metrologie.php
 metrologie.php?id=0
+mg/other/codepay/js/codepay_util.js
+mgmt/shared/authn/login
 mgmt/tm/util/bash
 mh/phone.do
 miao.php
@@ -4960,6 +5013,7 @@ mixins
 mjx.php
 ml.php
 mm.php
+mmj/index.html
 mmp.php
 mo.php
 moadmin.php
@@ -4968,9 +5022,13 @@ mobile/
 mobile/bluev3/img/bg.png
 mobile/config.js
 mobile/css/base.css
+mobile/index.html
+mobile/lists.html
+mobile/login.html
 mobile/script/main.m.js
 mobile/services/x/ReportTemplateService.xls
 mobile/v3/appSuperDownload.do
+mobile21/js/index/gameManagement.js?v=7
 mobileapp
 mobrise/config.all.php?
 mobrise/config.all.php?x
@@ -5416,8 +5474,10 @@ php.ini~
 php.lnk
 php.log
 php.php
+php/phpMyAdmin/scripts/setup.php
 php/phpmyadmin/
 php/phpmyadmin/scripts/setup.php
+php/scripts/setup.php
 php2MyAdmin/index.php
 php4.ini
 php5.fcgi
@@ -5448,6 +5508,7 @@ phpMyAdmin-2.10.0.2/import.php
 phpMyAdmin-2.10.0.2/scripts/setup.php
 phpMyAdmin-2.10.0/
 phpMyAdmin-2.10.0/import.php
+phpMyAdmin-2.10.0/scripts/setup.php
 phpMyAdmin-2.10.1-rc1/import.php
 phpMyAdmin-2.10.1.0/
 phpMyAdmin-2.10.1.0/scripts/setup.php
@@ -5464,16 +5525,20 @@ phpMyAdmin-2.11.0-beta1/import.php
 phpMyAdmin-2.11.0-rc1/import.php
 phpMyAdmin-2.11.0-rc2/import.php
 phpMyAdmin-2.11.0.0/
+phpMyAdmin-2.11.0.0/scripts/setup.php
 phpMyAdmin-2.11.0/import.php
 phpMyAdmin-2.11.1-all-languages/
 phpMyAdmin-2.11.1-all-languages/scripts/setup.php
 phpMyAdmin-2.11.1-rc1/import.php
 phpMyAdmin-2.11.1-rc1/scripts/setup.php
 phpMyAdmin-2.11.1.0/
+phpMyAdmin-2.11.1.0/scripts/setup.php
 phpMyAdmin-2.11.1.1/
 phpMyAdmin-2.11.1.1/import.php
+phpMyAdmin-2.11.1.1/scripts/setup.php
 phpMyAdmin-2.11.1.2/
 phpMyAdmin-2.11.1.2/import.php
+phpMyAdmin-2.11.1.2/scripts/setup.php
 phpMyAdmin-2.11.1/import.php
 phpMyAdmin-2.11.10.1/import.php
 phpMyAdmin-2.11.10.1/scripts/setup.php
@@ -5558,6 +5623,7 @@ phpMyAdmin-2.5.4/import.php
 phpMyAdmin-2.5.4/scripts/setup.php
 phpMyAdmin-2.5.5-pl1/
 phpMyAdmin-2.5.5-pl1/import.php
+phpMyAdmin-2.5.5-pl1/index.php
 phpMyAdmin-2.5.5-pl1/scripts/setup.php
 phpMyAdmin-2.5.5-rc1/
 phpMyAdmin-2.5.5-rc1/import.php
@@ -5567,6 +5633,7 @@ phpMyAdmin-2.5.5-rc2/import.php
 phpMyAdmin-2.5.5-rc2/scripts/setup.php
 phpMyAdmin-2.5.5/
 phpMyAdmin-2.5.5/import.php
+phpMyAdmin-2.5.5/index.php
 phpMyAdmin-2.5.5/scripts/setup.php
 phpMyAdmin-2.5.6-rc1/
 phpMyAdmin-2.5.6-rc1/import.php
@@ -5674,8 +5741,11 @@ phpMyAdmin-2.6.4/
 phpMyAdmin-2.6.4/import.php
 phpMyAdmin-2.6.4/scripts/setup.php
 phpMyAdmin-2.6.5/
+phpMyAdmin-2.6.5/scripts/setup.php
 phpMyAdmin-2.6.6/
+phpMyAdmin-2.6.6/scripts/setup.php
 phpMyAdmin-2.6.9/
+phpMyAdmin-2.6.9/scripts/setup.php
 phpMyAdmin-2.7.0-beta1/
 phpMyAdmin-2.7.0-beta1/import.php
 phpMyAdmin-2.7.0-beta1/scripts/setup.php
@@ -5692,8 +5762,11 @@ phpMyAdmin-2.7.0/
 phpMyAdmin-2.7.0/import.php
 phpMyAdmin-2.7.0/scripts/setup.php
 phpMyAdmin-2.7.5/
+phpMyAdmin-2.7.5/scripts/setup.php
 phpMyAdmin-2.7.6/
+phpMyAdmin-2.7.6/scripts/setup.php
 phpMyAdmin-2.7.7/
+phpMyAdmin-2.7.7/scripts/setup.php
 phpMyAdmin-2.8.0-beta1/
 phpMyAdmin-2.8.0-beta1/import.php
 phpMyAdmin-2.8.0-beta1/scripts/setup.php
@@ -5728,21 +5801,35 @@ phpMyAdmin-2.8.2.1/import.php
 phpMyAdmin-2.8.2.2/import.php
 phpMyAdmin-2.8.2.3/
 phpMyAdmin-2.8.2.3/import.php
+phpMyAdmin-2.8.2.3/scripts/setup.php
 phpMyAdmin-2.8.2/
 phpMyAdmin-2.8.2/scripts/setup.php
 phpMyAdmin-2.8.3/
+phpMyAdmin-2.8.3/scripts/setup.php
 phpMyAdmin-2.8.4/
+phpMyAdmin-2.8.4/scripts/setup.php
 phpMyAdmin-2.8.5/
+phpMyAdmin-2.8.5/scripts/setup.php
 phpMyAdmin-2.8.6/
+phpMyAdmin-2.8.6/scripts/setup.php
 phpMyAdmin-2.8.7/
+phpMyAdmin-2.8.7/scripts/setup.php
 phpMyAdmin-2.8.8/
+phpMyAdmin-2.8.8/scripts/setup.php
 phpMyAdmin-2.8.9/
+phpMyAdmin-2.8.9/scripts/setup.php
 phpMyAdmin-2.9.0-rc1/
+phpMyAdmin-2.9.0-rc1/scripts/setup.php
 phpMyAdmin-2.9.0.1/
+phpMyAdmin-2.9.0.1/scripts/setup.php
 phpMyAdmin-2.9.0.2/
+phpMyAdmin-2.9.0.2/scripts/setup.php
 phpMyAdmin-2.9.0/
+phpMyAdmin-2.9.0/scripts/setup.php
 phpMyAdmin-2.9.1/
+phpMyAdmin-2.9.1/scripts/setup.php
 phpMyAdmin-2.9.2/
+phpMyAdmin-2.9.2/scripts/setup.php
 phpMyAdmin-2/
 phpMyAdmin-2/scripts/setup.php
 phpMyAdmin-3.0.0-rc1-english/
@@ -5755,11 +5842,14 @@ phpMyAdmin-3.0.1.0-all-languages/scripts/setup.php%20
 phpMyAdmin-3.0.1.0-english/
 phpMyAdmin-3.0.1.0-english/scripts/setup.php%20
 phpMyAdmin-3.0.1.0/
+phpMyAdmin-3.0.1.0/scripts/setup.php
 phpMyAdmin-3.0.1.1/
+phpMyAdmin-3.0.1.1/scripts/setup.php
 phpMyAdmin-3.1.0.0-all-languages/scripts/setup.php%20
 phpMyAdmin-3.1.0.0-english/
 phpMyAdmin-3.1.0.0-english/scripts/setup.php%20
 phpMyAdmin-3.1.0.0/
+phpMyAdmin-3.1.0.0/scripts/setup.php
 phpMyAdmin-3.1.1.0-all-languages/
 phpMyAdmin-3.1.1.0-all-languages/scripts/setup.php
 phpMyAdmin-3.1.1.0-english/scripts/setup.php
@@ -5768,9 +5858,11 @@ phpMyAdmin-3.1.2.0-all-languages/scripts/setup.php
 phpMyAdmin-3.1.2.0-english/
 phpMyAdmin-3.1.2.0-english/scripts/setup.php
 phpMyAdmin-3.1.2.0/
+phpMyAdmin-3.1.2.0/scripts/setup.php
 phpMyAdmin-3.1.3.0-all-languages/scripts/setup.php
 phpMyAdmin-3.1.3.0-english/scripts/setup.php
 phpMyAdmin-3.4.3.1/
+phpMyAdmin-3.4.3.1/scripts/setup.php
 phpMyAdmin-3/
 phpMyAdmin-3/index.php?lang=en
 phpMyAdmin-4.0.10.10-all-languages/
@@ -5968,6 +6060,7 @@ phpmyadmin5/scripts/setup.php
 phpmyadmin6/scripts/setup.php
 phpmyadmin7/scripts/setup.php
 phpmyadmin_/index.php?lang=en
+phpmyadmin_/scripts/setup.php
 phpmya~1/index.php
 phpmya~1/phpmyadmin/index.php
 phppgadmin/
@@ -6270,6 +6363,7 @@ public/spread.php
 public/static/css/denglu.css
 public/static/css/public.css
 public/static/home/js/moblie/login.js
+public/static/index/picture/img_33.png
 public/tpl/default/static/css.css
 public/v1/3dsv1/notify/pares
 public/wap/js/basis.js
@@ -6482,6 +6576,7 @@ register.php
 registration
 registration/ajax/check-loyaltycard
 registration/ajax/checkemail
+registrauser.php
 registry
 relancer
 relaxed
@@ -6503,6 +6598,7 @@ requested.html
 res
 res/
 res/api/v1/ruleapps
+res/kuai/1.css
 res/protected/home.jsf
 resdatasource
 reseller
@@ -6516,8 +6612,10 @@ resolve
 resolve?dns=B64
 resolve?dns=bG9jYWxob3N0
 resolve?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB
+resource/home/js/common.js
 resources.xml
 resources/
+resources/.env
 resources/css/headernav.css
 resources/fckeditor
 resources/index.html
@@ -6568,6 +6666,7 @@ rst.php
 rtsp/
 ruii.php
 run
+run/asdf
 ruyi.php
 rxr.php
 s
@@ -6657,6 +6756,7 @@ scripts/shell.asp
 scrm/crm/admin
 sda1-8]
 sdk
+sdk.html
 sdk/
 sdk/DocumentsService
 sean.php
@@ -6738,6 +6838,7 @@ servlet/Oracle.xml.xsql.XSQLServlet/xsql/lib/XSQLConfig.xml
 servlet/oracle.xml.xsql.XSQLServlet/soapdocs/webapps/soap/WEB-INF/config/soapConfig.xml
 servlet/oracle.xml.xsql.XSQLServlet/xsql/lib/XSQLConfig.xml
 servlet/~ic/bsh.servlet.BshServlet
+servlet?m=mod_data&p=features-general&q=load
 servlets/com.adventnet.tools.sum.transport.SUMCommunicationServlet
 session-config
 session-timeout
@@ -7025,6 +7126,7 @@ ssl/localhost.key
 sso
 sso/ui/PWResetUserValidation
 sss.php
+sssss
 stack/django/changelog.txt
 stalker_portal/api/stb
 stalker_portal/c/
@@ -7033,6 +7135,7 @@ stalker_portal/server/adm/login
 stalker_portal/server/load.php?type=stb&action=handshake&token=&prehash=0&JsHttpRequest=1-xml
 stalker_portal/server/tools/auth_simple.php
 stalker_portal/server/tools/m3u.php
+standalone.html
 start.cgi
 start.jsa
 start.pl
@@ -7041,6 +7144,7 @@ stat
 stat.jsp?cmd=chcp+437+%7c+dir
 stat/
 static/
+static/Mobile/js/common.js
 static/admincp/js/common.js
 static/common/js/common.js
 static/common/js/global.js
@@ -7061,6 +7165,7 @@ static/h5/img/icon__create-group.png
 static/hadoop-st.png
 static/home/csjs/bankCheck.js
 static/home/css/css.css
+static/home/css/new_cfb.css
 static/home/css2/login--1.css
 static/home/js/rooms.js
 static/home/static/js/login.js
@@ -7068,6 +7173,8 @@ static/image/chicang.png
 static/images/favicon.ico
 static/images/login_bg.jpg
 static/img/bitbeb-logo.png
+static/img/notices.png
+static/imgs/game/green2.png
 static/index/css/iindex.css
 static/index/js/lk/order.js
 static/js/6.8953666039a2d840ca5a.js
@@ -7089,6 +7196,7 @@ static/tabBar/trade.png
 static/wap/css/index.css
 static/wap/css/trade-history.css
 static/wap/js/common.js
+static/wap/js/order.js
 static/xianyu/js/bankCheck.js
 statics/html/translation_en.js/
 statics/js/API.js
@@ -7322,6 +7430,7 @@ test.sqlite
 test.txt
 test/
 test/.env
+test/actuator
 test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php
 test/wp-admin/setup-config.php?step=0
 test/wp-includes/wlwmanifest.xml
@@ -7483,6 +7592,7 @@ ui/api/v1/global-search/builds?jfLoader=true
 ui/favicon.ico
 ui/h5-vsan/rest/proxy/service/com.vmware.vsan.client.services.capability.VsanCapabilityProvider/getClusterCapabilityData
 ui/login
+ui/login.action
 ui/login.php
 ui/login.php?user=admin
 ui/vault/
@@ -7571,6 +7681,8 @@ useradmin/
 usercp2.php
 userfiles
 usernames.txt
+userportal/Controller
+userportal/Controller?mode=8700&operation=1&datagrid=179&json={"ð½":"TEST"}
 userr.php
 users
 users.csv
@@ -7598,10 +7710,12 @@ v1.16/version
 v1.24/version
 v1/.env
 v1/agent/self
+v1/agent/services
 v1/auth/getCaptcha
 v1/auth/users?pageNo=1&pageSize=9
 v1/catalog/datacenters
 v1/docs//..\\\..\\\..\\\..\\\..\\\..\\\..\\\..\\\..\\\..\\\..\\\..\\\..\\\..\\\..\\\..\\\/etc/passwd
+v1/getConfig
 v1/management/tenant/getSpeedDomain
 v1/submissions
 v1/sys/health
@@ -7660,6 +7774,7 @@ version
 version/
 vf.php
 vgrid_server.php
+vhsdfkvd/bmkfgbf/5245.cfg
 vicidial/admin.php?ADD=140000000000
 view.php
 view/all/newJob
@@ -7729,8 +7844,10 @@ wanan.php
 wanipcn.xml
 wanmei.php
 wap
+wap/
 wap/api/exchangerateuserconfig!get.action
 wap/banner/details
+wap/static//images/index_tzjr.png
 wap/trading/get_newallorder_ajax
 wap/trading/lastKlineParameter
 waplogin.php
@@ -8019,6 +8136,7 @@ wp-json/wp/v2/users/1
 wp-login.php
 wp-login.php/
 wp-login.php?action=lostpassword
+wp-phpmyadmin/phpmyadmin/scripts/setup.php
 wp-register.php
 wp.php
 wp.rar/
@@ -8184,6 +8302,7 @@ zhui.php
 zm_cms/spaw2/dialogs/dialog.php
 zmp.php
 zone-h.php
+zoushi
 zp-core/setup/index.php
 zp/zp-core/setup/index.php
 zshmindex.php
@@ -8209,4 +8328,5 @@ zzz.php
 ~
 ~%24
 ~install/
+~phpmyadmin/scripts/setup.php
 ~~
