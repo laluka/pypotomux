@@ -58,6 +58,8 @@ for doing in doings:
     if doing == "accept":
         pass # Nothing to do yet
     elif doing == "accept-charset":
+        findings = [_ for _ in findings if not "c3lzdGVtKC" in _]
+        findings.append("c3lzdGVtKCdkaXIgL2Ivcy93IHd3dycpOw==")
         pass # Nothing to do yet
     elif doing == "accept-encoding":
         pass # Nothing to do yet
@@ -72,6 +74,8 @@ for doing in doings:
     elif doing == "connection":
         pass # Nothing to do yet
     elif doing == "content-type":
+        findings = [_ for _ in findings if not "%{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader" in _]
+        findings.append("%{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('xuh9ugc2','1')}.multipart/form-data")
         pass # Nothing to do yet
     elif doing == "cookie":
         pass # Nothing to do yet
@@ -130,7 +134,14 @@ for doing in doings:
         findings = [_ for _ in findings if not re.search("^text(/folder/review|404|Check)", _)]
         findings = [_ for _ in findings if not "dns-query?dns=" in _]
         findings.append("dns-query?dns=bG9jYWxob3N0")
+        findings = [_ for _ in findings if not "%24%7B%28%23a%3D%40org.apache.commons.io.IOUtils" in _]
+        findings.append("%40toString%28%40java.lang.Runtime%40getRuntime%28%29.exec%28%22id%22%29.getInputStream%28%29%2C%22utf-8%22%29%29.%28%40com.opensymphony.webwork.ServletActionContext%40getResponse%28%29.setHeader%28%22X-Cmd-Response%22%2C%23a%29%29%7D//")
+        findings = [_ for _ in findings if not "function=call_user_func_array&vars[0]=md5&vars[1][]=" in _]
+        findings.append("s=/Index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=4jyqfh7x")
         
+        
+
+
         """
         findings = [_ for _ in findings if not "TEMPLATE" in _]
         findings.append("TEMPLATE")
@@ -152,8 +163,6 @@ for doing in doings:
     elif doing == "x-requested-with":
         pass # Nothing to do yet
     
-    # c3lzdGVtKCdkaXIgL2Ivcy93IHd3dycpOw==
-    
     # Fucking log4j garbage
     findings = [_ for _ in findings if not re.search(r"\$\{lower", _)]
     findings = [_ for _ in findings if not re.search(r"\$\{::-j\}", _)]
@@ -164,6 +173,7 @@ for doing in doings:
     findings = [_ for _ in findings if not re.search(r"%7Dndi", _)]
     findings = [_ for _ in findings if not re.search(r"JHtqbm", _)]
     findings = [_ for _ in findings if not re.search(r"jndi:dns", _)]
+    findings = [_ for _ in findings if not re.search(r"-j\}\$\{", _)]
 
     # for finding in findings:
     #     if re.search(r"jndi:dns", finding):

@@ -13,6 +13,7 @@ gzip, deflate, compress
 gzip, deflate, sdch
 gzip,deflate
 gzip,deflate,br
+gzip,deflate,sdch
 gzip;q=1.0,deflate;q=0.6,identity;q=0.3
 identity
 none
