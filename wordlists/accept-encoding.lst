@@ -3,9 +3,11 @@
 UTF-8
 br
 default
+deflate, br
 deflate, gzip
 deflate, gzip, br
 deflate, gzip, identity
+gbk, GB2312
 gzip
 gzip, deflate
 gzip, deflate, br

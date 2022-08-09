@@ -138,6 +138,12 @@ for doing in doings:
         findings.append("%40toString%28%40java.lang.Runtime%40getRuntime%28%29.exec%28%22id%22%29.getInputStream%28%29%2C%22utf-8%22%29%29.%28%40com.opensymphony.webwork.ServletActionContext%40getResponse%28%29.setHeader%28%22X-Cmd-Response%22%2C%23a%29%29%7D//")
         findings = [_ for _ in findings if not "function=call_user_func_array&vars[0]=md5&vars[1][]=" in _]
         findings.append("s=/Index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=4jyqfh7x")
+        findings = [_ for _ in findings if not "owa/auth/logon.aspx?replaceCurrent=" in _]
+        findings.append("owa/auth/logon.aspx?replaceCurrent=1&url=http://127.0.0.1/ecp")
+        findings = [_ for _ in findings if not "owa/auth/logon.aspx?url=" in _]
+        findings.append("owa/auth/logon.aspx?url=http://127.0.0.1/ecp")
+        
+        
         
         
 
@@ -159,6 +165,8 @@ for doing in doings:
     elif doing == "via":
         pass # Nothing to do yet
     elif doing == "x-forwarded-for":
+        # TODO test me on next compile
+        # findings = [_ for _ in findings if not re.search(r"^[\d]{0,3}\.[\d]{0,3}\.[\d]{0,3}\.[\d]{0,3}$", _)]
         pass # Nothing to do yet
     elif doing == "x-requested-with":
         pass # Nothing to do yet
