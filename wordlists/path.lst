@@ -8846,3 +8846,4 @@ zzz.php
 ~install/
 ~phpmyadmin/scripts/setup.php
 ~~
+.well-known/jwks.json
