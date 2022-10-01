@@ -31,6 +31,7 @@ _ga=GA1.2.163966002.1612866791; _gid=GA1.2.1280108070.1620745746
 _ga=GA1.2.163966002.1612866791; _gid=GA1.2.353732362.1622924102
 _ga=GA1.2.163966002.1612866791; _gid=GA1.2.353732362.1622924102; connect.sid=s%3Aqan2w5uoqUzMo3M4xTk6DnLr_4_ht_PN.gwcqAgmuoW4iAG9CUikvG4NqCK6tB1JCFPYC0SRz3Ao
 _ga=GA1.2.KNAWLVT5s2OaA36Y3vu4MDrXnUP_wj36MB7GzK8%3D
+admin:language=en; path=/
 c=cookie
 cookie=ok
 csrfCookie=e8951105786dfccc0abfa6a55442eb6c70c8aaf8-1635430439424-69a10d2ee4dfa1ee40757158
@@ -57,4 +58,5 @@ test=something
 testCookie=true
 uid=HQLFFU3LE1
 uid=R8tBjwtFc8
+uid=admin
 wordpress_test_cookie=WP+Cookie+check

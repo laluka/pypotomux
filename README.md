@@ -15,7 +15,8 @@ ssh root@vpn.thinkloveshare.com find /opt/broneypote/dump -type f -delete
 act; python generate-wordlists.py
 grep -hrioP '[a-zA-Z0-9_-]+=' dump | tr -d = > /tmp/params; sort -uV wordlists/params.lst /tmp/params -o wordlists/params.lst
 # Do the actual triage
-git diff HEAD | grep -iE '^[+-]'
+git diff HEAD | grep -iE '^[-]'
+git diff HEAD | grep -iE '^[+]' | cut -c 2- | less
 /bin/rm -rf opt dump.tgz dump /tmp/params
 git commit -am "updated wordlist from broneypote"
 ```

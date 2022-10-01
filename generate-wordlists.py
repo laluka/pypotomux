@@ -144,10 +144,8 @@ for doing in doings:
         findings.append("owa/auth/logon.aspx?replaceCurrent=1&url=http://127.0.0.1/ecp")
         findings = [_ for _ in findings if not "owa/auth/logon.aspx?url=" in _]
         findings.append("owa/auth/logon.aspx?url=http://127.0.0.1/ecp")
-        
-        
-        
-        
+        findings = [_ for _ in findings if not "autodiscover/autodiscover.json" in _]
+        findings.append("autodiscover/autodiscover.json?a=a@127.0.0.1/ews/exchange.asmx")
 
 
         """
