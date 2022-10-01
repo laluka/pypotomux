@@ -619,8 +619,6 @@ $%7Bnew%20javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22
 12345.php
 15.php
 1556189185.php
-.env
-api/.env
 159.php
 1860
 1board/.env
@@ -3892,8 +3890,8 @@ dns-query
 dns-query?dns=bG9jYWxob3N0
 dns-query?name=www.example.com&type=A
 dns.php
-dnscfg.cgi?dnsPrimary=8.8.8.8&dnsSecondary=8.8.8.8&dnsDynamic=0&dnsRefresh=1&dnsIfcsList=
 dnscfg.cgi?dnsPrimary=8.8.8.8&dnsSecondary=8.8.8.8&dnsDynamic=0&dnsRefresh=1
+dnscfg.cgi?dnsPrimary=8.8.8.8&dnsSecondary=8.8.8.8&dnsDynamic=0&dnsRefresh=1&dnsIfcsList=
 dnslookup.cgi
 dnslookup.cgi?host_name=127.0.0.1;+whoami;&lookup=Lookup&ess_=true
 doLogin
