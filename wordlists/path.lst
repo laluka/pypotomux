@@ -9562,3 +9562,14 @@ zzz.php
 ~install/
 ~phpmyadmin/scripts/setup.php
 ~~
+api/monitoring
+api/monitoring/info
+api/monitoring/loggers
+api/monitoring/status
+info
+loggers
+monitoring
+monitoring/info
+monitoring/loggers
+monitoring/status
+status
