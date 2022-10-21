@@ -9240,6 +9240,7 @@ wp-config.txt
 wp-content/
 wp-content/.env
 wp-content/backup-db/
+wp-content/backups//
 wp-content/backups/
 wp-content/debug.log
 wp-content/phpinfo.php
