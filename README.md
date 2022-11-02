@@ -13,6 +13,7 @@ tar -zxvf dump.tgz; mv opt/broneypote/dump .
 ssh root@vpn.thinkloveshare.com /bin/rm /tmp/dump.tgz
 ssh root@vpn.thinkloveshare.com find /opt/broneypote/dump -type f -delete
 act; python generate-wordlists.py
+
 grep -hrioP '[a-zA-Z0-9_-]+=' dump | tr -d = > /tmp/params; sort -uV wordlists/params.lst /tmp/params -o wordlists/params.lst
 # Do the actual triage
 git diff HEAD | grep -iE '^[-]'
