@@ -24,6 +24,7 @@ text/css,*/*;q=0.1
 text/html
 text/html, */*
 text/html, application/xhtml+xml, */*
+text/html, application/xhtml+xml, image/jxr, */*
 text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
 text/html,*/*
 text/html,application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8

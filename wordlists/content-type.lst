@@ -23,6 +23,7 @@ application/x-www-form-urlencoded; charset=UTF-8
 application/x-www-form-urlencoded; charset=utf-8
 application/x-www-form-urlencoded;charset=UTF-8
 application/xml
+application/xml; charset=utf-8
 gzip, deflate
 multipart/form-data; boundary=---------------------------250033711231076532771336998311
 multipart/form-data; boundary=---------------------------77916619616724262872902741074
@@ -34,6 +35,7 @@ multipart/form-data; boundary=1744fc5d26a2c8793df280174e37f73a
 multipart/form-data; boundary=6985fa39c0698d07f6d418b37388e1b2
 multipart/form-data; boundary=8b1ab266c41afb773af2e064bc526458
 text/html
+text/html,application/x-www-form-urlencoded
 text/html; charset=UTF-8
 text/html; charset=utf-8
 text/plain
