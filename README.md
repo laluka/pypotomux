@@ -18,6 +18,7 @@ git diff HEAD | grep -iE '^[+]' | cut -c 2- | less
 grep -hrioP '[a-zA-Z0-9_-]+=' dump | tr -d = > /tmp/params; sort -uV wordlists/params.lst /tmp/params -o wordlists/params.lst
 /bin/rm -rf opt dump.tgz dump /tmp/params
 git commit -am "updated wordlist from broneypote $(date)"
+git push
 ```
 
 
