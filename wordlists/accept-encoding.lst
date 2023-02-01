@@ -2,13 +2,16 @@
 */*
 UTF-8
 br
+compress
 default
+deflate
 deflate, br
 deflate, gzip
 deflate, gzip, br
 deflate, gzip, identity
 gbk, GB2312
 gzip
+gzip, compress, deflate, br
 gzip, deflate
 gzip, deflate, br
 gzip, deflate, compress

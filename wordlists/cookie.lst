@@ -8,8 +8,8 @@ Authorization=Basic%20YWRtaW46MjEyMzJmMjk3YTU3YTVhNzQzODk0YTBlNGE4MDFmYzM=
 Authorization=Basic%20dXNlcjplZTExY2JiMTkwNTJlNDBiMDdhYWMwY2EwNjBjMjNlZQ==
 CSRF-TOKEN=rnqvt{{shell_exec('cat /etc/passwd')}}to5gw; simcify=uv82sg0jj2oqa0kkr2virls4dl
 D66EEE1927424A0C7A30387777FC6B9ED66EEE19
-Email=Autodiscover/autodiscover.json?a=malvina_dooley@balistreri.biz
-Email=autodiscover/autodiscover.json?a=a@edu.edu
+DESKTOP=1; direct_to_monitor=0; nas_lang=ENG
+Email=autodiscover/autodiscover.json?a=a@127.0.0.1
 IISSessions=79cfdd0e92b120faadd7eb253eb800d0
 IYBCWWS=QdoXqSK71zRwE7UZ67pRZIxg/P8f1Pju7wOjavkA9v+nC2cg3jsdX5bAq4dfq6YpIRNUaUw7sjmau0ugv1lkYJXUt4bXlNXL4lSXUNAIFkpSkZteBCyCfNOW8RYCPlYu2yEwkRqaYftX4zjNi2BgqAOha0WzS4IhJb6HAIwEVitTYo4mp8YQnmxTcj0M9oDlSk35E4wWWrs3gdtkd1E9I/ccGlQ+DeMrOdQrnYD3cB+YgaHfnt0UJs8AM90QmNpLCr79Cc9elsznYvrf4g4SFsJ+dt8e
 JSESSIONID=../../../../../usr/local/tomcat/groovy
@@ -37,19 +37,23 @@ c=cookie
 cookie=ok
 csrfCookie=e8951105786dfccc0abfa6a55442eb6c70c8aaf8-1635430439424-69a10d2ee4dfa1ee40757158
 d2dldCBodHRwOi8vMTI3LjAuMC4xLw==
+fake=fake_value
 hasLogin=1
 homeFirstShow=yes
 id=86897923176771237
 lang=id
 lang=ls
+language=en
 mac=00%3A1a%3A79%3A00%3A00%3A09; stb_lang=en; timezone=Europe/Amsterdam; adid=
 mac=00:1a:79:00:00:09; stb_lang=en; timezone=Europe/Amsterdam;
+mac=; stb_lang=undefined; timezone=undefined; adid=
 rememberMe=+2ewny/4XWAbAc9751f01TtmSLcxlwGmpMy2PSdrBq0=
 rememberMe=0
 rememberMe=1
 rememberMe=admin
 rememberMe=axxxxxxxxxx123456
 rememberMe=me
+rememberMe=shodan
 rememberMe=test
 session=;
 sesskey=

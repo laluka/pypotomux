@@ -11,13 +11,13 @@ scp root@vpn.thinkloveshare.com:/tmp/dump.tgz .
 tar -zxvf dump.tgz; mv opt/broneypote/dump .
 ssh root@vpn.thinkloveshare.com /bin/rm /tmp/dump.tgz
 ssh root@vpn.thinkloveshare.com find /opt/broneypote/dump -type f -delete
-act; python generate-wordlists.py
+python generate-wordlists.py
 # Do the actual triage
 git diff HEAD | grep -iE '^[-]'
 git diff HEAD | grep -iE '^[+]' | cut -c 2- | less
 grep -hrioP '[a-zA-Z0-9_-]+=' dump | tr -d = > /tmp/params; sort -uV wordlists/params.lst /tmp/params -o wordlists/params.lst
 /bin/rm -rf opt dump.tgz dump /tmp/params
-git commit -am "updated wordlist from broneypote"
+git commit -am "updated wordlist from broneypote $(date)"
 ```
 
 

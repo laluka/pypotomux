@@ -140,6 +140,8 @@ for doing in doings:
         findings.append("%40toString%28%40java.lang.Runtime%40getRuntime%28%29.exec%28%22id%22%29.getInputStream%28%29%2C%22utf-8%22%29%29.%28%40com.opensymphony.webwork.ServletActionContext%40getResponse%28%29.setHeader%28%22X-Cmd-Response%22%2C%23a%29%29%7D//")
         findings = [_ for _ in findings if not "function=call_user_func_array&vars[0]=md5&vars[1][]=" in _]
         findings.append("s=/Index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=4jyqfh7x")
+        findings = [_ for _ in findings if not "invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=id" in _]
+        findings.append("public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=id")
         findings = [_ for _ in findings if not "owa/auth/logon.aspx?replaceCurrent=" in _]
         findings.append("owa/auth/logon.aspx?replaceCurrent=1&url=http://127.0.0.1/ecp")
         findings = [_ for _ in findings if not "owa/auth/logon.aspx?url=" in _]
