@@ -1,4 +1,5 @@
 # Custom
+.direnv
 dump.tgz
 .py3
 sslh.cfg
