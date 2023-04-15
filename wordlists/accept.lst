@@ -9,9 +9,11 @@ application/json, text/javascript, */*; q=0.01
 application/json, text/json, text/x-json, text/javascript, application/xml, text/xml
 application/json, text/plain, */*
 application/json,*/*
+application/json,text/html,*/*
 application/x-msgpack
 application/x-shockwave-flash, image/gif, image/jpeg, image/pjpeg, */*
 application/x-www-form-urlencoded
+application/xml
 ext/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 fake/value
 image/*;q=0.8
@@ -39,6 +41,7 @@ text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
 text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng, */*;q=0.8,application/signed-exchange;v=b3;q=0.9
 text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8
+text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
 text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
 text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
 text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/;q=0.8

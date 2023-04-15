@@ -11,6 +11,7 @@ deflate, gzip, br
 deflate, gzip, identity
 gbk, GB2312
 gzip
+gzip, br, deflate
 gzip, compress, deflate, br
 gzip, deflate
 gzip, deflate, br
