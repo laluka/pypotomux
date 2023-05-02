@@ -12,6 +12,7 @@ en-AU,en;q=0.9
 en-CA,en-US;q=0.7,en;q=0.3
 en-EN,en;q=0.9,en-US;q=0.8,en;q=0.7
 en-GB,en-US;q=0.9,en;q=0.8
+en-GB,en-US;q=0.9,en;q=0.8,nl;q=0.7,tr;q=0.6
 en-GB,en;q=0.5
 en-GB,en;q=0.9
 en-US
