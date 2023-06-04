@@ -12,6 +12,7 @@ tar -zxvf dump.tgz; mv opt/broneypote/dump .
 ssh root@vpn.thinkloveshare.com /bin/rm /tmp/dump.tgz
 ssh root@vpn.thinkloveshare.com find /opt/broneypote/dump -type f -delete
 python generate-wordlists.py
+
 # Do the actual triage
 git diff HEAD | grep -iE '^[-]'
 git diff HEAD | grep -iE '^[+]' | cut -c 2- | less
