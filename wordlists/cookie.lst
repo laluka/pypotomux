@@ -6,6 +6,7 @@ Authorization=Basic YWrtaW46YWRtaW4=
 Authorization=Basic dGVsZWNvbWFkbWluOmxvbGVyMjAxOQ==
 Authorization=Basic dGVsZWNvbWFkbWluOnN1cGVyYWRtaW4=
 Authorization=Basic%20YWRtaW46MjEyMzJmMjk3YTU3YTVhNzQzODk0YTBlNGE4MDFmYzM=
+Authorization=Basic%20YWRtaW46NWY0ZGNjM2I1YWE3NjVkNjFkODMyN2RlYjg4MmNmOTk=
 Authorization=Basic%20dXNlcjplZTExY2JiMTkwNTJlNDBiMDdhYWMwY2EwNjBjMjNlZQ==
 CSRF-TOKEN=rnqvt{{shell_exec('cat /etc/passwd')}}to5gw; simcify=uv82sg0jj2oqa0kkr2virls4dl
 D66EEE1927424A0C7A30387777FC6B9ED66EEE19
@@ -53,6 +54,7 @@ language=en
 mac=00%3A1a%3A79%3A00%3A00%3A09; stb_lang=en; timezone=Europe/Amsterdam; adid=
 mac=00:1a:79:00:00:09; stb_lang=en; timezone=Europe/Amsterdam;
 mac=; stb_lang=undefined; timezone=undefined; adid=
+oInnSJKRfeFi=mEKiQrsvlaKxYknBCZ/m2QEp7Co=
 rememberMe=+2ewny/4XWAbAc9751f01TtmSLcxlwGmpMy2PSdrBq0=
 rememberMe=0
 rememberMe=1

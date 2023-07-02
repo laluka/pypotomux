@@ -24,6 +24,7 @@ image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
 image/webp,*/*
 image/webp,*/*;q=0.8
 image/webp,image/apng,image/*,*/*;q=0.8
+image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
 image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5
 text/css,*/*;q=0.1
 text/html
@@ -48,6 +49,7 @@ text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
 text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/;q=0.8
 text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
 text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
 text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
 text/javascript, text/html, application/xml, text/xml, */*
 text/plain,text/html,*/*
