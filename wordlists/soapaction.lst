@@ -1,3 +1,5 @@
+"urn:AdminService"
+"whatever-serviceType#whatever-action"
 http://purenetworks.com/HNAP1/`whoami`
 http://tempuri.org/IOneDriveService/RegisterUpdater
 urn:Belkin:service:basicevent:1#GetBinaryState

