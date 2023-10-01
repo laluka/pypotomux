@@ -8,5 +8,6 @@ Windows-1252,utf-8;q=0.7,*;q=0.3
 ZGllKG1kNSgnSGVsbG9waHBTdHVkeScpKTs=
 ZWNobyAnWm1GdVozcG9ZVzVuJzs=
 c3lzdGVtKCdkaXIgL2Ivcy93IHd3dycpOw==
+gzip, deflate, br
 utf-8
 windows-1251,utf-8;q=0.7,*;q=0.3

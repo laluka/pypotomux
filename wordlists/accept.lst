@@ -1,8 +1,10 @@
 */*
 */*,
+*/*;q=0.8
 /
 Accept: */*
 Accept:*/*
+Application/json, */*
 application/dns-json
 application/dns-message
 application/json

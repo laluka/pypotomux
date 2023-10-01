@@ -9,7 +9,9 @@ deflate
 deflate, br
 deflate, gzip
 deflate, gzip, br
+deflate, gzip, br, zstd
 deflate, gzip, identity
+en-GB,en;q=0.5
 gbk, GB2312
 gzip
 gzip, br, deflate

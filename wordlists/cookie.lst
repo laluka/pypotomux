@@ -31,11 +31,11 @@ PHPSESSID=2M7JbMwdDZC8nTQ1BRO1oiCacfD;
 PHPSESSID=a0d5959357e474aef655313f69891f37
 STATE_COOKIE=&_REQS/_TIME/123
 TWISTED_SESSION=no
-X-AnonResource=true; X-AnonResource-Backend=cfrbcab952g0buu01fh0sx8sdew4q5exc.oast.pro/ecp/default.flt?~3;
 X-AnonResource=true; X-AnonResource-Backend=localhost/ecp/default.flt?~3; X-BEResource=localhost/owa/auth/logon.aspx?~3;
 X-BEResource=/EWS/Exchange.asmx?a=~1942062522;
 X-BEResource=@google.com:443/search#~1;
 X-BEResource=localhost~1942062522
+Xe5/cevERpYUzkCjpuRIhcGga1sBIJ492g3y/d0WAglKcbt+0r3htZGUoe/G+oFbtAUbxcOL1862y+lzB5iS1u8iJF40mYfSYdoi1eY0kgK4A1tQXdZ3+3c5BxWLGhDbIiEHAUHrNpUzhWVRPbfX+HdAzEicDSVtip2sqJgMQ2PNfikZ6inD2lsPh9K35Er3xPCTbwQjCmjPOItoBTDUVIi+OTmRQcxHaHVGflWSUJWxTPaQX5ZHOAzcBZL02kU2M50j80DK47DNCrM+xmWY1t+RaeEOqhVVW5xY4CepL+2v922/dMcSDaL7zwrpy2DOIKrl+WXUqptqvAyxLhjLUA==
 Y=DnyP5/s0JCRbgFZfv+L49q5hjuwhM+cfmrOUmC/Qj+hsWi3MPFPhoKX6YY4QR3xq3LXYBSuYMohEoVpn99O7aHg6El3UXR46+T7GyRx6pG/PeAROHwJNFnv+ShXtJyXIpvRaxxHicC+NyQv6Wj7lIAVF76Vu16/MNpIxuTQl5dKXxUSDspRmYq6Qrfzu77PqvFYLSLEUKYnVrpIji2EhWAyvbB8sNyJVtOrbHqUIkNdp5QClV05ZV/j9CFf3eyujxfKJYqjX2NQLZos4PqE/G612ixvROlyuB+IgILK0zSSV+28=
 \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
 __cfduid=387d46e23866efcf2b16a2169d68e2e485d1af9f775d
@@ -92,7 +92,9 @@ testCookie=true
 uid=HQLFFU3LE1
 uid=R8tBjwtFc8
 uid=admin
+user=admin
 userLanguage=EN; username=admin
 userLanguage=EN; username=null
+webvpn=
 wordpress_test_cookie=WP+Cookie+check
 zbx_session=eyJ
