@@ -2,5 +2,6 @@ Close
 Keep-Alive
 Keep-Alive, TE
 TE, close
+Upgrade
 close
 keep-alive

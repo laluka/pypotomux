@@ -4,6 +4,7 @@
 UTF-8
 br
 compress
+compress, gzip
 default
 deflate
 deflate, br
@@ -18,6 +19,7 @@ gzip, br, deflate
 gzip, compress, deflate, br
 gzip, deflate
 gzip, deflate, br
+gzip, deflate, br, zstd
 gzip, deflate, compress
 gzip, deflate, sdch
 gzip, deflate;q=1.0, *;q=0.5

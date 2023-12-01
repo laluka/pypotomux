@@ -10,6 +10,8 @@ EAP
 application/dns-json
 application/dns-message
 application/grpc-web+proto
+application/html; boundary=------------------------1207a857ebd51e62
+application/html; boundary=------------------------1952d6b2f63243d5
 application/ipp
 application/json
 application/json, text/plain, */*
@@ -69,6 +71,7 @@ text/html; charset=UTF-8
 text/html; charset=utf-8
 text/plain
 text/plain; Charset=UTF-8
+text/plain;charset=UTF-8
 text/xml
 text/xml; Charset=UTF-8
 text/xml; charset="utf-8"

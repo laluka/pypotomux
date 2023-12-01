@@ -28,8 +28,11 @@ LoginTimes=1; SESSIONID=boasid4566b876; UID=admin; PSW=vertex25
 LoginTimes=1; SESSIONID=boasid4566b876; UID=user3; PSW=1234
 PHPSESSID=20HyDW61oD9wwmZAMXh4iVVeoiQ
 PHPSESSID=2M7JbMwdDZC8nTQ1BRO1oiCacfD;
+PHPSESSID=6d6b28814b26610373d6a5fdda8466ca
 PHPSESSID=a0d5959357e474aef655313f69891f37
+PHPSESSIONID=12345
 STATE_COOKIE=&_REQS/_TIME/123
+TSWAFeatureCheckCookie=true
 TWISTED_SESSION=no
 X-AnonResource=true; X-AnonResource-Backend=localhost/ecp/default.flt?~3; X-BEResource=localhost/owa/auth/logon.aspx?~3;
 X-BEResource=/EWS/Exchange.asmx?a=~1942062522;

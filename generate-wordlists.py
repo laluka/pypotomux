@@ -83,6 +83,9 @@ for doing in doings:
         findings = [_ for _ in findings if not _.startswith("sessionid='`wget ")]
         findings.append("sessionid='`wget http://127.0.0.1`'")
     elif doing == "from":
+        findings = [_ for _ in findings if not (_.startswith("root@") and ".oast." in _ )]
+        findings.append("root@127.0.0.1")
+        
         pass # Nothing to do yet
     elif doing == "keep-alive":
         pass # Nothing to do yet
@@ -169,6 +172,11 @@ for doing in doings:
         findings.append("wp-content/plugins/phastpress/phast.php?service=scripts&src=https%3A%2F%2F127.0.0.1")
         findings = [_ for _ in findings if not "modules/babel/redirect.php?newurl=" in _]
         findings.append("modules/babel/redirect.php?newurl=http://127.0.0.1")
+        findings = [_ for _ in findings if not "cgi-bin/luci/;stok=/locale?form=country" in _]
+        findings.append("cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id)")        
+        findings = [_ for _ in findings if not "wp-admin/admin-ajax.php?action=formcraft3_get&URL=" in _]
+        findings.append("wp-admin/admin-ajax.php?action=formcraft3_get&URL=https://127.0.0.1")
+
         """
         findings = [_ for _ in findings if not "TEMPLATE" in _]
         findings.append("TEMPLATE")
@@ -218,9 +226,4 @@ for doing in doings:
     with open(f"wordlists/{doing}.lst", "w") as f:
         f.write("\n".join(findings))
 
-print("All done, now check and sanityze with:")
-print("git diff HEAD")
-print("And update params with")
-print("grep -hrioP '[a-zA-Z0-9_-]+=' dump | tr -d = > /tmp/params; cat /opt/pypotomux/wordlists/params.lst /tmp/params | sort -uV -o /opt/pypotomux/wordlists/params.lst")
-print("Once you'de done, remember to clean with:")
-print("#find dump -type f -delete")
+print("All done, keep following the doc! ;)")

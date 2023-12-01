@@ -10,6 +10,7 @@ en US,en;q=0.9,sv;q=0.8
 en,en-US;q=0.9
 en,zh-CN;q=0.9,zh;q=0.8,is;q=0.7,km;q=0.6,hmn;q=0.5,mn;q=0.4,ja;q=0.3
 en,zh;q=0.1
+en-AU
 en-AU,en;q=0.9
 en-CA,en-US;q=0.7,en;q=0.3
 en-EN,en;q=0.9,en-US;q=0.8,en;q=0.7
@@ -47,11 +48,14 @@ en;q=0.7,en-US;q=0.3
 en;q=0.8,en-US;q=0.5
 en;q=0.9
 en;q=0.9,en;q=0.8
+es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+es-MX,es;q=0.8,en-US;q=0.6,en;q=0.4
 fr,en;q=0.9
 fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3
 fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
 it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4
 it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
 ru,ru-RU;q=0.9,en-US;q=0.8,en;q=0.7
 ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
 ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
@@ -71,6 +75,7 @@ zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,ru;q=0.6,und;q=0.5,pt;q=0.4,zh-TW;q=0.3,lb;q
 zh-CN,zh;q=0.9,en;q=0.8
 zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
 zh-CN,zh;q=0.9,en;q=0.8,is;q=0.7,km;q=0.6,hmn;q=0.5,mn;q=0.4,ja;q=0.3
+zh-SG,en-US;q=0.7,en;q=0.3
 zh-cn
 zh-cn,en-us;q=0.5
 zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3

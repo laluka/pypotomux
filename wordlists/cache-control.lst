@@ -6,3 +6,4 @@ max-stale=0
 no-cache
 no-cache,no-store
 no-store,no-cache
+no-transform
