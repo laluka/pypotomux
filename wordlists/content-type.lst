@@ -7,6 +7,7 @@
 Application/x-www-form-urlencoded; charset=UTF-8
 EAP
 \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+appliaction/json
 application/dns-json
 application/dns-message
 application/grpc-web+proto
@@ -71,6 +72,7 @@ text/html; charset=UTF-8
 text/html; charset=utf-8
 text/plain
 text/plain; Charset=UTF-8
+text/plain; charset=utf-8
 text/plain;charset=UTF-8
 text/xml
 text/xml; Charset=UTF-8
